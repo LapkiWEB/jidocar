@@ -2,35 +2,304 @@
 <html lang="ru">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>new website</title>
-    <!-- <meta name="description" content=""> -->
-    <!-- <meta name="keywords" content=""> -->
-    <!-- <link rel="icon" href="images/icons/favicon.ico" type="image/x-icon"> -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>new website</title>
+  <!-- <meta name="description" content=""> -->
+  <!-- <meta name="keywords" content=""> -->
+  <!-- <link rel="icon" href="images/icons/favicon.ico" type="image/x-icon"> -->
 
-    <!-- <meta property="og:type" content="website"> -->
-    <!-- <meta property="og:title" content=""> -->
-    <!-- <meta property="og:description" content=""> -->
-    <!-- <meta property="og:url" content=""> -->
-    <!-- <meta property="og:image" content=""> -->
-    <!-- <meta property="og:site_name" content=""> -->
-    <!-- <meta property="og:locale" content="ru_RU"> -->
+  <!-- <meta property="og:type" content="website"> -->
+  <!-- <meta property="og:title" content=""> -->
+  <!-- <meta property="og:description" content=""> -->
+  <!-- <meta property="og:url" content=""> -->
+  <!-- <meta property="og:image" content=""> -->
+  <!-- <meta property="og:site_name" content=""> -->
+  <!-- <meta property="og:locale" content="ru_RU"> -->
 
 
 
-    <link rel="stylesheet" href="css/style.min.css">
+  <link rel="stylesheet" href="css/style.min.css">
+
+
+
+
+
+
+  <!-- <script>
+    function CBR_XML_Daily_Ru(rates) {
+
+      var USDrate = rates.Valute.JPY.Value.toFixed(0).replace('.', ',');
+      // var USD = document.getElementById('USD');
+      USD.innerHTML = USD.innerHTML.replace('00,0', USDrate);
+      // USD.innerHTML += trend(rates.Valute.USD.Value, rates.Valute.USD.Previous);
+    }
+  </script> -->
+
+  <script src="//www.cbr-xml-daily.ru/daily_jsonp.js" async></script>
+
+
+
+
+
+
+
+
 </head>
 
 <body>
-    <header class="header"></header>
-    <div class="wrapper">
-        <main class="main">
-        </main>
-        <footer class="footer"></footer>
-    </div>
+  <header class="header">
+    <div class="header-top">
+      <div class="container">
+        <div class="header-top__wrapper">
 
-    <script src="js/main.min.js"></script>
+
+          <div class="header-top__yuan">
+            <img src="images/icons/yuan.png" alt="" class="header-top__yuan-images">
+
+            <div id="USD"> 0,00,0 руб.</div>
+
+
+
+          </div>
+          <a class="header-top__logo" href="#">
+            <img src="images/logo/logo-white.png" alt="">
+          </a>
+          <div class="header-top__contacts">
+            <ul class="header-top__social">
+              <li class="header-top__social-list">
+                <a href="#" class="header-top__social-list--link">
+                  <img src="images/icons/telegram.png" alt="" class="social-images">
+                </a>
+              </li>
+              <li class="header-top__social-list">
+                <a href="#" class="header-top__social-list--link">
+                  <img src="images/icons/vk.png" alt="" class="social-images">
+                </a>
+              </li>
+              <li class="header-top__social-list">
+                <a href="#" class="header-top__social-list--link">
+                  <img src="images/icons/whatsapp.png" alt="" class="social-images">
+                </a>
+              </li>
+              <li class="header-top__social-list">
+                <a href="#" class="header-top__social-list--link">
+                  <img src="images/icons/youtube.png" alt="" class="social-images">
+                </a>
+              </li>
+            </ul>
+            <div class="header-top__phone">
+              <a class="header-top__phone-link" href="#"> +7-983-24-12-345</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header-down">
+      <div class="container">
+        <div class="header-down__wrapper">
+
+          <div class="header-top__yuan header-down__yuan">
+            <img src="images/icons/yuan.png" alt="" class="header-top__yuan-images">
+
+            <div id="USD"> 0,00,0 руб.</div>
+
+          </div>
+
+          <a class="header-top__logo header-down__logo" href="#">
+            <img src="images/logo/logo-white.png" alt="">
+          </a>
+
+          <nav class="nav">
+            <ul class="menu-wrapper">
+              <li class="menu-list">
+                <a href="#" class="menu-list__link">
+                  Главная
+                </a>
+              </li>
+              <li class="menu-list menu-drop menu-drop-one ">
+                Услуги
+                <div class="menu-drop__arrow menu-drop__arrow-one">
+                  <svg width="12" height="10" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M5.57538 8.37014C5.77102 8.6848 6.22898 8.6848 6.42462 8.37014L10.6875 1.51401C10.8946 1.18095 10.6551 0.75 10.2629 0.75H1.73712C1.34492 0.75 1.10542 1.18095 1.3125 1.51401L5.57538 8.37014Z"
+                      stroke="white" />
+                  </svg>
+                </div>
+                <ul class="menu-drop__wrapper">
+                  <li class="menu-drop__list">
+                    <a href="#" class="menu-list__link">
+                      Авто под заказ из Японии
+                    </a>
+                  </li>
+                  <li class="menu-drop__list">
+                    <a href="#" class="menu-list__link">
+                      Авто под заказ из Кореи
+                    </a>
+                  </li>
+                  <li class="menu-drop__list">
+                    <a href="#" class="menu-list__link">
+                      Авто под заказ из Китая
+                    </a>
+                  </li>
+                  <li class="menu-drop__list">
+                    <a href="#" class="menu-list__link">
+                      Санкционные авто
+                    </a>
+                  </li>
+                  <li class="menu-drop__list">
+                    <a href="#" class="menu-list__link">
+                      Авто на стоянке в Японии
+                    </a>
+                  </li>
+                  <li class="menu-drop__list">
+                    <a href="#" class="menu-list__link">
+                      Распил и конструктор
+                    </a>
+                  </li>
+                  <li class="menu-drop__list">
+                    <a href="#" class="menu-list__link">
+                      Грузовики и спецтехника
+                    </a>
+                  </li>
+                  <li class="menu-drop__list">
+                    <a href="#" class="menu-list__link">
+                      Мототехника
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu-list menu-drop menu-drop-two">
+                Информация для клиентов
+                <div class="menu-drop__arrow menu-drop__arrow-two">
+                  <svg width="12" height="10" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M5.57538 8.37014C5.77102 8.6848 6.22898 8.6848 6.42462 8.37014L10.6875 1.51401C10.8946 1.18095 10.6551 0.75 10.2629 0.75H1.73712C1.34492 0.75 1.10542 1.18095 1.3125 1.51401L5.57538 8.37014Z"
+                      stroke="white" />
+                  </svg>
+                </div>
+
+
+                <ul class="menu-drop__wrapper">
+                  <li class="menu-drop__list">
+                    <a href="#" class="menu-list__link">
+                      Этапы работы
+                    </a>
+                  </li>
+                  <li class="menu-drop__list">
+                    <a href="#" class="menu-list__link">
+                      Гарантии и договор
+                    </a>
+                  </li>
+                  <li class="menu-drop__list">
+                    <a href="#" class="menu-list__link">
+                      Доставка авто
+                    </a>
+                  </li>
+                  <li class="menu-drop__list">
+                    <a href="#" class="menu-list__link">
+                      Таможенное оформление
+                    </a>
+                  </li>
+                  <li class="menu-drop__list">
+                    <a href="#" class="menu-list__link">
+                      Отзывы
+                    </a>
+                  </li>
+                  <li class="menu-drop__list">
+                    <a href="#" class="menu-list__link">
+                      Вопрос-ответ
+                    </a>
+                  </li>
+                  <li class="menu-drop__list">
+                    <a href="#" class="menu-list__link">
+                      Новости
+                    </a>
+                  </li>
+
+                </ul>
+              </li>
+              <li class="menu-list">
+                <a href="#" class="menu-list__link">
+                  Контакты
+                </a>
+              </li>
+              <li class="menu-list">
+                <a href="#" class="menu-list__link">
+                  Аукцион
+                </a>
+              </li>
+              <li class="menu-list">
+                <a href="#" class="menu-list__link">
+                  Расчёт стоимости авто
+                </a>
+              </li>
+            </ul>
+
+
+            <div class="nav-contacts">
+              <a class="header-top__phone-link nav-phone__link" href="#"> +7-983-24-12-345</a>
+
+              <a class="header-top__email-link nav-email__link" href="#"> proauto138@gmail.com</a>
+
+              <ul class="nav-social">
+                <li class="header-top__social-list">
+                  <a href="#" class="header-top__social-list--link">
+                    <img src="images/icons/telegram.png" alt="" class="social-images">
+                  </a>
+                </li>
+                <li class="header-top__social-list">
+                  <a href="#" class="header-top__social-list--link">
+                    <img src="images/icons/vk.png" alt="" class="social-images">
+                  </a>
+                </li>
+                <li class="header-top__social-list">
+                  <a href="#" class="header-top__social-list--link">
+                    <img src="images/icons/whatsapp.png" alt="" class="social-images">
+                  </a>
+                </li>
+                <li class="header-top__social-list">
+                  <a href="#" class="header-top__social-list--link">
+                    <img src="images/icons/youtube.png" alt="" class="social-images">
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+          </nav>
+
+          <div class="header-down-contacts">
+
+
+            <div class="header-top__phone header-down__phone">
+              <a class="header-top__phone-link" href="#"> +7-983-24-12-345</a>
+            </div>
+
+
+            <ul class="menu__btn">
+              <li class="row row1"></li>
+              <li class="row row2"></li>
+              <li class="row row3"></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="wrapper">
+    <main class="main">
+      <section class="main-screen">
+        <div class="container">
+          
+        </div>
+      </section>
+
+    </main>
+    <footer class="footer"></footer>
+  </div>
+
+  <script src="js/main.min.js"></script>
 </body>
 
 </html>

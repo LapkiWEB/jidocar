@@ -4,10 +4,300 @@
 @import 'fonts';
 
 // start header
+.header {
+  position: relative;
+  top: 50;
+  z-index: 100;
+}
+
+.header-top {
+  // background-color: $dark-blue;
+  padding: 15px 0px;
+
+}
+
+.header-top__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-top__yuan {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  max-width: 374px;
+  width: 100%;
+}
+
+.header-top__yuan-images {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.header-top__logo {
+  width: 277px;
+  height: 59px;
+
+  img {
+    width: 277px;
+    height: 59px;
+  }
+}
+
+.header-top__contacts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-top__social {
+  margin-right: 50px;
+  height: 30px;
+}
+
+.header-top__social-list {
+  display: inline-block;
+
+
+
+
+  &+.header-top__social-list {
+    margin-left: 15px;
+  }
+}
+
+.social-images {
+  width: 30px;
+  height: 30px;
+  transition: all .3s;
+
+  &:hover {
+    box-shadow: 0 0 15px 0 rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+  }
+}
+
+.header-top__phone {
+  @extend %BelB;
+  font-size: 18px;
+  transition: all .3s;
+
+  &:hover {
+    text-shadow:
+      0px 0px 10px rgba(255, 255, 255, 1);
+  }
+}
+
+.header-down {
+  position: absolute;
+  right: 0;
+  left: 0;
+  width: 100%;
+  background-color: $dark-blue;
+  padding: 15px 0px;
+  font-size: 16px;
+  @extend %BelR;
+  text-align: center;
+
+  &::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 1px;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(90deg, rgba(0, 45, 66, 0) 0%, #03547a 32.81%, rgba(241, 252, 255, 0.77) 48.96%, #024b6d 65.1%, rgba(0, 45, 66, 0) 100%);
+  }
+
+  &::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(90deg, rgba(0, 45, 66, 0) 0%, #03547a 32.81%, rgba(241, 252, 255, 0.77) 48.96%, #024b6d 65.1%, rgba(0, 45, 66, 0) 100%);
+  }
+}
+
+
+
+
+.header-down__yuan,
+.header-down__logo,
+.header-down__phone {
+  display: none;
+}
+
+
+.menu-list {
+  display: inline-block;
+  cursor: pointer;
+  transition: all .3s;
+
+  &:hover {
+    text-shadow:
+      0px 0px 7px rgba(255, 255, 255, 1);
+  }
+
+  &+.menu-list {
+    margin-left: 50px;
+    text-align: left;
+  }
+
+}
+
+.menu-list__link {
+  width: 100%;
+}
+
+
+
+
+.menu-drop {
+  position: relative;
+  padding-right: 20px;
+
+  &:hover {
+    @media(min-width: 1100px) {
+      .menu-drop__wrapper {
+        display: block;
+        cursor: default;
+      }
+
+      .menu-drop__arrow {
+        svg {
+          fill: $white;
+        }
+      }
+    }
+
+
+  }
+}
+
+.menu-list__wrapper {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  z-index: 10;
+}
+.menu-drop-one,
+.menu-drop-two{
+  position: relative;
+}
+
+.menu-drop__arrow {
+  padding-left: 10px;
+  position: absolute;
+  top: 1px;
+}
+.menu-drop__arrow-one{
+left: 48px;
+}
+.menu-drop__arrow-two{
+  left: 200px;
+}
+.menu-drop__wrapper {
+  display: none;
+  position: absolute;
+  top: 20px;
+  left: 0;
+  z-index: 10;
+  // height: 50px;
+  width: 260px;
+  // display: block;
+  background-color: $dark-blue;
+  padding: 25px 10px 0px 10px !important;
+}
+
+.menu-drop__list {
+  margin-bottom: 12px;
+  transition: all .3s;
+  text-shadow:
+    0px 0px 0px rgba(255, 255, 255, 1);
+  position: relative;
+
+  &::after {
+    opacity: 0;
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(90deg, rgba(241, 252, 255, 0.77) 0%, #024b6d 50%, rgba(0, 45, 66, 0) 100%);
+    transition: all .5s;
+  }
+
+  &:hover {
+    text-shadow:
+      0px 0px 10px rgba(255, 255, 255, 1);
+
+    &::after {
+      opacity: 1;
+    }
+  }
+
+}
+.nav-contacts{
+  display: none;
+}
+
+
+
+
+
 
 
 
 
 // end header
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// start section main-screen
+.main-screen {
+  background-image: url('../images/content/main-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  // width: 100%;
+  // max-width: 100%;
+  margin-top: -89px;
+  padding-top: 139px;
+}
+
+// end section main-screen
 @import 'media';
