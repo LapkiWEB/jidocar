@@ -5,7 +5,7 @@ body {
   font-weight: normal;
 }
 
-.header-top__phone-link {
+.main-services__item-title, .header-top__phone-link, .title {
   font-family: "BellotaText-Bold", sans-serif;
   font-weight: normal;
 }
@@ -138,6 +138,20 @@ body.menu-opened {
   max-width: 1726px;
   margin: 0 auto;
   padding: 0 97px;
+}
+
+.section {
+  padding: 30px 0;
+}
+
+.title {
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  margin-bottom: 50px;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
 }
 
 .header__fixed {
@@ -531,7 +545,7 @@ body.menu-opened {
 
 .main-screen {
   height: 100vh;
-  margin-top: -94px;
+  margin-top: -95px;
   position: relative;
   padding-top: 139px;
 }
@@ -568,9 +582,68 @@ body.menu-opened {
   font-size: 20px;
 }
 
+.main-services {
+  background-color: #1D202F;
+}
+
+.main-services__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.main-services__item {
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+  text-align: center;
+  width: 340px;
+  margin: 0 30px;
+  margin-bottom: 50px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.main-services__item svg path {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.main-services__item:hover svg path {
+  stroke: #78D4FF;
+}
+.main-services__item:hover .main-services__btn {
+  color: #78D4FF;
+}
+
+.main-services__item-content {
+  padding: 15px !important;
+}
+
+.main-services__item-title {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.main-services__item-img {
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.main-services__btn {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  color: #7A848D;
+}
+
 @media (max-width: 1300px) {
   .container {
     padding: 0 65px;
+  }
+  .title {
+    font-size: 40px;
+    line-height: 40px;
   }
   .header-top__logo {
     width: 211px;
@@ -767,6 +840,13 @@ body.menu-opened {
     font-size: 16px;
     margin-bottom: 30px;
   }
+  .main-services__item-img svg {
+    width: 150px;
+    height: 90px;
+  }
+  .main-services__item {
+    width: 280px;
+  }
 }
 @media (max-width: 1000px) {
   .header-top__logo {
@@ -781,6 +861,10 @@ body.menu-opened {
 @media (max-width: 800px) {
   .container {
     padding: 0 40px;
+  }
+  .title {
+    font-size: 36px;
+    line-height: 36px;
   }
   body {
     font-size: 16px;
@@ -825,6 +909,10 @@ body.menu-opened {
   }
 }
 @media (max-width: 500px) {
+  .title {
+    font-size: 30px;
+    line-height: 30px;
+  }
   .main-screen {
     height: 90vh;
   }
