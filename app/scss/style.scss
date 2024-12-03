@@ -381,9 +381,7 @@
 }
 
 .main-services__item-content {
-
   padding: 15px !important;
-
 }
 
 .main-services__item-title {
@@ -393,21 +391,50 @@
 }
 
 .main-services__item-img {
-  // width: 200px;
-  // height: 107px;
   margin: 0 auto;
   margin-bottom: 30px;
 }
 
 .main-services__btn {
-  // width: 100%;
-  // text-align: center;
-  // margin: 0 auto;
   transition: all .3s;
   color: $grey-blue;
 }
 
 // end section main-services
+
+// start section main-mission
+.main-mission__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-mission__item {
+  width: 50%;
+  text-align: center;
+
+}
+
+.main-mission__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.main-mission__item-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.main-mission__item-text {
+  color: $black;
+  @extend %BelR;
+  font-size: 32px;
+  text-align: center;
+}
+
+// end section main-mission
 
 
 

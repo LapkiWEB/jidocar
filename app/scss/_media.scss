@@ -31,6 +31,30 @@
   .main-screen__descr {
     font-size: 18px;
   }
+
+  .main-mission__inner {
+    flex-wrap: wrap;
+    padding-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .main-mission__item {
+    width: 100%;
+    padding: 0 65px;
+  }
+
+  .main-mission__item-wrapper {
+    order: -1;
+  }
+
+  .main-mission__item-text {
+    margin-bottom: 30px;
+  }
+
+  .main-mission__img {
+    width: 800px;
+    margin: 0 auto;
+  }
 }
 
 @media(max-width: 1200px) {
@@ -225,14 +249,24 @@
   }
 
   .main-services__item-img {
-    svg{
+    svg {
       width: 150px;
       height: 90px;
     }
   }
-    .main-services__item{
-      width: 280px;
-    }
+
+  .main-services__item {
+    width: 280px;
+  }
+  .main-mission__item{
+    padding: 0 50px;
+  }
+  .main-mission__item-text{
+    font-size: 24px;
+  }
+  .main-mission__img{
+    width: 600px;
+  }
 }
 
 @media(max-width: 1000px) {
@@ -282,6 +316,12 @@
     padding: 15px 30px;
     font-size: 16px;
   }
+  .main-mission__item{
+    padding: 0 40px;
+  }
+  .main-mission__img{
+    width: 500px;
+  }
 }
 
 // !!!!!!!!!!!!ВЕРТИКАЛЬ ВНИЗ!!!!!!!!!!!!!!
@@ -309,6 +349,18 @@
   .menu__btn {
     margin-left: 0;
   }
+  .main-mission__item-text{
+    font-size: 20px;
+  }
+  .main-mission__img{
+    width: 100%;
+  }
+  .main-mission__item{
+    padding: 0;
+  }
+  .main-mission__item-wrapper{
+    padding: 0 40px;
+  }
 }
 
 @media(max-width: 500px) {
@@ -332,6 +384,9 @@
 
 @media(max-width: 400px) {
   .container {
+    padding: 0 15px;
+  }
+  .main-mission__item-wrapper{
     padding: 0 15px;
   }
 }
