@@ -25,6 +25,9 @@ $(function () {
       $('.nav').removeClass('active');
       $('.menu__btn').removeClass('active');
       $('body').removeClass('menu-opened');
+      $('.menu-drop').on('click', (e) => {
+        e.target.classList.toggle('active');
+      })
     }
 
    

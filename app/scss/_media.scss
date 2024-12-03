@@ -12,6 +12,20 @@
       height: 45px;
     }
   }
+
+  .main-screen {
+    height: 720px;
+  }
+
+  .main-screen__title {
+    font-size: 64px;
+    line-height: 64px;
+    padding-top: 50px;
+  }
+
+  .main-screen__descr {
+    font-size: 18px;
+  }
 }
 
 @media(max-width: 1200px) {
@@ -70,6 +84,8 @@
   }
 
   .header-down {
+    padding: 5px 0;
+
     &::before {
       background: transparent;
     }
@@ -170,6 +186,7 @@
   .nav-phone__link,
   .nav-email__link,
   .nav-social {
+    font-size: 18px;
     margin-bottom: 15px;
     display: block;
   }
@@ -182,6 +199,24 @@
       text-shadow:
         0px 0px 10px rgba(255, 255, 255, 1);
     }
+  }
+
+  .main-screen {
+    margin-top: 0;
+    padding-top: 64px;
+    height: 600px;
+  }
+
+  .main-screen__title {
+    font-size: 48px;
+    line-height: 48px;
+    padding-top: 50px;
+    margin-bottom: 30px;
+  }
+
+  .main-screen__descr {
+    font-size: 16px;
+    margin-bottom: 30px;
   }
 }
 
@@ -218,22 +253,55 @@
   .menu__btn {
     margin-left: 80px;
   }
+
+  .main-screen__title {
+    padding-top: 50px;
+  }
+
+  .global-btn--interior {
+    padding: 15px 30px;
+    font-size: 16px;
+  }
 }
 
+// !!!!!!!!!!!!ВЕРТИКАЛЬ ВНИЗ!!!!!!!!!!!!!!
+@media(max-height: 700px) {
+  .main-screen__title {
+    padding-top: 25px;
+  }
+}
+
+// !!!!!!!!!!!!ВЕРТИКАЛЬ ВВЕРХ!!!!!!!!!!!!!!
 @media(max-width: 600px) {
   .header-down__yuan {
     // display: none;
     width: 42px !important;
-    .header-top__yuan-images{
+
+    .header-top__yuan-images {
       display: none;
     }
-    #USD{
+
+    #USD {
       display: none;
     }
   }
 
   .menu__btn {
     margin-left: 0;
+  }
+}
+
+@media(max-width: 500px) {
+  .main-screen {
+    height: 90vh;
+  }
+
+  .main-screen-bg--full {
+    display: none;
+  }
+
+  .main-screen-bg--mobil {
+    display: block;
   }
 }
 

@@ -17,3 +17,9 @@ $grey: #D9D9D9;
 $light-grey: #F5F5F5;
 $white: #ffffff;
 $red: #DF0000;
+
+%text{
+  text-shadow:
+      0px 0px 10px rgba(120, 212, 255, 1);
+      color: #78D4FF;
+}
