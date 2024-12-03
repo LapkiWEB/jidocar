@@ -299,8 +299,6 @@
   margin-top: -95px;
   position: relative;
   padding-top: 139px;
-
-  &::after {}
 }
 
 .main-screen-bg--full,
@@ -414,10 +412,29 @@
 
 }
 
+.main-mission__img-wapper {
+  position: relative;
+}
+
 .main-mission__img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+
+}
+
+.main-mission__img-descr {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  text-align: right;
+  margin-bottom: 20px;
+  padding-right: 20px;
+}
+
+.main-mission__img-descr--name {
+  font-size: 24px;
 }
 
 .main-mission__item-wrapper {
@@ -436,6 +453,45 @@
 
 // end section main-mission
 
+// start section adv
+.adv {
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.adv__inner {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.adv__item {
+  backdrop-filter: blur(20px);
+  width: 450px;
+  margin: 0 30px;
+  margin-bottom: 50px;
+  padding: 50px 30px;
+  text-align: center;
+  background: linear-gradient(270deg, rgba(29, 32, 47, 0.3) 0%, rgba(0, 0, 0, 0.3) 32.17%, rgba(29, 32, 47, 0.3) 100%);
+  border: 1px solid $grey-blue;
+  border-radius: 5px;
+}
+
+.adv__title {
+  @extend %BelB;
+  font-size: 36px;
+  line-height: 36px;
+  margin-bottom: 20px;
+}
+
+.adv__btn{
+  margin: 0 auto;
+}
+
+// end section adv
 
 
 
