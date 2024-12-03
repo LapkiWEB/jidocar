@@ -306,6 +306,16 @@
   .main-mission__img-wapper {
     width: 600px;
   }
+
+  .offer__inner {
+    margin-bottom: 200px;
+  }
+
+  .offer__img--img {
+    position: absolute;
+    bottom: -200px;
+    right: 0;
+  }
 }
 
 @media(max-width: 1000px) {
@@ -391,6 +401,7 @@
       height: 70px;
     }
   }
+
 }
 
 // !!!!!!!!!!!!ВЕРТИКАЛЬ ВНИЗ!!!!!!!!!!!!!!
@@ -470,6 +481,16 @@
 
   .main-screen-bg--mobil {
     display: block;
+  }
+
+  .offer__inner {
+    margin-bottom: 250px;
+  }
+
+  .offer__img--img {
+    position: absolute;
+    bottom: -300px;
+    right: 0;
   }
 }
 
