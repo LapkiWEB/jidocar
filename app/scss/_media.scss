@@ -91,6 +91,12 @@
   .global-stages__item-content {
     padding-right: 90px;
   }
+  .global-questions__subtitle{
+    font-size: 24px;
+  }
+  .global-questions__item-title{
+    font-size: 20px;
+  }
 }
 
 @media(max-width: 1200px) {
@@ -340,6 +346,16 @@
     margin-bottom: 20px;
 
   }
+
+  .global-questions__inner {
+      grid-template-columns: repeat(1, 1fr);
+  }
+  .global-questions__item-wrapper{
+    height: 150px;
+  }
+  .global-questions__item-interior{
+    padding: 15px;
+  }
 }
 
 @media(max-width: 800px) {
@@ -407,11 +423,13 @@
   }
 
 }
-@media(max-width: 750px){
-  .global-parking__item-images{
+
+@media(max-width: 750px) {
+  .global-parking__item-images {
     display: none;
   }
 }
+
 // !!!!!!!!!!!!ВЕРТИКАЛЬ ВНИЗ!!!!!!!!!!!!!!
 @media(max-height: 700px) {
   .main-screen__title {
