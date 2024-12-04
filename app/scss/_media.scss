@@ -91,10 +91,12 @@
   .global-stages__item-content {
     padding-right: 90px;
   }
-  .global-questions__subtitle{
+
+  .global-questions__subtitle {
     font-size: 24px;
   }
-  .global-questions__item-title{
+
+  .global-questions__item-title {
     font-size: 20px;
   }
 }
@@ -114,6 +116,33 @@
     }
 
   }
+
+  .global-reviews__item-interior {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .global-reviews__content {
+    width: 100%;
+    padding-right: 0;
+  }
+
+  .global-reviews__content-text {
+    // height: 150px;
+    height: fit-content;
+    margin-bottom: 30px;
+  }
+
+  .global-reviews__images {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .global-reviews__images-img {
+    height: 270px;
+    width: 444px;
+  }
+
 }
 
 @media(max-width: 1100px) {
@@ -348,12 +377,15 @@
   }
 
   .global-questions__inner {
-      grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
-  .global-questions__item-wrapper{
-    height: 150px;
+
+  .global-questions__item-wrapper {
+    // height: 200px;
+    height: fit-content;
   }
-  .global-questions__item-interior{
+
+  .global-questions__item-interior {
     padding: 15px;
   }
 }
@@ -428,6 +460,19 @@
   .global-parking__item-images {
     display: none;
   }
+
+  .slick-prev {
+    display: none;
+  }
+
+  .slick-next {
+    display: none;
+  }
+
+  .global-reviews__wrapper {
+    padding: 0;
+  }
+
 }
 
 // !!!!!!!!!!!!ВЕРТИКАЛЬ ВНИЗ!!!!!!!!!!!!!!
@@ -489,6 +534,24 @@
   .global-stages__item-content {
     padding-right: 50px;
   }
+
+  .global-reviews__item-interior {
+    padding: 10px;
+  }
+
+  .global-reviews__content-rating--list {
+    width: 20px;
+    height: 20px;
+
+    &+.global-reviews__content-rating--list {
+      margin-left: 0px;
+    }
+
+  }
+
+  .global-reviews__content-rating {
+    width: 120px;
+  }
 }
 
 @media(max-width: 500px) {
@@ -518,6 +581,16 @@
     position: absolute;
     bottom: -300px;
     right: 0;
+  }
+
+  .global-reviews__images {
+    width: 256px;
+    height: 154px;
+
+    img {
+      width: 256px;
+      height: 154px;
+    }
   }
 }
 

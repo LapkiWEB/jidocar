@@ -34,21 +34,33 @@ $(function () {
 
   }));
 
-  // $('.menu-drop-one').on('click', (e) => {
-  //   if (!$('.menu-drop-one').hasClass('active')) {
-  //     $('.menu-drop-one').addClass('active');
-  //   } else {
-  //     $('.menu-drop-one').removeClass('active');
-  //   }
-  // })
-
-  // $('.menu-drop-two').on('click', (e) => {
-  //   if (!$('.menu-drop-two').hasClass('active')) {
-  //     $('.menu-drop-two').addClass('active');
-  //   } else {
-  //     $('.menu-drop-two').removeClass('active');
-  //   }
-  // })
+  $('.global-reviews__inner').slick({
+    prevArrow: $('.global-reviews__wrapper .slick-prev'),
+    nextArrow: $('.global-reviews__wrapper .slick-next'),
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    speed: 500,
+    // fade: true,
+    dots: true,
+    arrows: true,
+    responsive: [{
+      breakpoint: 749,
+      settings: {
+     
+        slidesToShow: 1,
+        arrows: false,
+      }
+    },
+    {
+      breakpoint: 701,
+      settings: {
+        // dotsClass: 'slick-dots',
+        slidesToShow: 1,
+        arrows: false,
+      }
+    }
+    ]
+  });
 
     
 });
