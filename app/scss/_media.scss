@@ -316,6 +316,10 @@
     bottom: -200px;
     right: 0;
   }
+
+  .global-parking__item-images {
+    height: 600px;
+  }
 }
 
 @media(max-width: 1000px) {
@@ -403,7 +407,11 @@
   }
 
 }
-
+@media(max-width: 750px){
+  .global-parking__item-images{
+    display: none;
+  }
+}
 // !!!!!!!!!!!!ВЕРТИКАЛЬ ВНИЗ!!!!!!!!!!!!!!
 @media(max-height: 700px) {
   .main-screen__title {
@@ -469,6 +477,7 @@
   .title {
     font-size: 30px;
     line-height: 30px;
+    margin-bottom: 30px;
   }
 
   .main-screen {
