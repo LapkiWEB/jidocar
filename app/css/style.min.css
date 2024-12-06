@@ -109,7 +109,7 @@ body {
   font-weight: normal;
 }
 
-.video-reviews__items-name, .global-questions__item-title, .global-stages__item-content--title, .adv__title, .main-services__item-title, .header-top__phone-link, .title {
+.global-news__item-title, .video-reviews__items-name, .global-questions__item-title, .global-stages__item-content--title, .adv__title, .main-services__item-title, .header-top__phone-link, .title {
   font-family: "BellotaText-Bold", sans-serif;
   font-weight: normal;
 }
@@ -1283,6 +1283,10 @@ body.menu-opened {
   margin: 0 auto;
 }
 
+.video-reviews {
+  background-color: #F5F5F5;
+}
+
 .video-reviews__item-title {
   font-size: 48px;
   margin-bottom: 20px;
@@ -1365,6 +1369,64 @@ body.menu-opened {
   height: 100%;
 }
 
+.global-news {
+  background-color: #1D202F;
+  color: #ffffff;
+}
+
+.global-news__text {
+  margin-bottom: 30px;
+}
+
+.global-news__inner {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (380px)[3];
+  grid-template-columns: repeat(3, 380px);
+  gap: 30px;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  margin-bottom: 30px;
+}
+
+.global-news__item {
+  padding: 15px 30px;
+  border: 1px solid #F5F5F5;
+  border-radius: 5px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  background-color: #1D202F;
+  width: 100%;
+}
+.global-news__item:hover {
+  -webkit-box-shadow: 0 0 10px 0 #81ddff;
+          box-shadow: 0 0 10px 0 #81ddff;
+  border-color: #78D4FF;
+}
+.global-news__item:hover .global-news__item-link {
+  color: #78D4FF;
+}
+.global-news__item:hover .global-news__item-title {
+  color: #78D4FF;
+}
+
+.global-news__item-title {
+  font-size: 20px;
+  margin-bottom: 14px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.global-news__item-link {
+  color: #7A848D;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.global-news__btn {
+  margin: 0 auto;
+}
+
 @media (max-width: 1700px) {
   .video-reviews__wrapper {
     margin-top: 30px;
@@ -1401,6 +1463,14 @@ body.menu-opened {
   }
   .video-reviews__items {
     max-width: 190px;
+  }
+  .global-news__inner {
+    -ms-grid-columns: (1fr)[2];
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .global-news__item {
+    max-width: 450px;
+    width: 100%;
   }
 }
 @media (max-width: 1300px) {
@@ -1839,6 +1909,9 @@ body.menu-opened {
   .global-stages__item-box--number svg {
     height: 70px;
   }
+  .global-news__item-title {
+    font-size: 18px;
+  }
 }
 @media (max-width: 750px) {
   .global-parking__item-images {
@@ -1986,6 +2059,14 @@ body.menu-opened {
   }
   .video-reviews__images img {
     height: 400px;
+  }
+  .global-news__inner {
+    -ms-grid-columns: (1fr)[1];
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+  }
+  .global-news__item {
+    max-width: 100%;
   }
 }
 @media (max-width: 500px) {

@@ -850,6 +850,10 @@
 
 // end section global-portfolio
 // start section video-reviews 
+.video-reviews {
+  background-color: $light-grey;
+}
+
 .video-reviews__item-title {
   font-size: 48px;
   // line-height: 48px;
@@ -858,13 +862,12 @@
 
 .video-reviews__item {
   color: $dark-blue;
-  // padding-left: 95px;
   padding: 30px 95px 30px 95px;
-  // max-width: 100%;
   width: 40%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+
 }
 
 .video-reviews__item-wrapper {
@@ -912,8 +915,6 @@
 
 .video-reviews__images {
 
-
-
   img {
     object-fit: cover;
     // max-width: 1021px;
@@ -924,6 +925,61 @@
 
 // end section video-reviews 
 
+// start section global-news
+.global-news {
+  background-color: $dark-blue;
+  color: $white;
+}
+
+.global-news__text {
+  margin-bottom: 30px;
+}
+
+.global-news__inner {
+  display: grid;
+  grid-template-columns: repeat(3, 380px);
+  gap: 30px;
+  justify-self: center;
+  margin-bottom: 30px;
+}
+
+.global-news__item {
+  padding: 15px 30px;
+  border: 1px solid $light-grey;
+  border-radius: 5px;
+  transition: all .3s;
+  background-color: $dark-blue;
+  width: 100%;
+  &:hover {
+    box-shadow: 0 0 10px 0 #81ddff;
+    border-color: #78D4FF;
+
+    .global-news__item-link {
+      color: #78D4FF;
+    }
+    .global-news__item-title{
+      color: #78D4FF;
+    }
+  }
+}
+
+.global-news__item-title {
+  @extend %BelB;
+  font-size: 20px;
+  margin-bottom: 14px;
+  transition: all .3s;
+}
+
+.global-news__item-link {
+  color: $grey-blue;
+  transition: all .3s;
+}
+
+.global-news__btn{
+  margin: 0 auto;
+}
+
+// end section global-news
 
 
 
