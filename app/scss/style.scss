@@ -989,7 +989,7 @@
   background-color: $light-grey;
   position: relative;
   min-height: 680px;
-overflow: hidden;
+  overflow: hidden;
 
 
 }
@@ -1071,8 +1071,71 @@ overflow: hidden;
 }
 
 // end section feddpack
+// start footer
+.footer {
+  background-color: $dark-blue;
+  color: $white;
+}
 
+.footer__logo {
+  margin-bottom: 30px;
+}
 
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+}
 
+.footer__item-list {
+  margin-bottom: 10px;
+transition: all .3s;
+  &:hover {
+    @extend %text;
+  }
+}
+
+.footer__item {
+  margin-bottom: 30px;
+}
+
+.footer__item-5 {
+  text-align: right;
+}
+
+.footer__phone {
+  margin-bottom: 10px;
+  display: block;
+  @extend %BelB;
+  font-size: 18px;
+  transition: all .3s;
+
+  &:hover {
+    @extend %text;
+  }
+}
+
+.footer__email {
+  margin-bottom: 10px;
+  display: block;
+  @extend %BelB;
+  font-size: 18px;
+  transition: all .3s;
+
+  &:hover {
+    @extend %text;
+  }
+}
+
+.footer__details {
+  margin-bottom: 10px;
+}
+
+// end footer
+
+.lapki{
+  padding-top: 30px;
+  text-align: center;
+  
+}
 
 @import 'media';
