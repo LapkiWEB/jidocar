@@ -508,6 +508,7 @@
 }
 
 @media(max-width: 1000px) {
+
   .header-top__logo,
   .footer__logo {
     width: 140px;
@@ -915,8 +916,14 @@
   .footer__inner {
     justify-content: flex-start;
   }
-  .footer__item-5{
+
+  .footer__item-5 {
     text-align: left;
+  }
+
+  .close__btn {
+    top: -30px;
+    right: 8px;
   }
 }
 
