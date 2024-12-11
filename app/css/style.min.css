@@ -103,7 +103,7 @@
   display: none;
 }
 @charset "UTF-8";
-.feedback__items-input, .main-mission__item-text, .header-down, html,
+.starting-screen__adv-list, .feedback__items-input, .main-mission__item-text, .header-down, html,
 body {
   font-family: "BellotaText-Regular", sans-serif;
   font-weight: normal;
@@ -194,6 +194,7 @@ body {
   color: #ffffff;
   position: relative;
   margin: 0 auto;
+  background-color: rgb(29, 32, 47);
 }
 
 body.menu-opened {
@@ -530,6 +531,34 @@ body.menu-opened {
   display: block;
   padding: 0;
   color: #ffffff;
+}
+
+.breadcrumbs {
+  padding-top: 120px;
+  margin-bottom: 20px;
+}
+
+.breadcrumbs__list-item {
+  display: inline-block;
+  padding-right: 18px;
+  margin-right: 3px;
+  font-size: 18px;
+  position: relative;
+  color: #d9d9d9;
+}
+.breadcrumbs__list-item::after {
+  position: absolute;
+  content: ">";
+  right: 2px;
+  top: 0px;
+}
+.breadcrumbs__list-item a {
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+}
+
+.breadcrumbs__list-item:last-child::after {
+  display: none;
 }
 
 @font-face {
@@ -1003,7 +1032,6 @@ body.menu-opened {
 
 .global-stages {
   color: #000000;
-  background-image: url("../images/content/main-stages__bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1676,6 +1704,71 @@ body.menu-opened {
   text-align: center;
 }
 
+.starting-screen {
+  height: 90vh;
+  margin-top: 0px;
+  position: relative;
+  background-color: #fff;
+}
+
+.starting-screen__shadow-bg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.starting-screen-bg--full,
+.starting-screen-bg--mobil {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.starting-screen-bg--mobil {
+  display: none;
+}
+
+.starting-screen__wrapper {
+  position: relative;
+  z-index: 1;
+}
+
+.starting-screen__title {
+  font-size: 80px;
+  line-height: 80px;
+  margin-bottom: 50px;
+}
+
+.starting-screen__adv {
+  margin-bottom: 50px;
+}
+
+.starting-screen__adv-list {
+  position: relative;
+  padding-left: 25px;
+  font-size: 18px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.starting-screen__adv-list::before {
+  content: "";
+  position: absolute;
+  background-image: url("../images/icons/starting-screen-adv.svg");
+  width: 10px;
+  height: 10px;
+  left: 0;
+  top: 6px;
+}
+
 @media (max-width: 1700px) {
   .video-reviews__wrapper {
     margin-top: 30px;
@@ -1762,6 +1855,10 @@ body.menu-opened {
     font-size: 64px;
     line-height: 64px;
     padding-top: 50px;
+  }
+  .starting-screen__title {
+    font-size: 64px;
+    line-height: 64px;
   }
   .main-screen__descr {
     font-size: 18px;
@@ -1903,6 +2000,10 @@ body.menu-opened {
 @media (max-width: 1100px) {
   .container {
     padding: 0 50px;
+  }
+  .breadcrumbs__list-item {
+    font-size: 16px;
+    line-height: 16px;
   }
   .header-top {
     display: none;
@@ -2060,6 +2161,10 @@ body.menu-opened {
     padding-top: 50px;
     margin-bottom: 30px;
   }
+  .starting-screen__title {
+    font-size: 48px;
+    line-height: 48px;
+  }
   .main-screen__descr {
     font-size: 16px;
     margin-bottom: 30px;
@@ -2187,6 +2292,19 @@ body.menu-opened {
   .container {
     padding: 0 40px;
   }
+  .breadcrumbs {
+    padding-top: 80px;
+  }
+  .starting-screen__title {
+    margin-bottom: 30px;
+  }
+  .starting-screen__adv-list {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .starting-screen__adv {
+    margin-bottom: 30px;
+  }
   .title {
     font-size: 36px;
     line-height: 36px;
@@ -2309,6 +2427,9 @@ body.menu-opened {
 @media (max-height: 700px) {
   .main-screen__title {
     padding-top: 25px;
+  }
+  .breadcrumbs {
+    padding-top: 70px;
   }
 }
 @media (max-width: 600px) {
@@ -2448,13 +2569,19 @@ body.menu-opened {
     line-height: 30px;
     margin-bottom: 30px;
   }
-  .main-screen {
+  .main-screen,
+  .starting-screen {
     height: 90vh;
   }
-  .main-screen-bg--full {
+  .starting-screen__shadow-bg {
+    background-image: none !important;
+  }
+  .main-screen-bg--full,
+  .starting-screen-bg--full {
     display: none;
   }
-  .main-screen-bg--mobil {
+  .main-screen-bg--mobil,
+  .starting-screen-bg--mobil {
     display: block;
   }
   .offer__inner {
