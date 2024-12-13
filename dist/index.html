@@ -1,0 +1,1740 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>new website</title>
+  <!-- <meta name="description" content=""> -->
+  <!-- <meta name="keywords" content=""> -->
+  <!-- <link rel="icon" href="images/icons/favicon.ico" type="image/x-icon"> -->
+
+  <!-- <meta property="og:type" content="website"> -->
+  <!-- <meta property="og:title" content=""> -->
+  <!-- <meta property="og:description" content=""> -->
+  <!-- <meta property="og:url" content=""> -->
+  <!-- <meta property="og:image" content=""> -->
+  <!-- <meta property="og:site_name" content=""> -->
+  <!-- <meta property="og:locale" content="ru_RU"> -->
+
+
+
+  <link rel="stylesheet" href="css/style.min.css">
+
+
+
+
+
+
+  <!-- <script>
+    function CBR_XML_Daily_Ru(rates) {
+
+      var USDrate = rates.Valute.JPY.Value.toFixed(0).replace('.', ',');
+      var USD = document.getElementById('USD');
+      USD.innerHTML = USD.innerHTML.replace('00,0', USDrate);
+      USD.innerHTML += trend(rates.Valute.USD.Value, rates.Valute.USD.Previous);
+    }
+  </script> -->
+
+  <script src="//www.cbr-xml-daily.ru/daily_jsonp.js" async></script>
+
+
+
+
+
+
+
+
+</head>
+
+<body>
+  <header class="header">
+    <div class="header-top">
+      <div class="container">
+        <div class="header-top__wrapper">
+
+
+          <div class="header-top__yuan">
+            <img src="images/icons/yuan.png" alt="" class="header-top__yuan-images">
+
+            <div id="USD"> 0,00,0 руб.</div>
+
+
+
+          </div>
+          <a class="header-top__logo" href="#">
+            <img src="images/logo/logo-white.png" alt="">
+          </a>
+          <div class="header-top__contacts">
+            <ul class="header-top__social">
+              <li class="header-top__social-list">
+                <a href="#" class="header-top__social-list--link">
+                  <img src="images/icons/telegram.png" alt="" class="social-images social-images--tg">
+                </a>
+              </li>
+              <li class="header-top__social-list">
+                <a href="#" class="header-top__social-list--link">
+                  <img src="images/icons/vk.png" alt="" class="social-images social-images--vk">
+                </a>
+              </li>
+              <li class="header-top__social-list">
+                <a href="#" class="header-top__social-list--link">
+                  <img src="images/icons/whatsapp.png" alt="" class="social-images social-images--wh">
+                </a>
+              </li>
+              <li class="header-top__social-list">
+                <a href="#" class="header-top__social-list--link">
+                  <img src="images/icons/youtube.png" alt="" class="social-images social-images--you">
+                </a>
+              </li>
+            </ul>
+            <div class="header-top__phone">
+              <a class="header-top__phone-link" href="#"> +7-983-24-12-345</a>
+              <a class="header-top__phone-link" href="#"> +7(3952)95-25-05</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header-down">
+      <div class="container">
+        <div class="header-down__wrapper">
+
+          <div class="header-top__yuan header-down__yuan">
+            <img src="images/icons/yuan.png" alt="" class="header-top__yuan-images">
+
+            <div id="USD"> 0,00,0 руб.</div>
+
+          </div>
+
+          <a class="header-top__logo header-down__logo" href="#">
+            <img src="images/logo/logo-white.png" alt="">
+          </a>
+
+          <nav class="nav">
+            <ul class="menu-wrapper">
+              <li class="menu-list">
+                <a href="#" class="menu-list__link">
+                  Главная
+                </a>
+              </li>
+              <li class="menu-list menu-drop menu-drop-one ">
+                Услуги
+                <div class="menu-drop__arrow menu-drop__arrow-one">
+                  <svg width="12" height="10" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M5.57538 8.37014C5.77102 8.6848 6.22898 8.6848 6.42462 8.37014L10.6875 1.51401C10.8946 1.18095 10.6551 0.75 10.2629 0.75H1.73712C1.34492 0.75 1.10542 1.18095 1.3125 1.51401L5.57538 8.37014Z"
+                      stroke="white" />
+                  </svg>
+                </div>
+                <ul class="menu-drop__wrapper">
+                  <li class="menu-drop__list">
+                    <a href="#" class="menu-list__link">
+                      Авто под заказ из Японии
+                    </a>
+                  </li>
+                  <li class="menu-drop__list">
+                    <a href="#" class="menu-list__link">
+                      Авто под заказ из Кореи
+                    </a>
+                  </li>
+                  <li class="menu-drop__list">
+                    <a href="#" class="menu-list__link">
+                      Авто под заказ из Китая
+                    </a>
+                  </li>
+                  <li class="menu-drop__list">
+                    <a href="#" class="menu-list__link">
+                      Санкционные авто
+                    </a>
+                  </li>
+                  <li class="menu-drop__list">
+                    <a href="#" class="menu-list__link">
+                      Авто на стоянке в Японии
+                    </a>
+                  </li>
+                  <li class="menu-drop__list">
+                    <a href="#" class="menu-list__link">
+                      Распил и конструктор
+                    </a>
+                  </li>
+                  <li class="menu-drop__list">
+                    <a href="#" class="menu-list__link">
+                      Грузовики и спецтехника
+                    </a>
+                  </li>
+                  <li class="menu-drop__list">
+                    <a href="#" class="menu-list__link">
+                      Мототехника
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu-list menu-drop menu-drop-two">
+                Информация для клиентов
+                <div class="menu-drop__arrow menu-drop__arrow-two">
+                  <svg width="12" height="10" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M5.57538 8.37014C5.77102 8.6848 6.22898 8.6848 6.42462 8.37014L10.6875 1.51401C10.8946 1.18095 10.6551 0.75 10.2629 0.75H1.73712C1.34492 0.75 1.10542 1.18095 1.3125 1.51401L5.57538 8.37014Z"
+                      stroke="white" />
+                  </svg>
+                </div>
+
+
+                <ul class="menu-drop__wrapper">
+                  <li class="menu-drop__list">
+                    <a href="#" class="menu-list__link">
+                      Этапы работы
+                    </a>
+                  </li>
+                  <li class="menu-drop__list">
+                    <a href="#" class="menu-list__link">
+                      Гарантии и договор
+                    </a>
+                  </li>
+                  <li class="menu-drop__list">
+                    <a href="#" class="menu-list__link">
+                      Доставка авто
+                    </a>
+                  </li>
+                  <li class="menu-drop__list">
+                    <a href="#" class="menu-list__link">
+                      Таможенное оформление
+                    </a>
+                  </li>
+                  <li class="menu-drop__list">
+                    <a href="#" class="menu-list__link">
+                      Отзывы
+                    </a>
+                  </li>
+                  <li class="menu-drop__list">
+                    <a href="#" class="menu-list__link">
+                      Вопрос-ответ
+                    </a>
+                  </li>
+                  <li class="menu-drop__list">
+                    <a href="#" class="menu-list__link">
+                      Новости компании
+                    </a>
+                  </li>
+
+                </ul>
+              </li>
+              <li class="menu-list">
+                <a href="#" class="menu-list__link">
+                  Контакты
+                </a>
+              </li>
+              <li class="menu-list">
+                <a href="#" class="menu-list__link">
+                  Аукцион
+                </a>
+              </li>
+              <li class="menu-list">
+                <a href="#" class="menu-list__link">
+                  Расчёт стоимости авто
+                </a>
+              </li>
+            </ul>
+
+
+            <div class="nav-contacts">
+              <a class="header-top__phone-link nav-phone__link" href="#"> +7-983-24-12-345</a>
+              <a class="header-top__phone-link nav-phone__link" href="#"> +7(3952)95-25-05</a>
+              <a class="header-top__email-link nav-email__link" href="#"> proauto138@gmail.com</a>
+
+              <ul class="nav-social">
+                <li class="header-top__social-list">
+                  <a href="#" class="header-top__social-list--link">
+                    <img src="images/icons/telegram.png" alt="" class="social-images social-images--tg">
+                  </a>
+                </li>
+                <li class="header-top__social-list">
+                  <a href="#" class="header-top__social-list--link">
+                    <img src="images/icons/vk.png" alt="" class="social-images social-images--vk">
+                  </a>
+                </li>
+                <li class="header-top__social-list">
+                  <a href="#" class="header-top__social-list--link">
+                    <img src="images/icons/whatsapp.png" alt="" class="social-images social-images--wh">
+                  </a>
+                </li>
+                <li class="header-top__social-list">
+                  <a href="#" class="header-top__social-list--link">
+                    <img src="images/icons/youtube.png" alt="" class="social-images social-images--you">
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+          </nav>
+
+          <div class="header-down-contacts">
+
+
+            <div class="header-top__phone header-down__phone">
+              <a class="header-top__phone-link" href="#"> +7-983-24-12-345</a>
+              <a class="header-top__phone-link" href="#"> +7(3952)95-25-05</a>
+            </div>
+
+
+            <ul class="menu__btn">
+              <li class="row row1"></li>
+              <li class="row row2"></li>
+              <li class="row row3"></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="wrapper">
+    <main class="main">
+      <section class="main-screen">
+        <div class="main-screen-bg--full" style="background-image: url('images/content/main-bg.jpg');">
+        </div>
+        <div class="main-screen-bg--mobil" style="background-image: url('images/content/main-bg-mobil.jpg');">
+        </div>
+        <div class="container">
+          <div class="main-screen__wrapper">
+            <h1 class="main-screen__title">
+              Авто под заказ
+              <br>
+              из Японии, Кореи, Китая
+            </h1>
+            <p class="main-screen__descr">
+              Рядом с вами от первой встречи
+              <br>
+              до постановки на учёт
+            </p>
+
+            <div data-modal class="main-screen-btn global-btn--wrapper">
+              <div class="global-btn--interior">
+                Бесплатная консультация
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </section>
+
+      <section class="main-services section">
+        <div class="container">
+          <h2 class="main-services__title title">
+            Привёзём для Вас:
+          </h2>
+          <div class="main-services__inner">
+            <a class="main-services__item global-btn--wrapper" href="#">
+              <div class="main-services__item-content global-btn--interior">
+                <h3 class="main-services__item-title">
+                  Авто
+                  <br>
+                  из Японии
+                </h3>
+                <div class="main-services__item-img">
+                  <svg width="200" height="107" viewBox="0 0 200 107" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M38.339 90.8975L43.3052 85.928M161.747 85.9279L166.713 90.8975M148.704 93.5385C150.976 99.6479 156.857 104 163.754 104C172.619 104 179.807 96.8079 179.807 87.9359C179.807 79.064 172.619 71.8719 163.754 71.8719C154.888 71.8719 147.7 79.064 147.7 87.9359C147.7 89.9065 148.055 91.7941 148.704 93.5385ZM148.704 93.5385H55.3954M55.3954 93.5385C56.0442 91.7941 56.3987 89.9065 56.3987 87.9359C56.3987 79.064 49.2115 71.8719 40.3457 71.8719C31.4798 71.8719 24.2926 79.064 24.2926 87.9359C24.2926 88.9477 24.3861 89.9376 24.5648 90.8975M55.3954 93.5385C53.1232 99.6479 47.2423 104 40.3457 104C32.4909 104 25.9537 98.3547 24.5648 90.8975M24.5648 90.8975C20.9625 89.9103 12.9551 87.6347 9.74446 86.43C5.73119 84.924 3.72462 82.4139 3.22296 80.9079C2.90393 79.9502 2.99067 72.0898 3.09611 65.8479M74.9601 55.8078H88.0031M143.186 55.8078C152.884 56.3098 174.188 58.0166 181.813 60.8278C190.449 64.0115 196.613 67.1951 197.696 71.8719M143.186 55.8078C135.995 50.9551 120.711 40.8482 117.099 39.2418C112.584 37.2338 109.073 34.7237 101.046 34.2217C98.4785 34.0612 93.579 34.0022 88.0031 34.0001M143.186 55.8078H88.0031M189.84 93.96C192.85 93.96 194.355 94.462 196.863 90.8975C198.54 88.5143 197.866 78.8999 197.866 73.3779C197.866 72.8587 197.809 72.3572 197.696 71.8719M187.331 71.8719H197.696M88.0031 55.8078V34.0001M88.0031 34.0001C79.6352 33.9968 69.7439 34.1213 63.9236 34.2217C62.612 34.2217 59.3959 34.7322 54.8937 36.4812M39.3423 44.2488C42.3474 42.7151 45.5173 41.0096 48.8738 39.2418C51.0619 38.0894 53.0819 37.185 54.8937 36.4812M39.3423 44.2488C33.8137 47.0703 28.8426 49.3102 24.2926 50.2858C17.2694 51.7918 6.73457 51.7918 5.22959 53.2978C3.72462 54.8038 3.22296 55.8078 3.22296 58.3179C3.22296 59.2316 3.15647 62.2746 3.09611 65.8479M39.3423 44.2488C42.5195 47.5998 49.2752 54.5026 50.8804 55.3058M63.9236 55.8078C60.2447 55.9752 52.4857 56.1091 50.8804 55.3058M50.8804 55.3058L54.8937 36.4812M3.09611 65.8479H10.7478M66.9335 81.9119H136.162"
+                      stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </div>
+                <div class="main-services__btn">
+                  Подробнее...
+                </div>
+              </div>
+            </a>
+
+            <a class="main-services__item global-btn--wrapper" href="#">
+              <div class="main-services__item-content global-btn--interior">
+                <h3 class="main-services__item-title">
+                  Авто
+                  <br>
+                  из Кореи
+                </h3>
+                <div class="main-services__item-img">
+                  <svg width="200" height="107" viewBox="0 0 200 107" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M35.1372 90.891L40.0986 85.919M157.422 85.9189L162.384 90.891M51.8007 94.4572C52.6868 92.4621 53.1793 90.2527 53.1793 87.928C53.1793 79.0516 45.9991 71.8559 37.1419 71.8559C28.2847 71.8559 21.1045 79.0516 21.1045 87.928C21.1045 88.9402 21.1979 89.9306 21.3765 90.891M51.8007 94.4572C49.3033 100.08 43.6794 104 37.1419 104C29.2948 104 22.764 98.3519 21.3765 90.891M51.8007 94.4572H144.768M144.768 94.4572C147.266 100.08 152.89 104 159.427 104C165.965 104 171.589 100.08 174.086 94.4572M144.768 94.4572C143.882 92.4621 143.39 90.2527 143.39 87.928C143.39 85.4063 143.969 83.0203 145.002 80.8964M61.6992 70.8514C64.7062 73.8649 71.0209 80.0928 72.2237 80.8964C73.4266 81.7 121.244 81.2313 145.002 80.8964M145.002 80.8964C147.605 75.544 153.086 71.8559 159.427 71.8559C168.284 71.8559 175.465 79.0516 175.465 87.928C175.465 90.2527 174.972 92.4621 174.086 94.4572M174.086 94.4572H193.507C194.509 94.1224 196.714 92.6491 197.516 89.4347C198.191 86.728 198.184 81.9701 197.342 78.3852M84.2518 62.3131L127.854 68.3401C138.58 64.2729 144.443 61.8861 149.905 60.5965M187.493 78.3852H197.342M197.342 78.3852C196.933 76.6483 196.329 75.1868 195.511 74.3672C193.005 71.8559 175.465 59.2996 162.935 59.2996C157.653 59.2996 153.886 59.6567 149.905 60.5965M21.3765 90.891C16.4412 89.5685 6.16967 86.3207 4.56593 83.9099C2.96219 81.4991 2.89537 66.1637 3.06242 58.7974C18.7374 56.4316 43.5287 52.7286 62.7015 49.9559M149.905 60.5965C144.726 58.3226 131.662 52.8708 120.837 49.2546C107.306 44.7343 94.2752 46.2411 90.2658 46.2411C88.8713 46.2411 77.4483 47.8233 62.7015 49.9559M73.2261 61.3086C71.3884 61.476 67.1118 61.2082 64.7062 58.7974C62.3006 56.3866 62.3674 51.8985 62.7015 49.9559"
+                      stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+
+                </div>
+                <div class="main-services__btn">
+                  Подробнее...
+                </div>
+              </div>
+            </a>
+
+            <a class="main-services__item global-btn--wrapper" href="#">
+              <div class="main-services__item-content global-btn--interior">
+                <h3 class="main-services__item-title">
+                  Авто
+                  <br>
+                  из Китая
+                </h3>
+                <div class="main-services__item-img">
+                  <svg width="200" height="107" viewBox="0 0 200 107" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M41.6641 89.7594L47.037 84.3582M158.898 84.3582L164.27 89.7594M26.4671 86.5406C26.4671 96.1831 34.243 104 43.835 104C52.3331 104 59.4057 97.8643 60.9084 89.7594M26.4671 86.5406C26.4671 76.898 34.243 69.0812 43.835 69.0812C53.427 69.0812 61.2029 76.898 61.2029 86.5406C61.2029 87.6402 61.1018 88.7161 60.9084 89.7594M26.4671 86.5406C21.7633 86.5406 11.4873 85.7767 8.01368 82.7213C3.67171 78.9021 2.58621 76.1741 3.12896 56.5323M3.12896 56.5323H10.7275M3.12896 56.5323C2.94811 53.4405 3.12914 46.2749 5.30005 42.3466C8.01368 37.4361 18.8687 24.3416 21.5825 22.7048C23.7535 21.3953 32.2565 21.068 36.2366 21.068M189.834 89.8143C191.462 89.8143 195.044 89.3778 196.347 87.6318C197.782 85.708 198.796 69.3685 197.157 62.534M139.359 45.0746C187.12 47.257 193.633 55.9867 196.347 60.3516C196.669 60.8687 196.937 61.6155 197.157 62.534M139.359 45.0746H82.9129M139.359 45.0746C128.865 38.3455 106.794 24.4507 102.452 22.7048C98.1098 20.9588 85.0839 20.8861 79.1137 21.068M82.9129 45.0746L79.1137 21.068M82.9129 45.0746C70.7915 45.0746 46.2232 45.0746 44.9205 45.0746M79.1137 21.068H44.9205M186.578 62.534H197.157M36.2366 21.068C33.8847 25.4328 28.7467 35.0354 27.0099 38.5273C24.8389 42.8922 25.9244 43.9834 28.0954 45.0746H44.9205M36.2366 21.068H44.9205M44.9205 21.068V45.0746M60.9084 89.7594L144.005 89.8143M144.005 89.8143C145.53 97.892 152.59 104 161.068 104C170.661 104 178.436 96.1832 178.436 86.5406C178.436 76.8981 170.661 69.0812 161.068 69.0812C151.476 69.0812 143.701 76.8981 143.701 86.5406C143.701 87.6595 143.805 88.7539 144.005 89.8143ZM134.474 76.1741H66.0877"
+                      stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+
+
+                </div>
+                <div class="main-services__btn">
+                  Подробнее...
+                </div>
+              </div>
+            </a>
+
+            <a class="main-services__item global-btn--wrapper" href="#">
+              <div class="main-services__item-content global-btn--interior">
+                <h3 class="main-services__item-title">
+                  Мотоциклы
+                  <br>
+                  из Японии и Кореи
+                </h3>
+                <div class="main-services__item-img">
+                  <svg width="200" height="107" viewBox="0 0 200 107" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M54.5285 72.0298C54.5285 82.9601 45.7076 91.8209 34.8264 91.8209C23.9453 91.8209 15.1244 82.9601 15.1244 72.0298C15.1244 61.0996 23.9453 52.2388 34.8264 52.2388M167.184 72.5373L154.101 29.403M131.316 2C133.168 2 137.782 2 141.42 2C145.057 2 146.977 5.72139 147.482 7.58209L150.791 18.4925M65.2703 67.6721L74.8766 63.7602C78.4965 62.2861 80.2414 58.1433 78.7739 54.507C77.7938 52.0785 75.6287 50.4901 73.2202 50.142M65.2703 67.6721L37.0966 79.1451C33.4767 80.6192 29.3526 78.8664 27.8851 75.2301C26.4176 71.5939 28.1625 67.4511 31.7824 65.977L59.9828 54.4931M65.2703 67.6721C65.5153 69.2578 65.6425 70.8826 65.6425 72.5373C65.6425 73.3915 65.6086 74.2377 65.5421 75.0746M59.9828 54.4931C54.318 46.3791 44.9363 41.0746 34.3212 41.0746C17.023 41.0746 3 55.161 3 72.5373C3 89.9137 17.023 104 34.3212 104C50.7692 104 64.256 91.2645 65.5421 75.0746M59.9828 54.4931L69.5624 50.5921C70.7646 50.1025 72.0225 49.9689 73.2202 50.142M154.101 29.403L153.639 27.8806M154.101 29.403C147.702 31.3507 136.691 37.6438 129.498 49.7015M65.5421 75.0746L88.3757 81.6716C94.6062 81.8408 108.684 82.0776 115.15 81.6716C121.617 81.2657 122.896 74.398 122.728 71.0149C123.51 62.4996 126.071 55.4463 129.498 49.7015M73.2202 50.142L69.5624 37.5224M91.9119 25.3433C94.7409 17.2239 102.521 14.8557 106.057 14.6866H121.212C123.702 14.5778 127.791 15.3217 130.396 18.2388M91.9119 25.3433C88.3757 35.4925 93.9326 37.5224 96.9637 37.5224M91.9119 25.3433L38.8679 15.7015C34.3212 15.194 30.2798 15.7015 29.2694 21.2836C28.1812 27.2957 32.3005 28.8955 34.8264 29.9104C36.8472 30.7224 57.2228 35.3234 67.158 37.5224H69.5624M96.9637 37.5224H110.098M96.9637 37.5224H93.9371M69.5624 37.5224H88.3757H88.8764M130.396 18.2388C131.843 19.8601 132.832 22.1527 132.832 25.3433C132.832 34.2746 126.433 37.1841 123.233 37.5224H110.098M130.396 18.2388L150.791 18.4925M150.791 18.4925C151.204 16.5473 154.655 13.0627 165.163 14.6866C165.837 15.194 167.184 17.1224 167.184 20.7761C167.184 25.3433 166.174 28.3881 165.163 28.8955C164.153 29.403 156.259 29.403 153.639 27.8806M150.791 18.4925L153.639 27.8806M110.098 37.5224C110.098 41.4129 111.109 48.5623 117.676 50.5921C124.254 52.6253 128.757 49.8706 129.498 49.7015M93.9371 37.5224C96.308 38.5176 97.9741 40.8693 97.9741 43.6119C97.9741 47.2554 95.0338 50.209 91.4067 50.209C87.7797 50.209 84.8394 47.2554 84.8394 43.6119C84.8394 40.8693 86.5055 38.5176 88.8764 37.5224M93.9371 37.5224H88.8764M186.886 72.0298C186.886 82.9601 178.065 91.8209 167.184 91.8209C156.303 91.8209 147.482 82.9601 147.482 72.0298C147.482 61.0996 156.303 52.2388 167.184 52.2388C178.065 52.2388 186.886 61.0996 186.886 72.0298ZM198 72.5373C198 89.9137 183.977 104 166.679 104C149.381 104 135.358 89.9137 135.358 72.5373C135.358 55.161 149.381 41.0746 166.679 41.0746C183.977 41.0746 198 55.161 198 72.5373ZM105.047 65.9403C105.047 69.5837 102.106 72.5373 98.4793 72.5373C94.8522 72.5373 91.9119 69.5837 91.9119 65.9403C91.9119 62.2969 94.8522 59.3433 98.4793 59.3433C102.106 59.3433 105.047 62.2969 105.047 65.9403Z"
+                      stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+
+
+                </div>
+                <div class="main-services__btn">
+                  Подробнее...
+                </div>
+              </div>
+            </a>
+
+            <a class="main-services__item global-btn--wrapper" href="#">
+              <div class="main-services__item-content global-btn--interior">
+                <h3 class="main-services__item-title">
+                  Спецтехника
+                  <br>
+                  из Японии и Китая
+                </h3>
+                <div class="main-services__item-img">
+                  <svg width="200" height="107" viewBox="0 0 200 107" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M28.5656 90.9847L33.528 86.0481M154.889 86.0481L159.852 90.9846M62.653 86.0481L67.6154 90.9846M30.5707 72.0855C21.7114 72.0855 14.5296 79.2298 14.5296 88.0428C14.5296 96.8557 21.7114 104 30.5707 104C39.43 104 46.6118 96.8557 46.6118 88.0428C46.6118 79.2298 39.43 72.0855 30.5707 72.0855ZM30.5707 72.0855H64.6581M30.5707 72.0855H8.01285C6.3419 72.2518 3 71.5869 3 67.5976C3 63.6083 3 38.0102 3 25.7098C3 21.2219 6.00771 21.7205 9.51671 21.7205C50.0399 21.7205 80.5321 21.7205 113.283 21.7205C119.799 21.7205 122.306 21.7205 126.817 17.7312C131.056 13.983 134.337 10.2513 136.342 9.25393C137.102 8.87563 140.581 9.03137 144.864 9.03373M80.6992 88.0428C80.6992 96.8557 73.5174 104 64.6581 104C55.7988 104 48.617 96.8557 48.617 88.0428C48.617 79.2298 55.7988 72.0855 64.6581 72.0855M80.6992 88.0428C80.6992 79.2298 73.5174 72.0855 64.6581 72.0855M80.6992 88.0428H140.853M172.936 88.0428C172.936 96.8557 165.754 104 156.895 104C148.035 104 140.853 96.8557 140.853 88.0428M172.936 88.0428C177.782 88.0428 188.375 88.0428 191.985 88.0428C195.594 88.0428 197.499 84.3859 198 82.5575V75.0775M172.936 88.0428C172.936 82.702 170.298 77.974 166.248 75.0775M140.853 88.0428C140.853 79.2298 148.035 72.0855 156.895 72.0855M156.895 72.0855V52.139M156.895 72.0855C160.385 72.0855 163.615 73.1945 166.248 75.0775M163.411 9.03372C163.411 9.03372 150.88 9.03703 144.864 9.03373M144.864 9.03373V34.6858M87.2159 72.0855H132.833C142.057 71.2876 144.697 63.442 144.864 59.619V34.6858M156.895 41.1684V34.6858M169.427 21.2219C165.286 21.2219 161.693 21.2219 160.404 21.2219C157.596 21.2219 156.895 23.549 156.895 24.7125V34.6858M169.427 21.2219C174.303 21.2219 179.939 21.2219 183.463 21.2219C185.134 21.2219 188.776 22.3189 189.979 26.7072C190.933 30.1839 194.047 39.942 196.379 47.1524M169.427 21.2219V41.1684C169.594 43.1631 170.931 47.1524 174.941 47.1524C178.951 47.1524 190.904 47.1524 196.379 47.1524M196.379 47.1524C196.991 49.0427 197.549 50.758 198 52.139V62.1123M190.982 62.1123H198M198 62.1123V75.0775M198 75.0775H166.248M19.0411 36.1818V57.1257M34.581 36.1818V57.1257M50.6221 36.1818V57.1257M66.162 36.1818V57.1257M81.7018 36.1818V57.1257M97.2417 36.1818V57.1257M113.283 36.1818V57.1257M128.823 36.1818V57.1257M156.895 34.6858H144.864"
+                      stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+
+                </div>
+                <div class="main-services__btn">
+                  Подробнее...
+                </div>
+              </div>
+            </a>
+
+            <a class="main-services__item global-btn--wrapper" href="#">
+              <div class="main-services__item-content global-btn--interior">
+                <h3 class="main-services__item-title">
+                  Авто
+                  <br>
+                  в наличии
+                </h3>
+                <div class="main-services__item-img">
+                  <svg width="200" height="107" viewBox="0 0 200 107" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M41.2115 89.8828L46.5393 84.5283M158.537 84.5283L163.865 89.8827M27.3941 93.1824C29.9489 99.5255 36.1367 104 43.3643 104C50.5919 104 56.7797 99.5255 59.3345 93.1824M27.3941 93.1824C26.5868 91.178 26.1422 88.9871 26.1422 86.6918C26.1422 77.1328 33.8528 69.3836 43.3643 69.3836C52.8758 69.3836 60.5864 77.1328 60.5864 86.6918C60.5864 88.9871 60.1418 91.178 59.3345 93.1824M27.3941 93.1824H9.45829C7.30552 93.0021 3 91.4516 3 86.6918C3 85.6882 3 83.1761 3 79.6604M16.993 18C16.6342 18 14.6249 18 9.45829 18C4.29166 18 3 22.327 3 24.4906C3 39.2875 3 66.5024 3 79.6604M16.993 18V39.0943C16.993 41.2579 18.177 45.5849 22.9131 45.5849C27.6491 45.5849 27.398 45.5849 27.7568 45.5849M16.993 18H49.2844M3 79.6604H14.302M189.214 93.1824C191.367 93.1824 195.995 92.317 197.287 88.8553C197.807 87.4615 197.995 83.9163 198 79.6604M159.613 45.044C165.713 46.6667 179.849 50.3447 187.599 52.0755C195.349 53.8063 197.287 58.566 197.287 60.7296C197.321 61.2364 197.356 61.7792 197.392 62.3522M159.613 45.044L117.635 45.5849C114.944 45.5849 109.562 44.2868 109.562 39.0943C109.562 33.9019 109.562 22.8679 109.562 18M159.613 45.044C153.693 38.7338 140.992 25.356 137.548 22.327C134.103 19.2981 128.219 18.1803 125.707 18H109.562M109.562 18H96.107M186.523 62.3522H197.392M197.392 62.3522C197.689 67.1358 198.006 74.0219 198 79.6604M190.29 79.6604H198M96.107 18V39.0943C96.107 41.2579 94.6 45.5849 88.5723 45.5849C84.0228 45.5849 64.8793 45.5849 49.2844 45.5849M96.107 18H49.2844M35.8296 45.5849C39.5251 45.5849 44.2174 45.5849 49.2844 45.5849M49.2844 45.5849V18M59.3345 93.1824H144.72M144.72 93.1824C147.274 99.5255 153.462 104 160.69 104C170.201 104 177.912 96.2509 177.912 86.6918C177.912 77.1328 170.201 69.3836 160.69 69.3836C151.178 69.3836 143.468 77.1328 143.468 86.6918C143.468 88.9871 143.912 91.178 144.72 93.1824ZM131.628 79.6604H69.1974"
+                      stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+
+
+                </div>
+                <div class="main-services__btn">
+                  Подробнее...
+                </div>
+              </div>
+            </a>
+
+          </div>
+        </div>
+      </section>
+
+      <section class="main-mission">
+        <div class="main-mission__inner">
+          <div class="main-mission__item main-mission__img-wapper">
+            <img src="images/content/main-mission__img.jpg" alt="" class="main-mission__img">
+            <div class="main-mission__img-descr">
+              <div class="main-mission__img-descr--name">
+                Максим Бочаров
+              </div>
+              <div class="main-mission__img-descr--position">
+                Основатель и директор компании JidoCar
+              </div>
+            </div>
+          </div>
+          <div class="main-mission__item main-mission__item-wrapper">
+            <p class="main-mission__item-text">
+              <b>Наша миссия</b> - всегда находиться за пределами представлений и ожиданий клиента.
+              Выявить потребность и найти
+              <span class="text-red">наилучшее решение</span>
+              используя накопленный опыт. Но главное, оставаться рядом
+              <span class="text-red">от начала и до конца!</span>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="adv section" style="background-image: url('images/content/main-adv.jpg');">
+        <div class="container">
+          <h2 class="title">Преимущества</h2>
+          <div class="adv__inner">
+
+            <div class="adv__item">
+              <h3 class="adv__title">
+                Ответственность
+                <br>
+                и гарантии
+              </h3>
+              <p class="adv__text">
+                Мы несём ПОЛНУЮ материальную ответственность перед нашими клиентами от покупки авто в Японии, до
+                постановки
+                на учёт в
+                Вашем городе
+              </p>
+            </div>
+
+            <div class="adv__item">
+              <h3 class="adv__title">
+                Без скрытых
+                <br>
+                платежей
+              </h3>
+              <p class="adv__text">
+                Все переводы на расчётный счёт компании и официальными переводами за Ваш автомобиль в Японию через банк.
+
+              </p>
+            </div>
+
+            <div class="adv__item">
+              <h3 class="adv__title">
+                Удобство
+                <br>
+                и сервис
+              </h3>
+              <p class="adv__text">
+                Предоставляем всевозможные отчёты о местоположении и состояния автомобиля до передачи его Вам в руки.
+                Даём
+                полную
+                инструкцию что и когда делать. На связи 24/7 все 365 дней в году.
+              </p>
+            </div>
+
+            <div class="adv__item">
+              <h3 class="adv__title">
+                Минимальная
+                <br>
+                комиссия
+              </h3>
+              <p class="adv__text">
+                Комиссия компании всего 50.000р за услуги по подбору автомобиля в Японии, покупки, полного сопровождения
+                до передачи его
+                Вам
+              </p>
+            </div>
+
+            <div class="adv__item">
+              <h3 class="adv__title">
+                Минимальный срок
+                <br>
+                доставки
+              </h3>
+              <p class="adv__text">
+                Молниеносно доставим автомобиль в
+                любой регион РФ удобный Вам способом: Перегон автомобиля, Автовозом, Перевозка авто по ЖД РЖД
+              </p>
+            </div>
+
+            <div class="adv__item">
+              <h3 class="adv__title">
+                Максимальная
+                <br>
+                выгода
+              </h3>
+              <p class="adv__text">
+                С нами вы сэкономите минимум 250 000 рублей, за аналогичный автомобиль на рынках РФ.
+                Проверенная цифра на более, чем 100 клиентах.
+              </p>
+            </div>
+
+
+          </div>
+          <div data-modal class="adv__btn global-btn--wrapper">
+            <div class="global-btn--interior">
+              Оставить заявку
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section class="global-stages section" style="background-image: url('images/content/main-stages__bg.png');">
+        <div class="container">
+          <h2 class="global-stages__title title">
+            Как проходит покупка авто?
+          </h2>
+
+
+          <div class="global-stages__inner">
+
+
+
+            <div class="global-stages__item global-stages__item-wrapper">
+              <div class="global-stages__item-interior">
+                <div class="global-stages__item-box">
+                  <div class="global-stages__item-box--number">
+                    <svg width="38" height="92" viewBox="0 0 38 92" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g filter="url(#filter0_ii_172_154)">
+                        <path d="M38 0.399902V91.3999H17.6159V17.2999H0V0.399902H38Z" fill="#F5F5F5" />
+                      </g>
+                      <defs>
+                        <filter id="filter0_ii_172_154" x="-4" y="-3.6001" width="46" height="99"
+                          filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                          <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                          <feColorMatrix in="SourceAlpha" type="matrix"
+                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                          <feOffset dx="4" dy="4" />
+                          <feGaussianBlur stdDeviation="2" />
+                          <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                          <feColorMatrix type="matrix"
+                            values="0 0 0 0 0.305882 0 0 0 0 0.341176 0 0 0 0 0.368627 0 0 0 0.25 0" />
+                          <feBlend mode="normal" in2="shape" result="effect1_innerShadow_172_154" />
+                          <feColorMatrix in="SourceAlpha" type="matrix"
+                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                          <feOffset dx="-4" dy="-4" />
+                          <feGaussianBlur stdDeviation="2" />
+                          <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                          <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" />
+                          <feBlend mode="normal" in2="effect1_innerShadow_172_154"
+                            result="effect2_innerShadow_172_154" />
+                        </filter>
+                      </defs>
+                    </svg>
+                  </div>
+                  <div class="global-stages__item-content">
+                    <h3 class="global-stages__item-content--title">
+                      Бесплатная консультация
+                    </h3>
+                    <p class="global-stages__item-content--text">
+                      Уточняем Ваши пожелания и анализируем стоимость авто
+                    </p>
+
+                    <div data-modal class="global-stages__btn global-btn--wrapper">
+                      <div class="global-btn--interior">
+                        Оставить заявку
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="global-stages__item global-stages__item-wrapper">
+              <div class="global-stages__item-interior">
+                <div class="global-stages__item-box">
+                  <div class="global-stages__item-box--number">
+                    <svg width="71" height="91" viewBox="0 0 71 91" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g filter="url(#filter0_ii_172_167)">
+                        <path
+                          d="M71 74.1292V91H4.04991V77.5801L38.221 44.9888C41.8491 41.4953 44.2959 38.5131 45.5615 36.0421C46.8271 33.486 47.4599 30.9724 47.4599 28.5014C47.4599 24.9228 46.2365 22.1962 43.7897 20.3216C41.4272 18.3619 37.9257 17.382 33.2852 17.382C29.404 17.382 25.9026 18.1489 22.7807 19.6826C19.6589 21.1311 17.0434 23.3464 14.934 26.3286L0 16.6152C3.4593 11.4176 8.22638 7.37032 14.3012 4.47331C20.3761 1.4911 27.3369 0 35.1836 0C41.7647 0 47.5021 1.10768 52.3957 3.32303C57.3737 5.45318 61.2127 8.5206 63.9127 12.5253C66.697 16.4448 68.0891 21.0885 68.0891 26.4565C68.0891 31.3132 67.0766 35.8717 65.0517 40.132C63.0267 44.3923 59.1034 49.2491 53.2816 54.7022L32.9055 74.1292H71Z"
+                          fill="#F5F5F5" />
+                      </g>
+                      <defs>
+                        <filter id="filter0_ii_172_167" x="-4" y="-4" width="79" height="99"
+                          filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                          <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                          <feColorMatrix in="SourceAlpha" type="matrix"
+                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                          <feOffset dx="4" dy="4" />
+                          <feGaussianBlur stdDeviation="2" />
+                          <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                          <feColorMatrix type="matrix"
+                            values="0 0 0 0 0.305882 0 0 0 0 0.341176 0 0 0 0 0.368627 0 0 0 0.25 0" />
+                          <feBlend mode="normal" in2="shape" result="effect1_innerShadow_172_167" />
+                          <feColorMatrix in="SourceAlpha" type="matrix"
+                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                          <feOffset dx="-4" dy="-4" />
+                          <feGaussianBlur stdDeviation="2" />
+                          <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                          <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" />
+                          <feBlend mode="normal" in2="effect1_innerShadow_172_167"
+                            result="effect2_innerShadow_172_167" />
+                        </filter>
+                      </defs>
+                    </svg>
+                  </div>
+                  <div class="global-stages__item-content">
+                    <h3 class="global-stages__item-content--title">
+                      Заключение договора
+                    </h3>
+                    <p class="global-stages__item-content--text">
+                      Согласовываем стоимость авто
+                      <br>
+                      и технические характеристики
+                    </p>
+
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="global-stages__item global-stages__item-wrapper">
+              <div class="global-stages__item-interior">
+                <div class="global-stages__item-box">
+                  <div class="global-stages__item-box--number">
+                    <svg width="71" height="91" viewBox="0 0 71 91" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g filter="url(#filter0_ii_172_168)">
+                        <path
+                          d="M46.781 36.4256C54.599 37.7037 60.5901 40.6433 64.754 45.2444C68.918 49.7603 71 55.3839 71 62.1152C71 67.3127 69.6403 72.1269 66.921 76.5576C64.2017 80.9031 60.0377 84.3965 54.4291 87.0379C48.9054 89.6793 42.1071 91 34.0341 91C27.7457 91 21.5422 90.1905 15.4237 88.5716C9.39019 86.8675 4.24895 84.4817 0 81.4143L8.03052 65.566C11.4297 68.1222 15.3387 70.1245 19.7576 71.573C24.2615 72.9363 28.8504 73.618 33.5242 73.618C38.708 73.618 42.787 72.6381 45.7612 70.6784C48.7355 68.6334 50.2226 65.779 50.2226 62.1152C50.2226 54.7875 44.6565 51.1236 33.5242 51.1236H24.0916V37.448L42.447 16.6152H4.4614V0H66.921V13.4199L46.781 36.4256Z"
+                          fill="#F5F5F5" />
+                      </g>
+                      <defs>
+                        <filter id="filter0_ii_172_168" x="-4" y="-4" width="79" height="99"
+                          filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                          <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                          <feColorMatrix in="SourceAlpha" type="matrix"
+                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                          <feOffset dx="4" dy="4" />
+                          <feGaussianBlur stdDeviation="2" />
+                          <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                          <feColorMatrix type="matrix"
+                            values="0 0 0 0 0.305882 0 0 0 0 0.341176 0 0 0 0 0.368627 0 0 0 0.25 0" />
+                          <feBlend mode="normal" in2="shape" result="effect1_innerShadow_172_168" />
+                          <feColorMatrix in="SourceAlpha" type="matrix"
+                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                          <feOffset dx="-4" dy="-4" />
+                          <feGaussianBlur stdDeviation="2" />
+                          <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                          <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" />
+                          <feBlend mode="normal" in2="effect1_innerShadow_172_168"
+                            result="effect2_innerShadow_172_168" />
+                        </filter>
+                      </defs>
+                    </svg>
+
+                  </div>
+                  <div class="global-stages__item-content">
+                    <h3 class="global-stages__item-content--title">
+                      Внесение предоплаты
+                    </h3>
+                    <p class="global-stages__item-content--text">
+                      Предоплата по договору перечисляется
+                      <br>
+                      на расчётный счёт компании
+                    </p>
+
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="global-stages__item global-stages__item-wrapper">
+              <div class="global-stages__item-interior">
+                <div class="global-stages__item-box">
+                  <div class="global-stages__item-box--number">
+                    <svg width="84" height="91" viewBox="0 0 84 91" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g filter="url(#filter0_ii_172_170)">
+                        <path
+                          d="M84 71.89H69.245V91H48.7951V71.89H0V57.72L42.7119 0H64.715L25.1094 54.73H49.4422V37.7H69.245V54.73H84V71.89Z"
+                          fill="#F5F5F5" />
+                      </g>
+                      <defs>
+                        <filter id="filter0_ii_172_170" x="-4" y="-4" width="92" height="99"
+                          filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                          <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                          <feColorMatrix in="SourceAlpha" type="matrix"
+                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                          <feOffset dx="4" dy="4" />
+                          <feGaussianBlur stdDeviation="2" />
+                          <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                          <feColorMatrix type="matrix"
+                            values="0 0 0 0 0.305882 0 0 0 0 0.341176 0 0 0 0 0.368627 0 0 0 0.25 0" />
+                          <feBlend mode="normal" in2="shape" result="effect1_innerShadow_172_170" />
+                          <feColorMatrix in="SourceAlpha" type="matrix"
+                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                          <feOffset dx="-4" dy="-4" />
+                          <feGaussianBlur stdDeviation="2" />
+                          <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                          <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" />
+                          <feBlend mode="normal" in2="effect1_innerShadow_172_170"
+                            result="effect2_innerShadow_172_170" />
+                        </filter>
+                      </defs>
+                    </svg>
+
+
+                  </div>
+                  <div class="global-stages__item-content">
+                    <h3 class="global-stages__item-content--title">
+                      Подбор и покупка автомобиля
+                    </h3>
+                    <p class="global-stages__item-content--text">
+                      Поиск подходящего варианта, его проверка и Ваше одобрение на покупку
+                    </p>
+
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="global-stages__item global-stages__item-wrapper">
+              <div class="global-stages__item-interior">
+                <div class="global-stages__item-box">
+                  <div class="global-stages__item-box--number">
+                    <svg width="72" height="91" viewBox="0 0 72 91" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g filter="url(#filter0_ii_172_169)">
+                        <path
+                          d="M34.3806 33.6138C46.9911 33.6138 56.2786 36.1273 62.243 41.1545C68.2926 46.1816 71.3174 52.9129 71.3174 61.3483C71.3174 66.8015 69.9541 71.786 67.2275 76.302C64.5009 80.7327 60.3258 84.3113 54.7022 87.0379C49.1639 89.6793 42.3048 91 34.125 91C27.8198 91 21.5997 90.1905 15.4649 88.5716C9.41526 86.8675 4.2603 84.4817 0 81.4143L8.17978 65.566C11.588 68.1222 15.5075 70.1245 19.9382 71.573C24.3689 72.9363 28.9274 73.618 33.6138 73.618C38.8113 73.618 42.9012 72.5955 45.8834 70.5506C48.8656 68.5056 50.3567 65.6512 50.3567 61.9874C50.3567 58.1531 48.7804 55.2561 45.6278 53.2963C42.5604 51.3366 37.1924 50.3567 29.5239 50.3567H6.64607L11.2472 0H65.8216V16.6152H28.5014L27.0955 33.6138H34.3806Z"
+                          fill="#F5F5F5" />
+                      </g>
+                      <defs>
+                        <filter id="filter0_ii_172_169" x="-4" y="-4" width="79.3174" height="99"
+                          filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                          <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                          <feColorMatrix in="SourceAlpha" type="matrix"
+                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                          <feOffset dx="4" dy="4" />
+                          <feGaussianBlur stdDeviation="2" />
+                          <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                          <feColorMatrix type="matrix"
+                            values="0 0 0 0 0.305882 0 0 0 0 0.341176 0 0 0 0 0.368627 0 0 0 0.25 0" />
+                          <feBlend mode="normal" in2="shape" result="effect1_innerShadow_172_169" />
+                          <feColorMatrix in="SourceAlpha" type="matrix"
+                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                          <feOffset dx="-4" dy="-4" />
+                          <feGaussianBlur stdDeviation="2" />
+                          <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                          <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" />
+                          <feBlend mode="normal" in2="effect1_innerShadow_172_169"
+                            result="effect2_innerShadow_172_169" />
+                        </filter>
+                      </defs>
+                    </svg>
+
+
+
+                  </div>
+                  <div class="global-stages__item-content">
+                    <h3 class="global-stages__item-content--title">
+                      Доставка в Россию и вручение новому владельцу
+                    </h3>
+                    <p class="global-stages__item-content--text">
+                      Подготовка документов, экспорт авто из Японии в Россию и вручение счастливому обладателю!
+                    </p>
+
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+
+          </div>
+
+        </div>
+      </section>
+
+      <section class="global-parking">
+        <div class="container">
+          <div class="global-parking__inner">
+            <div class="global-parking__item">
+              <h2 class="title">
+                Авто в наличии
+                <br>
+                на стоянке в японии
+              </h2>
+              <p class="global-parking__text">
+                Самые интересные автомобили мы самостоятельно выкупаем на нашу стоянку в Японии, чтобы у Вас была
+                возможность
+                всего за
+                пару недель получить его во Владивостоке. Таможенное оформления сразу происходит на Вас. Вы будете
+                ПЕРВЫМ
+                собственников
+                в РФ.
+              </p>
+
+              <a class="global-btn--wrapper" href="#">
+                <div class="global-btn--interior">
+                  Смотреть все варианты
+                </div>
+              </a>
+            </div>
+            <div class="global-parking__item-images">
+              <div class="global-parking__item-images--img"
+                style="background-image: url('images/content/global-parking-img1.png');">
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="offer section">
+        <div class="container">
+          <div class="offer__inner">
+            <div class="offer__content">
+              <h2 class="offer__title title">
+                поможем вам оформить КРЕДИТ!
+              </h2>
+              <p class="offer__text">
+                Мы сотрудничаем с популярными банками и поможем оформить кредит, чтобы Вы смогли как можно скорее купить
+                авто Вашей
+                мечты!
+                <br>
+                <br>
+                Остались вопросы? Напишите нам!
+              </p>
+
+              <div data-modal class="offer__btn global-stages__btn global-btn--wrapper">
+                <div class="global-btn--interior">
+                  Оставить заявку
+                </div>
+              </div>
+            </div>
+            <div class="offer__img--wrapper">
+              <img src="images/content/offer-1.png" alt="" class="offer__img--img">
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="global-questions section">
+        <div class="container">
+          <h2 class="global-questions__title title">
+            Отвечаем на самые популярные вопросы:
+          </h2>
+          <div class="global-questions__subtitle">
+            О нас:
+          </div>
+          <div class="global-questions__inner">
+            <div class="global-questions__item-wrapper global-questions__item-wrapper">
+              <div class="global-questions__item-interior">
+                <div class="global-questions__item-title">
+                  - Вы находитесь в Иркутске? 
+                </div>
+                <div class="global-questions__item-text">
+                  Да, мы расположены по адресу Фридриха Энгельса 17, офис 705.
+                </div>
+              </div>
+            </div>
+            <div class="global-questions__item-wrapper global-questions__item-wrapper">
+              <div class="global-questions__item-interior">
+                <div class="global-questions__item-title">
+                  - Компания зарегистрирована официально?
+                </div>
+                <div class="global-questions__item-text">
+                  Да, конечно!
+                  <br>
+                  <br>
+                  ИП Бочаров М.О.
+                  <br>
+                  Во всех открытых источниках прикреплены реквизиты. Мы открытая, «БЕЛАЯ» компания.
+                </div>
+              </div>
+            </div>
+            <div class="global-questions__item-wrapper global-questions__item-wrapper">
+              <div class="global-questions__item-interior">
+                <div class="global-questions__item-title">
+                  - Как можно оплатить ваши услуги?
+                </div>
+                <div class="global-questions__item-text">
+                  Любым удобным для Вас способом, можно даже оплатить с кредитки.
+                </div>
+              </div>
+            </div>
+            <div class="global-questions__item-wrapper global-questions__item-wrapper">
+              <div class="global-questions__item-interior">
+                <div class="global-questions__item-title">
+                  - Как давно вы на рынке?
+                </div>
+                <div class="global-questions__item-text">
+                  Автомобилями, как автоподбор, мы начали заниматься в 2016 году.
+                  С Японии привозим технику с 2018 года и привезли уже более 1000 автомобилей!
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="global-questions__btn global-btn--wrapper" href="#">
+            <div class="global-btn--interior">
+              Все вопросы
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <section class="global-reviews section">
+        <div class="container">
+          <h2 class="global-reviews__title title">
+            Дорожим своей репутацией!
+          </h2>
+
+          <div class="global-reviews__wrapper">
+
+
+            <div class="global-reviews__inner">
+              <div class="global-reviews__slider">
+                <div class="global-reviews__item-wrapper">
+                  <div class="global-reviews__item-interior">
+
+
+                    <div class="global-reviews__content">
+                      <div class="global-reviews__content-wrapper">
+                        <div class="global-reviews__content-box">
+                          <div class="global-reviews__content-box--name">
+                            Имя
+                          </div>
+                          <div class="global-reviews__content-box--car">
+                            Марка и модель авто
+                          </div>
+                        </div>
+                        <ul class="global-reviews__content-rating">
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                        </ul>
+                      </div>
+                      <p class="global-reviews__content-text">
+                        Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более
+                        менее осмысленного
+                        текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в
+                        домашних условиях. При
+                        создании генератора мы использовали небезизвестный универсальный код речей.
+
+                      </p>
+                    </div>
+
+
+                    <div class="global-reviews__images">
+                      <img src="images/content/reviews-1.jpg" alt="" class="global-reviews__images-img">
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <div class="global-reviews__slider">
+                <div class="global-reviews__item-wrapper">
+                  <div class="global-reviews__item-interior">
+
+
+                    <div class="global-reviews__content">
+                      <div class="global-reviews__content-wrapper">
+                        <div class="global-reviews__content-box">
+                          <div class="global-reviews__content-box--name">
+                            Имя
+                          </div>
+                          <div class="global-reviews__content-box--car">
+                            Марка и модель авто
+                          </div>
+                        </div>
+                        <ul class="global-reviews__content-rating">
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                        </ul>
+                      </div>
+                      <p class="global-reviews__content-text">
+                        Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более
+                        менее осмысленного
+                        текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в
+                        домашних условиях. При
+                        создании генератора мы использовали небезизвестный универсальный код речей.
+
+                      </p>
+                    </div>
+
+
+                    <div class="global-reviews__images">
+                      <img src="images/content/reviews-1.jpg" alt="" class="global-reviews__images-img">
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <div class="global-reviews__slider">
+                <div class="global-reviews__item-wrapper">
+                  <div class="global-reviews__item-interior">
+
+
+                    <div class="global-reviews__content">
+                      <div class="global-reviews__content-wrapper">
+                        <div class="global-reviews__content-box">
+                          <div class="global-reviews__content-box--name">
+                            Имя
+                          </div>
+                          <div class="global-reviews__content-box--car">
+                            Марка и модель авто
+                          </div>
+                        </div>
+                        <ul class="global-reviews__content-rating">
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                        </ul>
+                      </div>
+                      <p class="global-reviews__content-text">
+                        Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более
+                        менее осмысленного
+                        текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в
+                        домашних условиях. При
+                        создании генератора мы использовали небезизвестный универсальный код речей.
+
+                      </p>
+                    </div>
+
+
+                    <div class="global-reviews__images">
+                      <img src="images/content/reviews-1.jpg" alt="" class="global-reviews__images-img">
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="global-reviews__slider">
+                <div class="global-reviews__item-wrapper">
+                  <div class="global-reviews__item-interior">
+
+
+                    <div class="global-reviews__content">
+                      <div class="global-reviews__content-wrapper">
+                        <div class="global-reviews__content-box">
+                          <div class="global-reviews__content-box--name">
+                            Имя
+                          </div>
+                          <div class="global-reviews__content-box--car">
+                            Марка и модель авто
+                          </div>
+                        </div>
+                        <ul class="global-reviews__content-rating">
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                        </ul>
+                      </div>
+                      <p class="global-reviews__content-text">
+                        Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более
+                        менее осмысленного
+                        текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в
+                        домашних
+                        условиях. При
+                        создании генератора мы использовали небезизвестный универсальный код речей.
+
+                      </p>
+                    </div>
+
+
+                    <div class="global-reviews__images">
+                      <img src="images/content/reviews-1.jpg" alt="" class="global-reviews__images-img">
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <button class="slick-arrow slick-prev">
+              <div class="arrow__wrapper">
+                <img class="slider__arrow-prev" src="images/icons/arrow-left.png" alt="">
+
+              </div>
+            </button>
+            <button class="slick-arrow slick-next">
+              <div class="arrow__wrapper">
+                <img class="slider__arrow-prev" src="images/icons/arrow-right.png" alt="">
+
+              </div>
+            </button>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="global-portfolio section">
+        <div class="container">
+          <h2 class="global-portfolio__title title">
+            Последние привезённые авто наших клиентов:
+          </h2>
+          <div class="global-portfolio__inner">
+            <div class="global-portfolio__item">
+              <img src="images/content/portfolio1-1.jpg" alt="" class="global-portfolio__item-img">
+              <ul class="global-portfolio__descr">
+                <li class="global-portfolio__descr-list global-portfolio__descr-one">Название:</li>
+                <li class="global-portfolio__descr-list global-portfolio__descr-two">Subaru IMPREZA SPORTS</li>
+              </ul>
+              <ul class="global-portfolio__descr">
+                <li class="global-portfolio__descr-list global-portfolio__descr-one">Характеристики:</li>
+                <li class="global-portfolio__descr-list global-portfolio__descr-two">2018 г, 32 400 км, 4 балла</li>
+              </ul>
+              <ul class="global-portfolio__descr">
+                <li class="global-portfolio__descr-list global-portfolio__descr-one">Стоимость:</li>
+                <li class="global-portfolio__descr-list global-portfolio__descr-two">1 470 000 руб</li>
+              </ul>
+
+              <div data-modal class="global-portfolio__item-btn global-btn--wrapper">
+                <div class="global-btn--interior">
+                  Хочу такой же
+                </div>
+              </div>
+            </div>
+            <div class="global-portfolio__item">
+              <img src="images/content/portfolio1-2.jpg" alt="" class="global-portfolio__item-img">
+              <ul class="global-portfolio__descr">
+                <li class="global-portfolio__descr-list global-portfolio__descr-one">Название:</li>
+                <li class="global-portfolio__descr-list global-portfolio__descr-two">Volvo V60</li>
+              </ul>
+              <ul class="global-portfolio__descr">
+                <li class="global-portfolio__descr-list global-portfolio__descr-one">Характеристики:</li>
+                <li class="global-portfolio__descr-list global-portfolio__descr-two">2016 г, 45 400 км,
+                  4,5 балла</li>
+              </ul>
+              <ul class="global-portfolio__descr">
+                <li class="global-portfolio__descr-list global-portfolio__descr-one">Стоимость:</li>
+                <li class="global-portfolio__descr-list global-portfolio__descr-two">1 420 000 руб</li>
+              </ul>
+
+              <div data-modal class="global-portfolio__item-btn global-btn--wrapper">
+                <div class="global-btn--interior">
+                  Хочу такой же
+                </div>
+              </div>
+            </div>
+            <div class="global-portfolio__item">
+              <img src="images/content/portfolio1-3.jpg" alt="" class="global-portfolio__item-img">
+              <ul class="global-portfolio__descr">
+                <li class="global-portfolio__descr-list global-portfolio__descr-one">Название:</li>
+                <li class="global-portfolio__descr-list global-portfolio__descr-two">Nissan NOTE</li>
+              </ul>
+              <ul class="global-portfolio__descr">
+                <li class="global-portfolio__descr-list global-portfolio__descr-one">Характеристики:</li>
+                <li class="global-portfolio__descr-list global-portfolio__descr-two">2013 г, 98 000 км,
+                  3,5 балла</li>
+              </ul>
+              <ul class="global-portfolio__descr">
+                <li class="global-portfolio__descr-list global-portfolio__descr-one">Стоимость:</li>
+                <li class="global-portfolio__descr-list global-portfolio__descr-two">682 000 руб</li>
+              </ul>
+
+              <div data-modal class="global-portfolio__item-btn global-btn--wrapper">
+                <div class="global-btn--interior">
+                  Хочу такой же
+                </div>
+              </div>
+            </div>
+            <div class="global-portfolio__item">
+              <img src="images/content/portfolio1-4.jpg" alt="" class="global-portfolio__item-img">
+              <ul class="global-portfolio__descr">
+                <li class="global-portfolio__descr-list global-portfolio__descr-one">Название:</li>
+                <li class="global-portfolio__descr-list global-portfolio__descr-two">Toyota CHR</li>
+              </ul>
+              <ul class="global-portfolio__descr">
+                <li class="global-portfolio__descr-list global-portfolio__descr-one">Характеристики:</li>
+                <li class="global-portfolio__descr-list global-portfolio__descr-two">2018 г, 64 000 км, 3,5 балла</li>
+              </ul>
+              <ul class="global-portfolio__descr">
+                <li class="global-portfolio__descr-list global-portfolio__descr-one">Стоимость:</li>
+                <li class="global-portfolio__descr-list global-portfolio__descr-two">1 680 000 руб</li>
+              </ul>
+
+              <div data-modal class="global-portfolio__item-btn global-btn--wrapper">
+                <div class="global-btn--interior">
+                  Хочу такой же
+                </div>
+              </div>
+            </div>
+            <div class="global-portfolio__item">
+              <img src="images/content/portfolio1-5.jpg" alt="" class="global-portfolio__item-img">
+              <ul class="global-portfolio__descr">
+                <li class="global-portfolio__descr-list global-portfolio__descr-one">Название:</li>
+                <li class="global-portfolio__descr-list global-portfolio__descr-two">Honda STEPWAGON SPADA</li>
+              </ul>
+              <ul class="global-portfolio__descr">
+                <li class="global-portfolio__descr-list global-portfolio__descr-one">Характеристики:</li>
+                <li class="global-portfolio__descr-list global-portfolio__descr-two">2017 г, 96 000 км, 4 балла</li>
+              </ul>
+              <ul class="global-portfolio__descr">
+                <li class="global-portfolio__descr-list global-portfolio__descr-one">Стоимость:</li>
+                <li class="global-portfolio__descr-list global-portfolio__descr-two">1 985 000 руб</li>
+              </ul>
+
+              <div data-modal class="global-portfolio__item-btn global-btn--wrapper">
+                <div class="global-btn--interior">
+                  Хочу такой же
+                </div>
+              </div>
+            </div>
+            <div class="global-portfolio__item">
+              <img src="images/content/portfolio1-6.jpg" alt="" class="global-portfolio__item-img">
+              <ul class="global-portfolio__descr">
+                <li class="global-portfolio__descr-list global-portfolio__descr-one">Название:</li>
+                <li class="global-portfolio__descr-list global-portfolio__descr-two">SUBARU XV</li>
+              </ul>
+              <ul class="global-portfolio__descr">
+                <li class="global-portfolio__descr-list global-portfolio__descr-one">Характеристики:</li>
+                <li class="global-portfolio__descr-list global-portfolio__descr-two">2019 г, 38 000 км, 3 балла</li>
+              </ul>
+              <ul class="global-portfolio__descr">
+                <li class="global-portfolio__descr-list global-portfolio__descr-one">Стоимость:</li>
+                <li class="global-portfolio__descr-list global-portfolio__descr-two">1 581 000 руб</li>
+              </ul>
+
+              <div data-modal class="global-portfolio__item-btn global-btn--wrapper">
+                <div class="global-btn--interior">
+                  Хочу такой же
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div data-modal class="global-portfolio__btn global-btn--wrapper">
+            <div class="global-btn--interior">
+              Бесплатная консультация
+            </div>
+          </div>
+      </section>
+
+      <section class="video-reviews">
+        <div class="video-reviews__inner">
+          <div class="video-reviews__item">
+            <div class="video-reviews__item-wrapper">
+              <h3 class="video-reviews__item-title">
+                Честные видео-отзывы
+                о компании
+              </h3>
+              <div class="video-reviews__logo">
+                <img src="images/content/video-reviews__logo.png" alt="" class="video-reviews__logo-img">
+              </div>
+              <h3 class="video-reviews__item-title">
+                на любой удобной для Вас
+                платформе!
+              </h3>
+            </div>
+            <div class="video-reviews__wrapper">
+              <a class="video-reviews__items" href="#">
+                <img src="images/icons/reviews-youtube.png" alt="" class="video-reviews__items-img">
+                <div class="video-reviews__items-name">
+                  YouTube
+                </div>
+              </a>
+              <a class="video-reviews__items" href="#">
+                <img src="images/icons/reviews-rutube.png" alt="" class="video-reviews__items-img">
+                <div class="video-reviews__items-name">
+                  Rutube
+                </div>
+              </a>
+              <a class="video-reviews__items" href="#">
+                <img src="images/icons/reviews-dzen.png" alt="" class="video-reviews__items-img">
+                <div class="video-reviews__items-name">
+                  Дзен
+                </div>
+              </a>
+              <a class="video-reviews__items" href="#">
+                <img src="images/icons/reviews-vk.png" alt="" class="video-reviews__items-img">
+                <div class="video-reviews__items-name">
+                  VK Video
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="video-reviews__images">
+            <img src="images/content/video-reviews__images-img.jpg" alt="" class="video-reviews__images-img">
+          </div>
+        </div>
+      </section>
+
+      <section class="global-news section">
+        <div class="container">
+          <h2 class="global-news__title title">
+            Будьте в курсе последних новостей!
+          </h2>
+          <div class="global-news__text">
+            Актуальные рейтинги, обзоры, новинки и многое другое в наших статьях.
+          </div>
+          <div class="global-news__inner">
+            <a class="global-news__item" href="#">
+              <div class="global-news__item-wrapper">
+                <h4 class="global-news__item-title">
+                  ТОП-5 японских авто
+                </h4>
+                <div class="global-news__item-link">
+                  Подробнее...
+                </div>
+              </div>
+            </a>
+            <a class="global-news__item" href="#">
+              <div class="global-news__item-wrapper">
+                <h4 class="global-news__item-title">
+                  Обзор на Хонда Фрид
+                </h4>
+                <div class="global-news__item-link">
+                  Подробнее...
+                </div>
+              </div>
+            </a>
+
+            <a class="global-news__item" href="#">
+              <div class="global-news__item-wrapper">
+                <h4 class="global-news__item-title">
+                  Самый интересный заказ
+                </h4>
+                <div class="global-news__item-link">
+                  Подробнее...
+                </div>
+              </div>
+            </a>
+
+            <a class="global-news__item" href="#">
+              <div class="global-news__item-wrapper">
+                <h4 class="global-news__item-title">
+                  ТОП-5 японских авто
+                </h4>
+                <div class="global-news__item-link">
+                  Подробнее...
+                </div>
+              </div>
+            </a>
+
+            <a class="global-news__item" href="#">
+              <div class="global-news__item-wrapper">
+                <h4 class="global-news__item-title">
+                  ТОП-5 японских авто
+                </h4>
+                <div class="global-news__item-link">
+                  Подробнее...
+                </div>
+              </div>
+            </a>
+
+            <a class="global-news__item" href="#">
+              <div class="global-news__item-wrapper">
+                <h4 class="global-news__item-title">
+                  ТОП-5 японских авто
+                </h4>
+                <div class="global-news__item-link">
+                  Подробнее...
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="global-news__btn global-btn--wrapper">
+            <div class="global-btn--interior">
+              Все новости
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="feedback section">
+        <div class="feedback__bg-left">
+          <img src="images/content/feedback-left-bg-1.png" alt="" class="feedback-bg-img">
+        </div>
+        <div class="feedback__bg-right">
+          <img src="images/content/feedback-right-bg-2.png" alt="" class="feedback-bg-img">
+        </div>
+        <div class="container">
+          <h2 class="feedback__title title">
+            Закажите авто сейчас!
+          </h2>
+
+
+
+          <div class="feedback__inner">
+            <form class="feedback-form">
+              <div class="feedback__wrapper">
+                <div class="feedback__item">
+                  <div class="feedback__items">
+                    <input type="text" name="name" class="feedback__items-input" placeholder="Ваше имя..." required>
+                  </div>
+                  <div class="feedback__items">
+                    <input type="text" name="name" class="feedback__items-input" placeholder="Ваш телефон или почта..."
+                      required>
+                  </div>
+                </div>
+                <div class="feedback__item">
+                  <div class="feedback__items">
+                    <textarea class="feedback__items-input feedback__items-textarea" name="text"
+                      placeholder="Ваше сообщение..."></textarea>
+                  </div>
+                </div>
+              </div>
+
+              <button class="feedback__btn global-stages__btn global-btn--wrapper">
+                <div class="global-btn--interior">
+                  Отправить
+                </div>
+              </button>
+
+            </form>
+          </div>
+
+        </div>
+
+      </section>
+
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer class="footer section">
+      <div class="container">
+        <a href="#" class="footer__logo">
+          <img src="images/logo/logo-white.png" alt="">
+        </a>
+        <div class="footer__inner">
+          <ul class="footer__item footer__item-1">
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">Главная</a>
+            </li>
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">Авто под заказ из Японии</a>
+            </li>
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">Авто под заказ из Кореи</a>
+            </li>
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">Авто под заказ из Китая</a>
+            </li>
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">Санкционные авто</a>
+            </li>
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">Авто в наличии</a>
+            </li>
+          </ul>
+          <ul class="footer__item footer__item-2">
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">Распил и конструктор</a>
+            </li>
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">Грузовики и спецтехника</a>
+            </li>
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">Мотоциклы под заказ</a>
+            </li>
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">Таможенное оформление</a>
+            </li>
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">Доставка Вашего авто</a>
+            </li>
+          </ul>
+          <ul class="footer__item footer__item-3">
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">Этапы работы</a>
+            </li>
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">Гарантии и договор</a>
+            </li>
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">Отзывы</a>
+            </li>
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">Вопрос-ответ</a>
+            </li>
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">Новости компании</a>
+            </li>
+          </ul>
+          <ul class="footer__item footer__item-4">
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">О компании</a>
+            </li>
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">Вакансиир</a>
+            </li>
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">Аукцион</a>
+            </li>
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">Расчёт стоимости</a>
+            </li>
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">Политика конфиденциальности</a>
+            </li>
+          </ul>
+          <div class="footer__item footer__item-5">
+            <a class="footer__phone" href="#">
+              +7-983-24-12-345
+            </a>
+            <a class="footer__phone" href="#">
+              +7(3952)95-25-05
+            </a>
+            <a class="footer__email" href="#">
+              proauto138@gmail.com
+            </a>
+            <ul class="nav-social">
+              <li class="header-top__social-list">
+                <a href="#" class="header-top__social-list--link">
+                  <img src="images/icons/telegram.png" alt="" class="social-images social-images--tg">
+                </a>
+              </li>
+              <li class="header-top__social-list">
+                <a href="#" class="header-top__social-list--link">
+                  <img src="images/icons/vk.png" alt="" class="social-images social-images--vk">
+                </a>
+              </li>
+              <li class="header-top__social-list">
+                <a href="#" class="header-top__social-list--link">
+                  <img src="images/icons/whatsapp.png" alt="" class="social-images social-images--wh">
+                </a>
+              </li>
+              <li class="header-top__social-list">
+                <a href="#" class="header-top__social-list--link">
+                  <img src="images/icons/youtube.png" alt="" class="social-images social-images--you">
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <p class="footer__details">
+          ИП Бочаров Максим Олегович ИНН 382103138780 ОГРНИП 324385000029881 Р/с: 40802 810 5 1835 0003144 БИК 042520607
+        </p>
+        <p class="footer__details">
+          г. Иркутск, ​​ул. Фридриха Энгельса, 17, ДЦ Сотня, 7 этаж, офис 705
+        </p>
+        <div class="lapki">
+          <a href="lapki-web.ru" class="lapki-web">
+            Разработка сайта lapki-web.ru
+          </a>
+        </div>
+      </div>
+    </footer>
+
+
+
+    <div class="modal">
+      <div class="modal__inner">
+        <div class="container">
+          <div class="modal__wrapper">
+
+            <ul data-close class="close__btn">
+              <li class="close__line close__line1"></li>
+              <li class="close__line close__line2"></li>
+            </ul>
+
+            <h2 class="feedback__title title">
+              Оставить заявку
+            </h2>
+
+          <form class="feedback-form">
+            <div class="feedback__wrapper">
+              <div class="feedback__item">
+                <div class="feedback__items">
+                  <input type="text" name="name" class="feedback__items-input" placeholder="Ваше имя..." required>
+                </div>
+                <div class="feedback__items">
+                  <input type="text" name="name" class="feedback__items-input" placeholder="Ваш телефон или почта..." required>
+                </div>
+              </div>
+              <div class="feedback__item">
+                <div class="feedback__items">
+                  <textarea class="feedback__items-input feedback__items-textarea" name="text"
+                    placeholder="Ваше сообщение..."></textarea>
+                </div>
+              </div>
+            </div>
+          
+            <button class="modal__btn global-btn--wrapper">
+              <div class="global-btn--interior">
+                Отправить
+              </div>
+            </button>
+          
+          </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+  </div>
+
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>

@@ -1880,67 +1880,6 @@ label input:checked ~ div::before {
           justify-content: center;
 }
 
-.interest__inner {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (1fr)[5];
-  grid-template-columns: repeat(5, 1fr);
-  gap: 20px;
-  max-width: 1200px;
-  width: 100%;
-  margin: 0 auto;
-}
-
-.interest__item {
-  font-size: 30px;
-  color: #ffffff;
-  border-radius: 5px;
-  border: 1px solid #ffffff;
-  padding: 30px;
-  text-align: center;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-}
-.interest__item:hover {
-  color: #78D4FF;
-  border: 1px solid #78D4FF;
-}
-
-.interest__item:nth-child(1) {
-  -ms-grid-column-span: 3;
-  grid-column: span 3;
-}
-
-.interest__item:nth-child(2) {
-  -ms-grid-column-span: 2;
-  grid-column: span 2;
-}
-
-.interest__item:nth-child(3) {
-  -ms-grid-column-span: 2;
-  grid-column: span 2;
-}
-
-.interest__item:nth-child(4) {
-  -ms-grid-column-span: 3;
-  grid-column: span 3;
-}
-
-.interest__item:nth-child(5) {
-  -ms-grid-column-span: 5;
-  grid-column: span 5;
-}
-
-.interest__item:nth-child(6) {
-  -ms-grid-column-span: 3;
-  grid-column: span 3;
-}
-
-.interest__item:nth-child(7) {
-  -ms-grid-column-span: 2;
-  grid-column: span 2;
-}
-
 @media (max-width: 1700px) {
   .video-reviews__wrapper {
     margin-top: 30px;
@@ -2387,9 +2326,6 @@ label input:checked ~ div::before {
     right: -150px;
     bottom: 0px;
   }
-  .interest__item {
-    font-size: 24px;
-  }
 }
 @media (max-width: 1000px) {
   .header-top__logo,
@@ -2462,9 +2398,6 @@ label input:checked ~ div::before {
     height: 420px;
     bottom: 0;
   }
-  .interest__item {
-    padding: 20px;
-  }
 }
 @media (max-width: 800px) {
   .container {
@@ -2531,13 +2464,6 @@ label input:checked ~ div::before {
   }
   .global-news__item-title {
     font-size: 18px;
-  }
-  .interest__inner {
-    padding: 0 40px;
-  }
-  .interest__item {
-    -ms-grid-column-span: 5 !important;
-    grid-column: span 5 !important;
   }
 }
 @media (max-width: 750px) {
@@ -2746,12 +2672,6 @@ label input:checked ~ div::before {
   .close__btn {
     top: -30px;
     right: 8px;
-  }
-  .interest__inner {
-    padding: 0px;
-  }
-  .interest__item {
-    font-size: 20px;
   }
 }
 @media (max-width: 500px) {
