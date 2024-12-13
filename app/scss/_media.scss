@@ -74,6 +74,10 @@
     bottom: -50px;
   }
 
+  .tabs-content__item {
+    height: 300px;
+  }
+
 }
 
 @media(max-width: 1300px) {
@@ -207,6 +211,59 @@
 
   .footer__item-5 {
     text-align: center;
+  }
+
+  .popular__wrapper {
+    height: fit-content;
+  }
+
+  .tabs-content__item:nth-child(1) {
+    display: none;
+  }
+
+  .tabs-content__inner {
+    // padding-left: 150px;
+  }
+
+  .tabs-content__item {
+    // height: 275px;
+    height: 20vw;
+  }
+
+  .tabs-content__item:nth-child(2) {
+    grid-column: span 4;
+  }
+
+  .tabs-content__item:nth-child(3) {
+    grid-column: span 2;
+  }
+
+  .tabs-content__item:nth-child(4) {
+    grid-column: span 2;
+  }
+
+  .tabs-content__item:nth-child(5) {
+    grid-column: span 4;
+  }
+
+  .tabs-content__item:nth-child(6) {
+    grid-column: span 2;
+  }
+
+  .tabs-content__item:nth-child(7) {
+    grid-column: span 2;
+  }
+
+  .tabs-wrapper {
+    position: inherit;
+  }
+
+  .tab {
+    display: inline-block;
+
+    &+.tab {
+      margin-left: 30px;
+    }
   }
 }
 
@@ -525,6 +582,11 @@
     font-size: 24px;
     // padding: 30px;
   }
+
+  .tabs-content__item:nth-child(7) {
+    grid-column: span 5;
+    height: 60px;
+  }
 }
 
 @media(max-width: 1000px) {
@@ -711,6 +773,28 @@
     grid-column: span 5 !important;
   }
 
+  .tabs-content__inner {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+
+  .tabs-content__item {
+    height: 250px;
+  }
+
+  .tab {
+    font-size: 20px;
+
+    &+.tab {
+      margin-left: 20px;
+    }
+  }
+
+  .tabs-content__item:nth-child(7) {
+    grid-column: span 2;
+    height: auto;
+  }
 }
 
 @media(max-width: 750px) {
@@ -982,6 +1066,25 @@
   .interest__item {
     font-size: 20px;
   }
+
+  .tabs {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .tab {
+    padding-right: 20px;
+    margin-bottom: 10px;
+
+    &+.tab {
+      margin-left: 0;
+    }
+  }
+
+  .tabs-content__item {
+    height: 200px;
+  }
 }
 
 @media(max-width: 500px) {
@@ -1028,6 +1131,14 @@
       width: 256px;
       height: 154px;
     }
+  }
+
+  .tabs-content__item {
+    height: 150px;
+  }
+
+  .tabs-content__item:nth-child(7) {
+    grid-column: span 3;
   }
 }
 
