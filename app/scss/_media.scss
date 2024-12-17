@@ -19,6 +19,50 @@
     padding-right: 0px;
   }
 
+  .stages {
+    .global-stages__item:nth-child(1) {
+      grid-column: span 7;
+    }
+
+    .global-stages__item:nth-child(2) {
+      grid-column: span 7;
+    }
+
+    .global-stages__item:nth-child(3) {
+      grid-column: span 7;
+    }
+
+    .global-stages__item:nth-child(4) {
+      grid-column: span 7;
+    }
+
+    .global-stages__item:nth-child(5) {
+      grid-column: span 7;
+    }
+
+    .global-stages__item:nth-child(6) {
+      grid-column: span 7;
+    }
+
+    .global-stages__item:nth-child(7) {
+      grid-column: span 7;
+    }
+
+    .global-stages__item:nth-child(8) {
+      grid-column: span 7;
+    }
+
+    .global-stages__item:nth-child(9) {
+      grid-column: span 7;
+    }
+  }
+
+}
+
+@media(max-width: 1600px) {
+  .guarantees__inner {
+    max-width: 600px;
+  }
 }
 
 @media(max-width: 1400px) {
@@ -279,6 +323,9 @@
   .product__box-title {
     font-size: 24px;
   }
+  .guarantees__item-title{
+    font-size: 30px;
+  }
 }
 
 @media(max-width: 1200px) {
@@ -369,6 +416,16 @@
     max-width: 800px;
     width: 100% !important;
     margin: 0 auto;
+  }
+
+  .guarantees__item-1 {
+    &::before {
+      content: '';
+      width: 400px;
+      height: 249px;
+      right: -400px;
+      bottom: -150px;
+    }
   }
 
 }
@@ -629,6 +686,17 @@
     grid-column: span 5;
     height: 60px;
   }
+
+  .starting-screen--mini {
+    height: 500px;
+  }
+  .guarantees__inner{
+    max-width: 400px;
+  }
+  .guarantees__item-img{
+    width: 70px;
+    height: 70px;
+  }
 }
 
 @media(max-width: 1000px) {
@@ -865,6 +933,24 @@
   .product2-img {
     max-width: 200px;
     height: 140px;
+  }
+  .guarantees__inner{
+    max-width: 100%;
+    padding: 0 40px;
+  }
+  .guarantees__item-title{
+    font-size: 24px;
+  }
+  .guarantees__item-img{
+    width: 50px;
+    height: 50px;
+  }
+  .guarantees__item-1,
+  .guarantees__item-2,
+  .guarantees__item-3{
+    &::before{
+      display: none;
+    }
   }
 }
 
@@ -1246,6 +1332,10 @@
     max-width: 180px;
     height: 140px;
   }
+
+  .starting-screen--mini {
+    height: 450px;
+  }
 }
 
 @media(max-width: 400px) {
@@ -1293,5 +1383,8 @@
   .product2-img {
     max-width: 180px;
     height: 120px;
+  }
+  .guarantees__inner{
+    padding: 0 15px;
   }
 }

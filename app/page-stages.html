@@ -1,0 +1,1547 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>new website</title>
+  <!-- <meta name="description" content=""> -->
+  <!-- <meta name="keywords" content=""> -->
+  <!-- <link rel="icon" href="images/icons/favicon.ico" type="image/x-icon"> -->
+
+  <!-- <meta property="og:type" content="website"> -->
+  <!-- <meta property="og:title" content=""> -->
+  <!-- <meta property="og:description" content=""> -->
+  <!-- <meta property="og:url" content=""> -->
+  <!-- <meta property="og:image" content=""> -->
+  <!-- <meta property="og:site_name" content=""> -->
+  <!-- <meta property="og:locale" content="ru_RU"> -->
+
+
+
+  <link rel="stylesheet" href="css/style.min.css">
+
+
+
+
+
+
+  <!-- <script>
+    function CBR_XML_Daily_Ru(rates) {
+
+      var USDrate = rates.Valute.JPY.Value.toFixed(0).replace('.', ',');
+      var USD = document.getElementById('USD');
+      USD.innerHTML = USD.innerHTML.replace('00,0', USDrate);
+      USD.innerHTML += trend(rates.Valute.USD.Value, rates.Valute.USD.Previous);
+    }
+  </script> -->
+
+  <script src="//www.cbr-xml-daily.ru/daily_jsonp.js" async></script>
+
+
+
+
+
+
+
+
+</head>
+
+<body>
+  <header class="header">
+    <div class="header-top">
+      <div class="container">
+        <div class="header-top__wrapper">
+
+
+          <div class="header-top__yuan">
+            <img src="images/icons/yuan.png" alt="" class="header-top__yuan-images">
+
+            <div id="USD"> 0,00,0 руб.</div>
+
+
+
+          </div>
+          <a class="header-top__logo" href="#">
+            <img src="images/logo/logo-white.png" alt="">
+          </a>
+          <div class="header-top__contacts">
+            <ul class="header-top__social">
+              <li class="header-top__social-list">
+                <a href="#" class="header-top__social-list--link">
+                  <img src="images/icons/telegram.png" alt="" class="social-images social-images--tg">
+                </a>
+              </li>
+              <li class="header-top__social-list">
+                <a href="#" class="header-top__social-list--link">
+                  <img src="images/icons/vk.png" alt="" class="social-images social-images--vk">
+                </a>
+              </li>
+              <li class="header-top__social-list">
+                <a href="#" class="header-top__social-list--link">
+                  <img src="images/icons/whatsapp.png" alt="" class="social-images social-images--wh">
+                </a>
+              </li>
+              <li class="header-top__social-list">
+                <a href="#" class="header-top__social-list--link">
+                  <img src="images/icons/youtube.png" alt="" class="social-images social-images--you">
+                </a>
+              </li>
+            </ul>
+            <div class="header-top__phone">
+              <a class="header-top__phone-link" href="#"> +7-983-24-12-345</a>
+              <a class="header-top__phone-link" href="#"> +7(3952)95-25-05</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header-down">
+      <div class="container">
+        <div class="header-down__wrapper">
+
+          <div class="header-top__yuan header-down__yuan">
+            <img src="images/icons/yuan.png" alt="" class="header-top__yuan-images">
+
+            <div id="USD"> 0,00,0 руб.</div>
+
+          </div>
+
+          <a class="header-top__logo header-down__logo" href="#">
+            <img src="images/logo/logo-white.png" alt="">
+          </a>
+
+          <nav class="nav">
+            <ul class="menu-wrapper">
+              <li class="menu-list">
+                <a href="#" class="menu-list__link">
+                  Главная
+                </a>
+              </li>
+              <li class="menu-list menu-drop menu-drop-one ">
+                Услуги
+                <div class="menu-drop__arrow menu-drop__arrow-one">
+                  <svg width="12" height="10" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M5.57538 8.37014C5.77102 8.6848 6.22898 8.6848 6.42462 8.37014L10.6875 1.51401C10.8946 1.18095 10.6551 0.75 10.2629 0.75H1.73712C1.34492 0.75 1.10542 1.18095 1.3125 1.51401L5.57538 8.37014Z"
+                      stroke="white" />
+                  </svg>
+                </div>
+                <ul class="menu-drop__wrapper">
+                  <li class="menu-drop__list">
+                    <a href="#" class="menu-list__link">
+                      Авто под заказ из Японии
+                    </a>
+                  </li>
+                  <li class="menu-drop__list">
+                    <a href="#" class="menu-list__link">
+                      Авто под заказ из Кореи
+                    </a>
+                  </li>
+                  <li class="menu-drop__list">
+                    <a href="#" class="menu-list__link">
+                      Авто под заказ из Китая
+                    </a>
+                  </li>
+                  <li class="menu-drop__list">
+                    <a href="#" class="menu-list__link">
+                      Санкционные авто
+                    </a>
+                  </li>
+                  <li class="menu-drop__list">
+                    <a href="#" class="menu-list__link">
+                      Авто на стоянке в Японии
+                    </a>
+                  </li>
+                  <li class="menu-drop__list">
+                    <a href="#" class="menu-list__link">
+                      Распил и конструктор
+                    </a>
+                  </li>
+                  <li class="menu-drop__list">
+                    <a href="#" class="menu-list__link">
+                      Грузовики и спецтехника
+                    </a>
+                  </li>
+                  <li class="menu-drop__list">
+                    <a href="#" class="menu-list__link">
+                      Мототехника
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu-list menu-drop menu-drop-two">
+                Информация для клиентов
+                <div class="menu-drop__arrow menu-drop__arrow-two">
+                  <svg width="12" height="10" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M5.57538 8.37014C5.77102 8.6848 6.22898 8.6848 6.42462 8.37014L10.6875 1.51401C10.8946 1.18095 10.6551 0.75 10.2629 0.75H1.73712C1.34492 0.75 1.10542 1.18095 1.3125 1.51401L5.57538 8.37014Z"
+                      stroke="white" />
+                  </svg>
+                </div>
+
+
+                <ul class="menu-drop__wrapper">
+                  <li class="menu-drop__list">
+                    <a href="#" class="menu-list__link">
+                      Этапы работы
+                    </a>
+                  </li>
+                  <li class="menu-drop__list">
+                    <a href="#" class="menu-list__link">
+                      Гарантии и договор
+                    </a>
+                  </li>
+                  <li class="menu-drop__list">
+                    <a href="#" class="menu-list__link">
+                      Доставка авто
+                    </a>
+                  </li>
+                  <li class="menu-drop__list">
+                    <a href="#" class="menu-list__link">
+                      Таможенное оформление
+                    </a>
+                  </li>
+                  <li class="menu-drop__list">
+                    <a href="#" class="menu-list__link">
+                      Отзывы
+                    </a>
+                  </li>
+                  <li class="menu-drop__list">
+                    <a href="#" class="menu-list__link">
+                      Вопрос-ответ
+                    </a>
+                  </li>
+                  <li class="menu-drop__list">
+                    <a href="#" class="menu-list__link">
+                      Новости компании
+                    </a>
+                  </li>
+
+                </ul>
+              </li>
+              <li class="menu-list">
+                <a href="#" class="menu-list__link">
+                  Контакты
+                </a>
+              </li>
+              <li class="menu-list">
+                <a href="#" class="menu-list__link">
+                  Аукцион
+                </a>
+              </li>
+              <li class="menu-list">
+                <a href="#" class="menu-list__link">
+                  Расчёт стоимости авто
+                </a>
+              </li>
+            </ul>
+
+
+            <div class="nav-contacts">
+              <a class="header-top__phone-link nav-phone__link" href="#"> +7-983-24-12-345</a>
+              <a class="header-top__phone-link nav-phone__link" href="#"> +7(3952)95-25-05</a>
+              <a class="header-top__email-link nav-email__link" href="#"> proauto138@gmail.com</a>
+
+              <ul class="nav-social">
+                <li class="header-top__social-list">
+                  <a href="#" class="header-top__social-list--link">
+                    <img src="images/icons/telegram.png" alt="" class="social-images social-images--tg">
+                  </a>
+                </li>
+                <li class="header-top__social-list">
+                  <a href="#" class="header-top__social-list--link">
+                    <img src="images/icons/vk.png" alt="" class="social-images social-images--vk">
+                  </a>
+                </li>
+                <li class="header-top__social-list">
+                  <a href="#" class="header-top__social-list--link">
+                    <img src="images/icons/whatsapp.png" alt="" class="social-images social-images--wh">
+                  </a>
+                </li>
+                <li class="header-top__social-list">
+                  <a href="#" class="header-top__social-list--link">
+                    <img src="images/icons/youtube.png" alt="" class="social-images social-images--you">
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+          </nav>
+
+          <div class="header-down-contacts">
+
+
+            <div class="header-top__phone header-down__phone">
+              <a class="header-top__phone-link" href="#"> +7-983-24-12-345</a>
+              <a class="header-top__phone-link" href="#"> +7(3952)95-25-05</a>
+            </div>
+
+
+            <ul class="menu__btn">
+              <li class="row row1"></li>
+              <li class="row row2"></li>
+              <li class="row row3"></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="wrapper">
+    <main class="main">
+      <section class="starting-screen starting-screen--mini">
+        <div class="starting-screen__shadow-bg">
+          <div class="container">
+            <div class="starting-screen__wrapper">
+
+              <div class="breadcrumbs">
+                <ul class="breadcrumbs__list">
+                  <li class="breadcrumbs__list-item">
+                    <a class="breadcrumbs__item-link" href="index.html">
+                      Главная
+                    </a>
+                  </li>
+
+                  <li class="breadcrumbs__list-item">
+                    <div class="breadcrumbs__item-link">
+                      Этапы работ
+                    </div>
+                  </li>
+                </ul>
+              </div>
+
+
+              <h1 class="starting-screen__title">
+                Этапы работы
+                <br>
+                и Гарантии!
+              </h1>
+              <div data-modal class="main-screen-btn global-btn--wrapper">
+                <div class="global-btn--interior">
+                  Бесплатная консультация
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <section class="global-stages stages section"
+        style="background-image: url('images/content/main-stages__bg.png');">
+        <div class="container">
+          <h2 class="global-stages__title title">
+            Как проходит покупка авто?
+          </h2>
+
+
+          <div class="global-stages__inner">
+
+
+
+            <div class="global-stages__item global-stages__item-wrapper">
+              <div class="global-stages__item-interior">
+                <div class="global-stages__item-box">
+                  <div class="global-stages__item-box--number">
+                    <svg width="38" height="92" viewBox="0 0 38 92" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g filter="url(#filter0_ii_172_154)">
+                        <path d="M38 0.399902V91.3999H17.6159V17.2999H0V0.399902H38Z" fill="#F5F5F5" />
+                      </g>
+                      <defs>
+                        <filter id="filter0_ii_172_154" x="-4" y="-3.6001" width="46" height="99"
+                          filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                          <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                          <feColorMatrix in="SourceAlpha" type="matrix"
+                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                          <feOffset dx="4" dy="4" />
+                          <feGaussianBlur stdDeviation="2" />
+                          <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                          <feColorMatrix type="matrix"
+                            values="0 0 0 0 0.305882 0 0 0 0 0.341176 0 0 0 0 0.368627 0 0 0 0.25 0" />
+                          <feBlend mode="normal" in2="shape" result="effect1_innerShadow_172_154" />
+                          <feColorMatrix in="SourceAlpha" type="matrix"
+                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                          <feOffset dx="-4" dy="-4" />
+                          <feGaussianBlur stdDeviation="2" />
+                          <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                          <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" />
+                          <feBlend mode="normal" in2="effect1_innerShadow_172_154"
+                            result="effect2_innerShadow_172_154" />
+                        </filter>
+                      </defs>
+                    </svg>
+                  </div>
+                  <div class="global-stages__item-content">
+                    <h3 class="global-stages__item-content--title">
+                      Бесплатная консультация
+                    </h3>
+                    <p class="global-stages__item-content--text">
+                      Уточняем Ваши пожелания и анализируем стоимость авто
+                    </p>
+
+                    <div data-modal class="global-stages__btn global-btn--wrapper">
+                      <div class="global-btn--interior">
+                        Оставить заявку
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="global-stages__item global-stages__item-wrapper">
+              <div class="global-stages__item-interior">
+                <div class="global-stages__item-box">
+                  <div class="global-stages__item-box--number">
+                    <svg width="71" height="91" viewBox="0 0 71 91" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g filter="url(#filter0_ii_172_167)">
+                        <path
+                          d="M71 74.1292V91H4.04991V77.5801L38.221 44.9888C41.8491 41.4953 44.2959 38.5131 45.5615 36.0421C46.8271 33.486 47.4599 30.9724 47.4599 28.5014C47.4599 24.9228 46.2365 22.1962 43.7897 20.3216C41.4272 18.3619 37.9257 17.382 33.2852 17.382C29.404 17.382 25.9026 18.1489 22.7807 19.6826C19.6589 21.1311 17.0434 23.3464 14.934 26.3286L0 16.6152C3.4593 11.4176 8.22638 7.37032 14.3012 4.47331C20.3761 1.4911 27.3369 0 35.1836 0C41.7647 0 47.5021 1.10768 52.3957 3.32303C57.3737 5.45318 61.2127 8.5206 63.9127 12.5253C66.697 16.4448 68.0891 21.0885 68.0891 26.4565C68.0891 31.3132 67.0766 35.8717 65.0517 40.132C63.0267 44.3923 59.1034 49.2491 53.2816 54.7022L32.9055 74.1292H71Z"
+                          fill="#F5F5F5" />
+                      </g>
+                      <defs>
+                        <filter id="filter0_ii_172_167" x="-4" y="-4" width="79" height="99"
+                          filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                          <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                          <feColorMatrix in="SourceAlpha" type="matrix"
+                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                          <feOffset dx="4" dy="4" />
+                          <feGaussianBlur stdDeviation="2" />
+                          <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                          <feColorMatrix type="matrix"
+                            values="0 0 0 0 0.305882 0 0 0 0 0.341176 0 0 0 0 0.368627 0 0 0 0.25 0" />
+                          <feBlend mode="normal" in2="shape" result="effect1_innerShadow_172_167" />
+                          <feColorMatrix in="SourceAlpha" type="matrix"
+                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                          <feOffset dx="-4" dy="-4" />
+                          <feGaussianBlur stdDeviation="2" />
+                          <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                          <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" />
+                          <feBlend mode="normal" in2="effect1_innerShadow_172_167"
+                            result="effect2_innerShadow_172_167" />
+                        </filter>
+                      </defs>
+                    </svg>
+                  </div>
+                  <div class="global-stages__item-content">
+                    <h3 class="global-stages__item-content--title">
+                      Заключение договора
+                      <br>
+                      и внесение предоплаты
+                    </h3>
+                    <p class="global-stages__item-content--text">
+                      Согласовываем стоимость авто
+                      <br>
+                      и технические характеристики
+                    </p>
+
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="global-stages__item global-stages__item-wrapper">
+              <div class="global-stages__item-interior">
+                <div class="global-stages__item-box">
+                  <div class="global-stages__item-box--number">
+                    <svg width="71" height="91" viewBox="0 0 71 91" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g filter="url(#filter0_ii_172_168)">
+                        <path
+                          d="M46.781 36.4256C54.599 37.7037 60.5901 40.6433 64.754 45.2444C68.918 49.7603 71 55.3839 71 62.1152C71 67.3127 69.6403 72.1269 66.921 76.5576C64.2017 80.9031 60.0377 84.3965 54.4291 87.0379C48.9054 89.6793 42.1071 91 34.0341 91C27.7457 91 21.5422 90.1905 15.4237 88.5716C9.39019 86.8675 4.24895 84.4817 0 81.4143L8.03052 65.566C11.4297 68.1222 15.3387 70.1245 19.7576 71.573C24.2615 72.9363 28.8504 73.618 33.5242 73.618C38.708 73.618 42.787 72.6381 45.7612 70.6784C48.7355 68.6334 50.2226 65.779 50.2226 62.1152C50.2226 54.7875 44.6565 51.1236 33.5242 51.1236H24.0916V37.448L42.447 16.6152H4.4614V0H66.921V13.4199L46.781 36.4256Z"
+                          fill="#F5F5F5" />
+                      </g>
+                      <defs>
+                        <filter id="filter0_ii_172_168" x="-4" y="-4" width="79" height="99"
+                          filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                          <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                          <feColorMatrix in="SourceAlpha" type="matrix"
+                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                          <feOffset dx="4" dy="4" />
+                          <feGaussianBlur stdDeviation="2" />
+                          <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                          <feColorMatrix type="matrix"
+                            values="0 0 0 0 0.305882 0 0 0 0 0.341176 0 0 0 0 0.368627 0 0 0 0.25 0" />
+                          <feBlend mode="normal" in2="shape" result="effect1_innerShadow_172_168" />
+                          <feColorMatrix in="SourceAlpha" type="matrix"
+                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                          <feOffset dx="-4" dy="-4" />
+                          <feGaussianBlur stdDeviation="2" />
+                          <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                          <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" />
+                          <feBlend mode="normal" in2="effect1_innerShadow_172_168"
+                            result="effect2_innerShadow_172_168" />
+                        </filter>
+                      </defs>
+                    </svg>
+
+                  </div>
+                  <div class="global-stages__item-content">
+                    <h3 class="global-stages__item-content--title">
+                      Подбор и покупка автомобиля
+                    </h3>
+                    <p class="global-stages__item-content--text">
+                      На этом этапе главное не спешить! Внимательно изучайте аукционный лист и его перевод. Осматривайте
+                      фотографии на большом
+                      экране. Осматривая лоты с телефона, вы можете упустить что-то важное. Принимайте положительное
+                      решение, только если
+                      уверены на 100% и нет сомнений.  Задавайте как можно больше вопросов вашему, менеджеру, он ответит
+                      на все, которые могут
+                      возникнуть в процессе.
+                    </p>
+
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="global-stages__item global-stages__item-wrapper">
+              <div class="global-stages__item-interior">
+                <div class="global-stages__item-box">
+                  <div class="global-stages__item-box--number">
+                    <svg width="84" height="91" viewBox="0 0 84 91" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g filter="url(#filter0_ii_172_170)">
+                        <path
+                          d="M84 71.89H69.245V91H48.7951V71.89H0V57.72L42.7119 0H64.715L25.1094 54.73H49.4422V37.7H69.245V54.73H84V71.89Z"
+                          fill="#F5F5F5" />
+                      </g>
+                      <defs>
+                        <filter id="filter0_ii_172_170" x="-4" y="-4" width="92" height="99"
+                          filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                          <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                          <feColorMatrix in="SourceAlpha" type="matrix"
+                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                          <feOffset dx="4" dy="4" />
+                          <feGaussianBlur stdDeviation="2" />
+                          <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                          <feColorMatrix type="matrix"
+                            values="0 0 0 0 0.305882 0 0 0 0 0.341176 0 0 0 0 0.368627 0 0 0 0.25 0" />
+                          <feBlend mode="normal" in2="shape" result="effect1_innerShadow_172_170" />
+                          <feColorMatrix in="SourceAlpha" type="matrix"
+                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                          <feOffset dx="-4" dy="-4" />
+                          <feGaussianBlur stdDeviation="2" />
+                          <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                          <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" />
+                          <feBlend mode="normal" in2="effect1_innerShadow_172_170"
+                            result="effect2_innerShadow_172_170" />
+                        </filter>
+                      </defs>
+                    </svg>
+
+
+                  </div>
+                  <div class="global-stages__item-content">
+                    <h3 class="global-stages__item-content--title">
+                      Оплата автомобиля в банке
+                    </h3>
+                    <p class="global-stages__item-content--text">
+                      После покупки на аукционе и расчета стоимости доставки до г. Владивосток, Японская сторона
+                      выставляет инвойс. Одним
+                      визитом в банк, вы оплачиваете сам автомобиль, его доставку и часть расходов в РФ, такие как ПРР и
+                      СБКТС. Вам
+                      потребуется взять паспорт и наличные средства. Курс, стоимость комиссии и точную сумму вам скажет
+                      менеджер. Оплачивать
+                      рекомендуем В Азиатско-Тихоокеанском банке. По факту оплаты вам выдают ЗАЯВЛЕНИЕ НА ПЕРЕВОД №,
+                      нужно сделать
+                      качественную фотографию с 2 сторон и отправить вашему менеджеру.
+                    </p>
+
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="global-stages__item global-stages__item-wrapper">
+              <div class="global-stages__item-interior">
+                <div class="global-stages__item-box">
+                  <div class="global-stages__item-box--number">
+                    <svg width="72" height="91" viewBox="0 0 72 91" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g filter="url(#filter0_ii_172_169)">
+                        <path
+                          d="M34.3806 33.6138C46.9911 33.6138 56.2786 36.1273 62.243 41.1545C68.2926 46.1816 71.3174 52.9129 71.3174 61.3483C71.3174 66.8015 69.9541 71.786 67.2275 76.302C64.5009 80.7327 60.3258 84.3113 54.7022 87.0379C49.1639 89.6793 42.3048 91 34.125 91C27.8198 91 21.5997 90.1905 15.4649 88.5716C9.41526 86.8675 4.2603 84.4817 0 81.4143L8.17978 65.566C11.588 68.1222 15.5075 70.1245 19.9382 71.573C24.3689 72.9363 28.9274 73.618 33.6138 73.618C38.8113 73.618 42.9012 72.5955 45.8834 70.5506C48.8656 68.5056 50.3567 65.6512 50.3567 61.9874C50.3567 58.1531 48.7804 55.2561 45.6278 53.2963C42.5604 51.3366 37.1924 50.3567 29.5239 50.3567H6.64607L11.2472 0H65.8216V16.6152H28.5014L27.0955 33.6138H34.3806Z"
+                          fill="#F5F5F5" />
+                      </g>
+                      <defs>
+                        <filter id="filter0_ii_172_169" x="-4" y="-4" width="79.3174" height="99"
+                          filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                          <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                          <feColorMatrix in="SourceAlpha" type="matrix"
+                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                          <feOffset dx="4" dy="4" />
+                          <feGaussianBlur stdDeviation="2" />
+                          <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                          <feColorMatrix type="matrix"
+                            values="0 0 0 0 0.305882 0 0 0 0 0.341176 0 0 0 0 0.368627 0 0 0 0.25 0" />
+                          <feBlend mode="normal" in2="shape" result="effect1_innerShadow_172_169" />
+                          <feColorMatrix in="SourceAlpha" type="matrix"
+                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                          <feOffset dx="-4" dy="-4" />
+                          <feGaussianBlur stdDeviation="2" />
+                          <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                          <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" />
+                          <feBlend mode="normal" in2="effect1_innerShadow_172_169"
+                            result="effect2_innerShadow_172_169" />
+                        </filter>
+                      </defs>
+                    </svg>
+
+
+
+                  </div>
+                  <div class="global-stages__item-content">
+                    <h3 class="global-stages__item-content--title">
+                      Сбор документов
+                      <br>
+                      для таможенного оформления
+                    </h3>
+                    <p class="global-stages__item-content--text">
+                      Чтобы избежать лишних затрат на таможне, начинаем подготовку сразу после покупки авто.
+                      <br>
+                      1. Подготовить нотариально заверенную копию паспорта (прописка и лицевая) и отправить СДЕКом
+                      брокеру. 
+                      <br>
+                      2. Сделать временную прописку в ДФО. Если есть возможность у знакомых – отлично, нет – предоставим
+                      контакты.
+                      <br>
+                      3. Зарегистрироваться на портале ЭПТС и внести свои данные в личный кабинет.
+                      <br>
+                      4. Отправить на почту proauto138@gmail.com сканы документов (паспорт (лицевая и прописка), СНИЛС,
+                      ИНН)
+                    </p>
+
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+
+
+
+            <div class="global-stages__item global-stages__item-wrapper">
+              <div class="global-stages__item-interior">
+                <div class="global-stages__item-box">
+                  <div class="global-stages__item-box--number">
+                    <svg width="73" height="91" viewBox="0 0 73 91" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g filter="url(#filter0_ii_312_522)">
+                        <path
+                          d="M42.3577 34.3135C47.9719 34.3135 53.0833 35.4447 57.692 37.7072C62.3006 39.9696 65.9457 43.1957 68.6271 47.3854C71.3085 51.4912 72.6492 56.2675 72.6492 61.7141C72.6492 67.5797 71.1828 72.733 68.25 77.174C65.3172 81.6151 61.2951 85.0506 56.1837 87.4807C51.1561 89.8269 45.5419 91 39.3412 91C27.0235 91 17.3872 87.2293 10.4323 79.6878C3.47744 72.1464 0 61.3789 0 47.3854C0 37.4139 1.88536 28.8669 5.65608 21.7445C9.4268 14.622 14.6639 9.21731 21.3674 5.53038C28.1547 1.84346 35.9894 0 44.8715 0C49.564 0 54.047 0.544657 58.3204 1.63397C62.6777 2.6395 66.3646 4.10589 69.3812 6.03315L61.8398 20.9903C57.4825 18.0575 51.994 16.5912 45.3743 16.5912C37.9167 16.5912 32.0092 18.7698 27.6519 23.1271C23.2947 27.4843 20.9484 33.8108 20.6133 42.1064C25.8085 36.9111 33.0566 34.3135 42.3577 34.3135ZM38.2099 75.7914C42.5672 75.7914 46.0866 74.6183 48.768 72.2721C51.5331 69.9259 52.9157 66.7417 52.9157 62.7196C52.9157 58.6975 51.5331 55.5133 48.768 53.1671C46.0866 50.7371 42.4834 49.5221 37.9586 49.5221C33.5175 49.5221 29.8725 50.779 27.0235 53.2928C24.1745 55.7228 22.75 58.8651 22.75 62.7196C22.75 66.5741 24.1326 69.7164 26.8978 72.1464C29.663 74.5764 33.4337 75.7914 38.2099 75.7914Z"
+                          fill="#F5F5F5" />
+                      </g>
+                      <defs>
+                        <filter id="filter0_ii_312_522" x="-4" y="-4" width="80.6484" height="99"
+                          filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                          <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                          <feColorMatrix in="SourceAlpha" type="matrix"
+                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                          <feOffset dx="4" dy="4" />
+                          <feGaussianBlur stdDeviation="2" />
+                          <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                          <feColorMatrix type="matrix"
+                            values="0 0 0 0 0.305882 0 0 0 0 0.341176 0 0 0 0 0.368627 0 0 0 0.25 0" />
+                          <feBlend mode="normal" in2="shape" result="effect1_innerShadow_312_522" />
+                          <feColorMatrix in="SourceAlpha" type="matrix"
+                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                          <feOffset dx="-4" dy="-4" />
+                          <feGaussianBlur stdDeviation="2" />
+                          <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                          <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" />
+                          <feBlend mode="normal" in2="effect1_innerShadow_312_522"
+                            result="effect2_innerShadow_312_522" />
+                        </filter>
+                      </defs>
+                    </svg>
+
+
+
+
+                  </div>
+                  <div class="global-stages__item-content">
+                    <h3 class="global-stages__item-content--title">
+                      Прохождение таможенной
+                      <br>
+                      очистки
+                    </h3>
+                    <p class="global-stages__item-content--text">
+                      1. Оплата таможни и услуг по таможенному оформлению
+                      <br>
+                      2. Брокер оплачивается после выпуска автомобиля таможней, получения СБКТС И ЭПТС, передачи
+                      автомобиля транспортной компании
+                      или постановку на охраняемую стоянку, если планируете забирать самостоятельно или воспользоваться
+                      услугами по перегону
+                      авто.
+                      <br>
+                      3. Оплату ВСЕГДА производит ОДИН И ТОТ ЖЕ ЧЕЛОВЕК!
+                    </p>
+
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="global-stages__item global-stages__item-wrapper">
+              <div class="global-stages__item-interior">
+                <div class="global-stages__item-box">
+                  <div class="global-stages__item-box--number">
+                    <svg width="73" height="91" viewBox="0 0 73 91" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g filter="url(#filter0_ii_312_544)">
+                        <path d="M72.93 0V13.65L39.13 91H16.25L48.88 17.16H18.72V31.98H0V0H72.93Z" fill="#F5F5F5" />
+                      </g>
+                      <defs>
+                        <filter id="filter0_ii_312_544" x="-4" y="-4" width="80.9297" height="99"
+                          filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                          <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                          <feColorMatrix in="SourceAlpha" type="matrix"
+                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                          <feOffset dx="4" dy="4" />
+                          <feGaussianBlur stdDeviation="2" />
+                          <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                          <feColorMatrix type="matrix"
+                            values="0 0 0 0 0.305882 0 0 0 0 0.341176 0 0 0 0 0.368627 0 0 0 0.25 0" />
+                          <feBlend mode="normal" in2="shape" result="effect1_innerShadow_312_544" />
+                          <feColorMatrix in="SourceAlpha" type="matrix"
+                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                          <feOffset dx="-4" dy="-4" />
+                          <feGaussianBlur stdDeviation="2" />
+                          <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                          <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" />
+                          <feBlend mode="normal" in2="effect1_innerShadow_312_544"
+                            result="effect2_innerShadow_312_544" />
+                        </filter>
+                      </defs>
+                    </svg>
+
+
+
+
+                  </div>
+                  <div class="global-stages__item-content">
+                    <h3 class="global-stages__item-content--title">
+                      Доставка в Россию и вручение новому владельцу
+                    </h3>
+                    <p class="global-stages__item-content--text">
+                      Способ доставки необходимо выбрать еще до того, как автомобиль пройдёт таможенное оформление.
+                      Существует 3 варианта 
+                      <br>
+                      1. Забрать самостоятельно – всегда самый выгодный по срокам и деньгам.
+                      <br>
+                      2. Привезти автовозом. Как правило ожидание 2–3 недели и стоимость от 80 000 руб.
+                      <br>
+                      3. Воспользоваться услугами по перегону. Деньги не экономите, но зато сокращаете время доставки с
+                      3–4 недель до 3–4
+                      дней. 
+                    </p>
+
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="global-stages__item global-stages__item-wrapper">
+              <div class="global-stages__item-interior">
+                <div class="global-stages__item-box">
+                  <div class="global-stages__item-box--number">
+                    <svg width="75" height="91" viewBox="0 0 75 91" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g filter="url(#filter0_ii_312_545)">
+                        <path
+                          d="M60.7086 43.2376C65.0658 45.4162 68.3757 48.2652 70.6381 51.7845C72.9843 55.3039 74.1574 59.3679 74.1574 63.9765C74.1574 69.4231 72.6073 74.1994 69.5069 78.3053C66.4065 82.3274 62.0493 85.4696 56.4351 87.732C50.8209 89.9107 44.3269 91 36.953 91C29.5792 91 23.0852 89.9107 17.471 87.732C11.9406 85.4696 7.62523 82.3274 4.52486 78.3053C1.50829 74.1994 0 69.4231 0 63.9765C0 59.3679 1.13122 55.3039 3.39365 51.7845C5.73987 48.2652 9.04972 45.4162 13.3232 43.2376C10.0552 41.2265 7.54144 38.7127 5.78177 35.6961C4.0221 32.5958 3.14227 29.0764 3.14227 25.1381C3.14227 20.0267 4.56676 15.5856 7.41575 11.8149C10.2647 8.0442 14.2449 5.15331 19.3564 3.14226C24.4678 1.04742 30.3333 0 36.953 0C43.6565 0 49.564 1.04742 54.6754 3.14226C59.8706 5.15331 63.8927 8.0442 66.7417 11.8149C69.5907 15.5856 71.0152 20.0267 71.0152 25.1381C71.0152 29.0764 70.1354 32.5958 68.3757 35.6961C66.616 38.7127 64.0603 41.2265 60.7086 43.2376ZM36.953 14.9572C32.8471 14.9572 29.5373 15.9627 27.0235 17.9738C24.5935 19.901 23.3785 22.5824 23.3785 26.018C23.3785 29.3697 24.5935 32.0092 27.0235 33.9365C29.4535 35.8637 32.7634 36.8273 36.953 36.8273C41.1427 36.8273 44.4945 35.8637 47.0083 33.9365C49.5221 32.0092 50.779 29.3697 50.779 26.018C50.779 22.5824 49.5221 19.901 47.0083 17.9738C44.4945 15.9627 41.1427 14.9572 36.953 14.9572ZM36.953 76.0428C42.0645 76.0428 46.0866 74.9116 49.0193 72.6492C52.0359 70.3029 53.5442 67.2026 53.5442 63.3481C53.5442 59.4936 52.0359 56.4351 49.0193 54.1726C46.0866 51.9102 42.0645 50.779 36.953 50.779C31.9254 50.779 27.9452 51.9102 25.0124 54.1726C22.0796 56.4351 20.6133 59.4936 20.6133 63.3481C20.6133 67.2864 22.0796 70.3867 25.0124 72.6492C27.9452 74.9116 31.9254 76.0428 36.953 76.0428Z"
+                          fill="#F5F5F5" />
+                      </g>
+                      <defs>
+                        <filter id="filter0_ii_312_545" x="-4" y="-4" width="82.1562" height="99"
+                          filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                          <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                          <feColorMatrix in="SourceAlpha" type="matrix"
+                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                          <feOffset dx="4" dy="4" />
+                          <feGaussianBlur stdDeviation="2" />
+                          <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                          <feColorMatrix type="matrix"
+                            values="0 0 0 0 0.305882 0 0 0 0 0.341176 0 0 0 0 0.368627 0 0 0 0.25 0" />
+                          <feBlend mode="normal" in2="shape" result="effect1_innerShadow_312_545" />
+                          <feColorMatrix in="SourceAlpha" type="matrix"
+                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                          <feOffset dx="-4" dy="-4" />
+                          <feGaussianBlur stdDeviation="2" />
+                          <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                          <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" />
+                          <feBlend mode="normal" in2="effect1_innerShadow_312_545"
+                            result="effect2_innerShadow_312_545" />
+                        </filter>
+                      </defs>
+                    </svg>
+
+
+
+
+                  </div>
+                  <div class="global-stages__item-content">
+                    <h3 class="global-stages__item-content--title">
+                      Регистрация в ГИБДД
+                    </h3>
+                    <p class="global-stages__item-content--text">
+                      После получения автомобиля и подписания акта приема-передачи, необходимо пройти ТЕХОСМОТР и
+                      оформить полис ОСАГО, далее
+                      записываемся через ГОСУСЛУГИ
+                    </p>
+
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="global-stages__item global-stages__item-wrapper">
+              <div class="global-stages__item-interior">
+                <div class="global-stages__item-box">
+                  <div class="global-stages__item-box--number">
+                    <svg width="73" height="91" viewBox="0 0 73 91" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g filter="url(#filter0_ii_312_546)">
+                        <path
+                          d="M33.308 0C45.6257 0 55.262 3.77072 62.2169 11.3122C69.1717 18.7698 72.6492 29.5373 72.6492 43.6146C72.6492 53.5861 70.7638 62.1331 66.9931 69.2555C63.3062 76.378 58.0691 81.7827 51.2818 85.4696C44.4945 89.1565 36.6598 91 27.7776 91C23.0852 91 18.6022 90.4972 14.3287 89.4917C10.0552 88.4024 6.41022 86.8941 3.39365 84.9669L10.9351 70.0097C15.2086 72.9425 20.6971 74.4088 27.4006 74.4088C34.8582 74.4088 40.7657 72.2302 45.1229 67.8729C49.4802 63.4319 51.8264 57.0635 52.1616 48.768C46.8826 54.047 39.5925 56.6865 30.2914 56.6865C24.6773 56.6865 19.5658 55.5553 14.9572 53.2928C10.3485 51.0304 6.7035 47.8462 4.0221 43.7403C1.3407 39.5506 0 34.7325 0 29.2859C0 23.4203 1.46639 18.267 4.39917 13.826C7.33195 9.3849 11.3122 5.99125 16.3398 3.64503C21.4512 1.21501 27.1073 0 33.308 0ZM34.8163 41.4779C39.2574 41.4779 42.8605 40.2629 45.6257 37.8329C48.4747 35.3191 49.8992 32.1349 49.8992 28.2804C49.8992 24.4259 48.5166 21.2836 45.7514 18.8536C43.07 16.4236 39.3412 15.2086 34.5649 15.2086C30.2076 15.2086 26.6464 16.3817 23.8812 18.7279C21.1998 21.0741 19.8591 24.2583 19.8591 28.2804C19.8591 32.3025 21.1998 35.5285 23.8812 37.9586C26.6464 40.3048 30.2914 41.4779 34.8163 41.4779Z"
+                          fill="#F5F5F5" />
+                      </g>
+                      <defs>
+                        <filter id="filter0_ii_312_546" x="-4" y="-4" width="80.6484" height="99"
+                          filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                          <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                          <feColorMatrix in="SourceAlpha" type="matrix"
+                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                          <feOffset dx="4" dy="4" />
+                          <feGaussianBlur stdDeviation="2" />
+                          <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                          <feColorMatrix type="matrix"
+                            values="0 0 0 0 0.305882 0 0 0 0 0.341176 0 0 0 0 0.368627 0 0 0 0.25 0" />
+                          <feBlend mode="normal" in2="shape" result="effect1_innerShadow_312_546" />
+                          <feColorMatrix in="SourceAlpha" type="matrix"
+                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                          <feOffset dx="-4" dy="-4" />
+                          <feGaussianBlur stdDeviation="2" />
+                          <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                          <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" />
+                          <feBlend mode="normal" in2="effect1_innerShadow_312_546"
+                            result="effect2_innerShadow_312_546" />
+                        </filter>
+                      </defs>
+                    </svg>
+
+
+
+
+                  </div>
+                  <div class="global-stages__item-content">
+                    <h3 class="global-stages__item-content--title">
+                      Обратная связь
+                    </h3>
+                    <p class="global-stages__item-content--text">
+                      Мы стараемся сделать наши услуги лучше и ценим отзывы, мнение наших клиентов о нашей работе.
+                    </p>
+
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+
+          </div>
+
+        </div>
+      </section>
+
+      <section class="guarantees section">
+        <div class="container">
+          <h2 class="guarantees__title title">
+            какие гарантии?
+          </h2>
+        </div>
+        <div class="guarantees__inner">
+          <div class="guarantees__item guarantees__item-1">
+            <img src="images/icons/guarantees-1.png" alt="" class="guarantees__item-img">
+            <h3 class="guarantees__item-title">
+              Покупка авто на аукционе
+            </h3>
+            <p class="guarantees__item-text">
+              С момента покупки на аукционе , за погрузку автомобиля и доставку в порт отвечает непосредственно сам
+              аукцион и
+              транспортная компания в Японии.
+              Для Японцев важнее всего репутация компании, а не деньги, поэтому все вопросы всегда решаются оперативно и
+              в пользу
+              клиента.
+            </p>
+          </div>
+          <div class="guarantees__item guarantees__item-2">
+            <img src="images/icons/guarantees-2.png" alt="" class="guarantees__item-img">
+            <h3 class="guarantees__item-title">
+              Доставка до Владивостока
+            </h3>
+            <p class="guarantees__item-text">
+            За хранение на стоянке перед отправкой, погрузку на судно, выгрузку в г. Владивосток отвечает перевозчик. Он также
+            замотивирован ввиду высокой конкуренции оказывать свои услуги с максимальной отдачей для клиента
+            </p>
+          </div>
+          <div class="guarantees__item guarantees__item-3">
+            <img src="images/icons/guarantees-3.png" alt="" class="guarantees__item-img">
+            <h3 class="guarantees__item-title">
+              Таможня и брокер
+            </h3>
+            <p class="guarantees__item-text">
+              В процессе таможенного оформления за сохранность автомобиля отвечает таможенный брокер и администрация СВХ, до момента
+              передачи авто в транспортную компанию или постановку автомобиля на стоянку, в случае если клиент забирает свой авто сам.
+              Во время хранения на стоянке отвечает непосредственно администрация стоянки и брокер.
+            </p>
+          </div>
+          <div class="guarantees__item guarantees__item-4">
+            <img src="images/icons/guarantees-4.png" alt="" class="guarantees__item-img">
+            <h3 class="guarantees__item-title">
+            Доставка до вашего города
+            </h3>
+            <p class="guarantees__item-text">
+              Если доставляем автовозом - груз обязательно страхуется на полную стоимость и транспортная компания несет полную
+              материальную ответственность совместно со страховой компанией.
+            </p>
+          </div>
+        </div>
+        <div class="container">
+          <p class="guarantees__text">
+            Соответственно на протяжении всего маршрута следования - ваш автомобиль застрахован от повреждений и при подписании акта
+            приема-передачи  авто, обязательно сверяется с аукционным листом. Мы одни из тех компаний, которые несут полную
+            ответственность перед нашими клиентами
+          </p>
+        </div>
+      </section>
+
+
+
+
+
+      <section class="adv section" style="background-image: url('images/content/main-adv4.jpg');">
+        <div class="container">
+          <h2 class="title">Преимущества</h2>
+          <div class="adv__inner">
+
+            <div class="adv__item">
+              <h3 class="adv__title">
+                Ответственность
+                <br>
+                и гарантии
+              </h3>
+              <p class="adv__text">
+                Мы несём ПОЛНУЮ материальную ответственность перед нашими клиентами от покупки авто в Японии, до
+                постановки
+                на учёт в
+                Вашем городе
+              </p>
+            </div>
+
+            <div class="adv__item">
+              <h3 class="adv__title">
+                Без скрытых
+                <br>
+                платежей
+              </h3>
+              <p class="adv__text">
+                Все переводы на расчётный счёт компании и официальными переводами за Ваш автомобиль в Японию через банк.
+
+              </p>
+            </div>
+
+            <div class="adv__item">
+              <h3 class="adv__title">
+                Удобство
+                <br>
+                и сервис
+              </h3>
+              <p class="adv__text">
+                Предоставляем всевозможные отчёты о местоположении и состояния автомобиля до передачи его Вам в руки.
+                Даём
+                полную
+                инструкцию что и когда делать. На связи 24/7 все 365 дней в году.
+              </p>
+            </div>
+
+            <div class="adv__item">
+              <h3 class="adv__title">
+                Минимальная
+                <br>
+                комиссия
+              </h3>
+              <p class="adv__text">
+                Комиссия компании всего 50.000р за услуги по подбору автомобиля в Японии, покупки, полного сопровождения
+                до передачи его
+                Вам
+              </p>
+            </div>
+
+            <div class="adv__item">
+              <h3 class="adv__title">
+                Минимальный срок
+                <br>
+                доставки
+              </h3>
+              <p class="adv__text">
+                Молниеносно доставим автомобиль в
+                любой регион РФ удобный Вам способом: Перегон автомобиля, Автовозом, Перевозка авто по ЖД РЖД
+              </p>
+            </div>
+
+            <div class="adv__item">
+              <h3 class="adv__title">
+                Максимальная
+                <br>
+                выгода
+              </h3>
+              <p class="adv__text">
+                С нами вы сэкономите минимум 250 000 рублей, за аналогичный автомобиль на рынках РФ.
+                Проверенная цифра на более, чем 100 клиентах.
+              </p>
+            </div>
+
+
+          </div>
+          <div data-modal class="adv__btn global-btn--wrapper">
+            <div class="global-btn--interior">
+              Оставить заявку
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+
+
+      <section class="global-reviews section">
+        <div class="container">
+          <h2 class="global-reviews__title title">
+            Дорожим своей репутацией!
+          </h2>
+
+          <div class="global-reviews__wrapper">
+
+
+            <div class="global-reviews__inner">
+              <div class="global-reviews__slider">
+                <div class="global-reviews__item-wrapper">
+                  <div class="global-reviews__item-interior">
+
+
+                    <div class="global-reviews__content">
+                      <div class="global-reviews__content-wrapper">
+                        <div class="global-reviews__content-box">
+                          <div class="global-reviews__content-box--name">
+                            Имя
+                          </div>
+                          <div class="global-reviews__content-box--car">
+                            Марка и модель авто
+                          </div>
+                        </div>
+                        <ul class="global-reviews__content-rating">
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                        </ul>
+                      </div>
+                      <p class="global-reviews__content-text">
+                        Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более
+                        менее осмысленного
+                        текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в
+                        домашних условиях. При
+                        создании генератора мы использовали небезизвестный универсальный код речей.
+
+                      </p>
+                    </div>
+
+
+                    <div class="global-reviews__images">
+                      <img src="images/content/reviews-1.jpg" alt="" class="global-reviews__images-img">
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <div class="global-reviews__slider">
+                <div class="global-reviews__item-wrapper">
+                  <div class="global-reviews__item-interior">
+
+
+                    <div class="global-reviews__content">
+                      <div class="global-reviews__content-wrapper">
+                        <div class="global-reviews__content-box">
+                          <div class="global-reviews__content-box--name">
+                            Имя
+                          </div>
+                          <div class="global-reviews__content-box--car">
+                            Марка и модель авто
+                          </div>
+                        </div>
+                        <ul class="global-reviews__content-rating">
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                        </ul>
+                      </div>
+                      <p class="global-reviews__content-text">
+                        Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более
+                        менее осмысленного
+                        текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в
+                        домашних условиях. При
+                        создании генератора мы использовали небезизвестный универсальный код речей.
+
+                      </p>
+                    </div>
+
+
+                    <div class="global-reviews__images">
+                      <img src="images/content/reviews-1.jpg" alt="" class="global-reviews__images-img">
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <div class="global-reviews__slider">
+                <div class="global-reviews__item-wrapper">
+                  <div class="global-reviews__item-interior">
+
+
+                    <div class="global-reviews__content">
+                      <div class="global-reviews__content-wrapper">
+                        <div class="global-reviews__content-box">
+                          <div class="global-reviews__content-box--name">
+                            Имя
+                          </div>
+                          <div class="global-reviews__content-box--car">
+                            Марка и модель авто
+                          </div>
+                        </div>
+                        <ul class="global-reviews__content-rating">
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                        </ul>
+                      </div>
+                      <p class="global-reviews__content-text">
+                        Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более
+                        менее осмысленного
+                        текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в
+                        домашних условиях. При
+                        создании генератора мы использовали небезизвестный универсальный код речей.
+
+                      </p>
+                    </div>
+
+
+                    <div class="global-reviews__images">
+                      <img src="images/content/reviews-1.jpg" alt="" class="global-reviews__images-img">
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="global-reviews__slider">
+                <div class="global-reviews__item-wrapper">
+                  <div class="global-reviews__item-interior">
+
+
+                    <div class="global-reviews__content">
+                      <div class="global-reviews__content-wrapper">
+                        <div class="global-reviews__content-box">
+                          <div class="global-reviews__content-box--name">
+                            Имя
+                          </div>
+                          <div class="global-reviews__content-box--car">
+                            Марка и модель авто
+                          </div>
+                        </div>
+                        <ul class="global-reviews__content-rating">
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                        </ul>
+                      </div>
+                      <p class="global-reviews__content-text">
+                        Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более
+                        менее осмысленного
+                        текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в
+                        домашних
+                        условиях. При
+                        создании генератора мы использовали небезизвестный универсальный код речей.
+
+                      </p>
+                    </div>
+
+
+                    <div class="global-reviews__images">
+                      <img src="images/content/reviews-1.jpg" alt="" class="global-reviews__images-img">
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <button class="slick-arrow slick-prev">
+              <div class="arrow__wrapper">
+                <img class="slider__arrow-prev" src="images/icons/arrow-left.png" alt="">
+
+              </div>
+            </button>
+            <button class="slick-arrow slick-next">
+              <div class="arrow__wrapper">
+                <img class="slider__arrow-prev" src="images/icons/arrow-right.png" alt="">
+
+              </div>
+            </button>
+          </div>
+
+        </div>
+      </section>
+
+
+      <section class="interest section">
+        <div class="container">
+          <h2 class="interest__title title">
+            Вас может заинтересовать:
+          </h2>
+          <div class="interest__inner">
+            <a href="#" class="interest__item">
+              Распил и конструктор
+            </a>
+            <a href="#" class="interest__item">
+              Санкционные авто
+            </a>
+            <a href="#" class="interest__item">
+              Мотоциклы
+            </a>
+            <a href="#" class="interest__item">
+              Авто под заказ
+            </a>
+            <a href="#" class="interest__item">
+              Грузовики и спецтехника
+            </a>
+            <a href="#" class="interest__item">
+              Авто на стоянке
+            </a>
+            <a href="#" class="interest__item">
+              Доставка авто
+            </a>
+          </div>
+        </div>
+      </section>
+
+
+
+      <section class="feedback section">
+        <div class="feedback__bg-left">
+          <img src="images/content/feedback-left-bg-1.png" alt="" class="feedback-bg-img">
+        </div>
+        <div class="feedback__bg-right">
+          <img src="images/content/feedback-right-bg-2.png" alt="" class="feedback-bg-img">
+        </div>
+        <div class="container">
+          <h2 class="feedback__title title">
+            Закажите авто сейчас!
+          </h2>
+
+
+
+          <div class="feedback__inner">
+            <form class="feedback-form">
+              <div class="feedback__wrapper">
+                <div class="feedback__item">
+                  <div class="feedback__items">
+                    <input type="text" name="name" class="feedback__items-input" placeholder="Ваше имя..." required>
+                  </div>
+                  <div class="feedback__items">
+                    <input type="text" name="name" class="feedback__items-input" placeholder="Ваш телефон или почта..."
+                      required>
+                  </div>
+                </div>
+                <div class="feedback__item">
+                  <div class="feedback__items">
+                    <textarea class="feedback__items-input feedback__items-textarea" name="text"
+                      placeholder="Ваше сообщение..."></textarea>
+                  </div>
+                </div>
+              </div>
+
+              <button class="feedback__btn global-stages__btn global-btn--wrapper">
+                <div class="global-btn--interior">
+                  Отправить
+                </div>
+              </button>
+
+            </form>
+          </div>
+
+        </div>
+
+      </section>
+
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer class="footer section">
+      <div class="container">
+        <a href="#" class="footer__logo">
+          <img src="images/logo/logo-white.png" alt="">
+        </a>
+        <div class="footer__inner">
+          <ul class="footer__item footer__item-1">
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">Главная</a>
+            </li>
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">Авто под заказ из Японии</a>
+            </li>
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">Авто под заказ из Кореи</a>
+            </li>
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">Авто под заказ из Китая</a>
+            </li>
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">Санкционные авто</a>
+            </li>
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">Авто в наличии</a>
+            </li>
+          </ul>
+          <ul class="footer__item footer__item-2">
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">Распил и конструктор</a>
+            </li>
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">Грузовики и спецтехника</a>
+            </li>
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">Мотоциклы под заказ</a>
+            </li>
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">Таможенное оформление</a>
+            </li>
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">Доставка Вашего авто</a>
+            </li>
+          </ul>
+          <ul class="footer__item footer__item-3">
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">Этапы работы</a>
+            </li>
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">Гарантии и договор</a>
+            </li>
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">Отзывы</a>
+            </li>
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">Вопрос-ответ</a>
+            </li>
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">Новости компании</a>
+            </li>
+          </ul>
+          <ul class="footer__item footer__item-4">
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">О компании</a>
+            </li>
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">Вакансиир</a>
+            </li>
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">Аукцион</a>
+            </li>
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">Расчёт стоимости</a>
+            </li>
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">Политика конфиденциальности</a>
+            </li>
+          </ul>
+          <div class="footer__item footer__item-5">
+            <a class="footer__phone" href="#">
+              +7-983-24-12-345
+            </a>
+            <a class="footer__phone" href="#">
+              +7(3952)95-25-05
+            </a>
+            <a class="footer__email" href="#">
+              proauto138@gmail.com
+            </a>
+            <ul class="nav-social">
+              <li class="header-top__social-list">
+                <a href="#" class="header-top__social-list--link">
+                  <img src="images/icons/telegram.png" alt="" class="social-images social-images--tg">
+                </a>
+              </li>
+              <li class="header-top__social-list">
+                <a href="#" class="header-top__social-list--link">
+                  <img src="images/icons/vk.png" alt="" class="social-images social-images--vk">
+                </a>
+              </li>
+              <li class="header-top__social-list">
+                <a href="#" class="header-top__social-list--link">
+                  <img src="images/icons/whatsapp.png" alt="" class="social-images social-images--wh">
+                </a>
+              </li>
+              <li class="header-top__social-list">
+                <a href="#" class="header-top__social-list--link">
+                  <img src="images/icons/youtube.png" alt="" class="social-images social-images--you">
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <p class="footer__details">
+          ИП Бочаров Максим Олегович ИНН 382103138780 ОГРНИП 324385000029881 Р/с: 40802 810 5 1835 0003144 БИК 042520607
+        </p>
+        <p class="footer__details">
+          г. Иркутск, ​​ул. Фридриха Энгельса, 17, ДЦ Сотня, 7 этаж, офис 705
+        </p>
+        <div class="lapki">
+          <a href="lapki-web.ru" class="lapki-web">
+            Разработка сайта lapki-web.ru
+          </a>
+        </div>
+      </div>
+    </footer>
+
+
+
+    <div class="modal">
+      <div class="modal__inner">
+        <div class="container">
+          <div class="modal__wrapper">
+
+            <ul data-close class="close__btn">
+              <li class="close__line close__line1"></li>
+              <li class="close__line close__line2"></li>
+            </ul>
+
+            <h2 class="feedback__title title">
+              Оставить заявку
+            </h2>
+
+            <form class="feedback-form">
+              <div class="feedback__wrapper">
+                <div class="feedback__item">
+                  <div class="feedback__items">
+                    <input type="text" name="name" class="feedback__items-input" placeholder="Ваше имя..." required>
+                  </div>
+                  <div class="feedback__items">
+                    <input type="text" name="name" class="feedback__items-input" placeholder="Ваш телефон или почта..."
+                      required>
+                  </div>
+                </div>
+                <div class="feedback__item">
+                  <div class="feedback__items">
+                    <textarea class="feedback__items-input feedback__items-textarea" name="text"
+                      placeholder="Ваше сообщение..."></textarea>
+                  </div>
+                </div>
+              </div>
+
+              <button class="modal__btn global-btn--wrapper">
+                <div class="global-btn--interior">
+                  Отправить
+                </div>
+              </button>
+
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+  </div>
+
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
