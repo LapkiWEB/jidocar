@@ -131,6 +131,20 @@
     width: 502px !important;
   }
 
+  .feedback-truck {
+    min-height: 900px;
+
+    .feedback__bg-left {
+      left: -200px;
+      bottom: 0;
+
+      .feedback-bg-img {
+        width: 665px;
+        height: 548px;
+      }
+    }
+  }
+
 }
 
 @media(max-width: 1300px) {
@@ -432,10 +446,12 @@
   .options__truck-item {
     max-width: 250px;
   }
-  .options__item-truck__images{
+
+  .options__item-truck__images {
     height: 170px;
   }
-  .options__truck-item__title{
+
+  .options__truck-item__title {
     font-size: 20px;
   }
 }
@@ -804,6 +820,25 @@
   .product__item {
     margin-bottom: 100px;
   }
+
+
+  .feedback-truck {
+    height: fit-content;
+
+    .feedback__bg-left {
+      left: -100px;
+
+      // top: 0;
+      .feedback-bg-img {
+        width: 600px;
+        height: 400px;
+      }
+    }
+
+    .feedback__bg-right {
+      bottom: 25%;
+    }
+  }
 }
 
 @media(max-width: 900px) {
@@ -1002,6 +1037,14 @@
     margin-bottom: 30px;
   }
 
+  .feedback-truck {
+    height: 1200px;
+
+    .feedback__bg-right {
+      top: auto;
+      bottom: 30%;
+    }
+  }
 }
 
 @media(max-width: 700px) {
@@ -1286,6 +1329,16 @@
 
   .product__box-title {
     font-size: 20px;
+  }
+
+  .feedback-truck {
+    height: 1100px;
+    .feedback__inner{
+      padding: 20px 0;
+    }
+  }
+  .feedback__wrapper:nth-child(2){
+    margin-bottom: 30px;
   }
 
 }

@@ -1797,6 +1797,56 @@ label {
 
 // end section options__trucks
 
+// start section feedback-truck
+.feedback-truck {
+  min-height: 900px;
+  .feedback__wrapper {
+    margin-bottom: 0;
+  }
+  .feedback__bg-left{
+    left: -200px;
+    bottom: 0;
+    .feedback-bg-img{
+      width: 800px;
+      height: 660px;
+    }
+  }
+}
+
+select {
+  /* needed */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* SVG background image */
+}
+
+.feedback__item--mini {
+  position: relative;
+
+  &::after {
+    position: absolute;
+    content: '';
+    right: 10px;
+    // bottom: 0px;
+    top: 18px;
+    width: 14px;
+    height: 11px;
+    background-image: url('../images/icons/select-arrow.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+.feedback__items--select {
+
+  padding: 10px 20px !important;
+  // margin-bottom: 20px;
+
+}
+
+// end section feedback-truck
 
 
 

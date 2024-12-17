@@ -2342,6 +2342,49 @@ label input:checked ~ div::before {
   height: 260px;
 }
 
+.feedback-truck {
+  min-height: 900px;
+}
+.feedback-truck .feedback__wrapper {
+  margin-bottom: 0;
+}
+.feedback-truck .feedback__bg-left {
+  left: -200px;
+  bottom: 0;
+}
+.feedback-truck .feedback__bg-left .feedback-bg-img {
+  width: 800px;
+  height: 660px;
+}
+
+select {
+  /* needed */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* SVG background image */
+}
+
+.feedback__item--mini {
+  position: relative;
+}
+.feedback__item--mini::after {
+  position: absolute;
+  content: "";
+  right: 10px;
+  top: 18px;
+  width: 14px;
+  height: 11px;
+  background-image: url("../images/icons/select-arrow.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.feedback__items--select {
+  padding: 10px 20px !important;
+}
+
 @media (max-width: 1700px) {
   .video-reviews__wrapper {
     margin-top: 30px;
@@ -2452,6 +2495,17 @@ label input:checked ~ div::before {
   }
   .slider-for.slick-initialized.slick-slider {
     width: 502px !important;
+  }
+  .feedback-truck {
+    min-height: 900px;
+  }
+  .feedback-truck .feedback__bg-left {
+    left: -200px;
+    bottom: 0;
+  }
+  .feedback-truck .feedback__bg-left .feedback-bg-img {
+    width: 665px;
+    height: 548px;
   }
 }
 @media (max-width: 1300px) {
@@ -3030,6 +3084,21 @@ label input:checked ~ div::before {
   .product__item {
     margin-bottom: 100px;
   }
+  .feedback-truck {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .feedback-truck .feedback__bg-left {
+    left: -100px;
+  }
+  .feedback-truck .feedback__bg-left .feedback-bg-img {
+    width: 600px;
+    height: 400px;
+  }
+  .feedback-truck .feedback__bg-right {
+    bottom: 25%;
+  }
 }
 @media (max-width: 900px) {
   .product__inner {
@@ -3184,6 +3253,13 @@ label input:checked ~ div::before {
   }
   .feedback__title {
     margin-bottom: 30px;
+  }
+  .feedback-truck {
+    height: 1200px;
+  }
+  .feedback-truck .feedback__bg-right {
+    top: auto;
+    bottom: 30%;
   }
 }
 @media (max-width: 700px) {
@@ -3414,6 +3490,15 @@ label input:checked ~ div::before {
   }
   .product__box-title {
     font-size: 20px;
+  }
+  .feedback-truck {
+    height: 1100px;
+  }
+  .feedback-truck .feedback__inner {
+    padding: 20px 0;
+  }
+  .feedback__wrapper:nth-child(2) {
+    margin-bottom: 30px;
   }
 }
 @media (max-width: 500px) {
