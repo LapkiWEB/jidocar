@@ -63,6 +63,10 @@
   .guarantees__inner {
     max-width: 600px;
   }
+
+  .contract__item-images {
+    min-width: 700px;
+  }
 }
 
 @media(max-width: 1400px) {
@@ -142,6 +146,18 @@
         width: 665px;
         height: 548px;
       }
+    }
+  }
+
+  .contract__inner {
+    height: 600px;
+  }
+
+  .contract__item {
+    &::before {
+      content: '';
+      width: 700px;
+      height: 450px;
     }
   }
 
@@ -690,9 +706,6 @@
   }
 
   .feedback__bg-left {
-    // width: 410px;
-    // height: 406px;
-    // left: -50px;
     bottom: -10px;
   }
 
@@ -705,7 +718,6 @@
 
   .interest__item {
     font-size: 24px;
-    // padding: 30px;
   }
 
   .tabs-content__item:nth-child(7) {
@@ -724,6 +736,18 @@
   .guarantees__item-img {
     width: 70px;
     height: 70px;
+  }
+
+  .contract__inner {
+    height: 500px;
+  }
+
+  .contract__item {
+    &::before {
+      content: '';
+      width: 500px;
+      height: 321px;
+    }
   }
 }
 
@@ -857,6 +881,18 @@
 
   .slider-for.slick-initialized.slick-slider {
     max-width: 601px;
+  }
+
+  .contract__inner {
+    height: 500px;
+  }
+
+  .contract__item {
+    &::before {
+      content: '';
+      width: 400px;
+      height: 256px;
+    }
   }
 
 }
@@ -1106,6 +1142,14 @@
   .product2-img {
     max-width: 180px;
     height: 110px;
+  }
+
+  .contract__text {
+    margin-bottom: 30px;
+  }
+
+  .contract__inner {
+    height: 600px;
   }
 }
 
@@ -1415,6 +1459,16 @@
 
   .questiontab {
     font-size: 20px;
+  }
+  .contract__inner{
+    height: 500px;
+  }
+  .contract__item {
+    &::before {
+      content: '';
+      width: 300px;
+      height: 192px;
+    }
   }
 }
 

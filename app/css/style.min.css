@@ -2404,6 +2404,49 @@ select {
   color: #ffffff;
 }
 
+.contact {
+  background-color: #F5F5F5;
+  color: rgb(29, 32, 47);
+}
+
+.contract__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 700px;
+}
+
+.contract__item {
+  padding: 30px 0;
+  width: 100%;
+  position: relative;
+}
+.contract__item::before {
+  content: "";
+  position: absolute;
+  right: 0px;
+  bottom: 20px;
+  background-image: url("../images/content/contract-img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 840px;
+  height: 540px;
+}
+
+.contract__title {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.contract__text {
+  margin-bottom: 50px;
+}
+
 @media (max-width: 1700px) {
   .video-reviews__wrapper {
     margin-top: 30px;
@@ -2460,6 +2503,9 @@ select {
 @media (max-width: 1600px) {
   .guarantees__inner {
     max-width: 600px;
+  }
+  .contract__item-images {
+    min-width: 700px;
   }
 }
 @media (max-width: 1400px) {
@@ -2525,6 +2571,14 @@ select {
   .feedback-truck .feedback__bg-left .feedback-bg-img {
     width: 665px;
     height: 548px;
+  }
+  .contract__inner {
+    height: 600px;
+  }
+  .contract__item::before {
+    content: "";
+    width: 700px;
+    height: 450px;
   }
 }
 @media (max-width: 1300px) {
@@ -3025,6 +3079,14 @@ select {
     width: 70px;
     height: 70px;
   }
+  .contract__inner {
+    height: 500px;
+  }
+  .contract__item::before {
+    content: "";
+    width: 500px;
+    height: 321px;
+  }
 }
 @media (max-width: 1000px) {
   .header-top__logo,
@@ -3132,6 +3194,14 @@ select {
   }
   .slider-for.slick-initialized.slick-slider {
     max-width: 601px;
+  }
+  .contract__inner {
+    height: 500px;
+  }
+  .contract__item::before {
+    content: "";
+    width: 400px;
+    height: 256px;
   }
 }
 @media (max-width: 800px) {
@@ -3331,6 +3401,12 @@ select {
   .product2-img {
     max-width: 180px;
     height: 110px;
+  }
+  .contract__text {
+    margin-bottom: 30px;
+  }
+  .contract__inner {
+    height: 600px;
   }
 }
 @media (max-height: 700px) {
@@ -3577,6 +3653,14 @@ select {
   }
   .questiontab {
     font-size: 20px;
+  }
+  .contract__inner {
+    height: 500px;
+  }
+  .contract__item::before {
+    content: "";
+    width: 300px;
+    height: 192px;
   }
 }
 @media (max-width: 400px) {

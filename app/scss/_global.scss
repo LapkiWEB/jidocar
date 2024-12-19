@@ -7,7 +7,7 @@ body {
   // overflow-x: hidden;
   margin: 0 auto;
   // background-color: $background;
-   background-color: $dark-blue;
+  background-color: $dark-blue;
 
 }
 
@@ -53,6 +53,7 @@ body.menu-opened {
   margin: 0 auto;
   padding: 0 97px;
 }
+
 
 .section {
   padding: 30px 0;
@@ -258,7 +259,8 @@ body.menu-opened {
 
   .feedback__items-input {
     color: $white;
-    &::placeholder{
+
+    &::placeholder {
       color: $white;
     }
   }
@@ -361,39 +363,3 @@ body.menu-opened {
 .breadcrumbs__list-item:last-child::after {
   display: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
