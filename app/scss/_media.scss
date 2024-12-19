@@ -1045,6 +1045,11 @@
       bottom: 30%;
     }
   }
+
+  .questiontab {
+    margin-right: 20px;
+    margin-bottom: 15px;
+  }
 }
 
 @media(max-width: 700px) {
@@ -1333,11 +1338,13 @@
 
   .feedback-truck {
     height: 1100px;
-    .feedback__inner{
+
+    .feedback__inner {
       padding: 20px 0;
     }
   }
-  .feedback__wrapper:nth-child(2){
+
+  .feedback__wrapper:nth-child(2) {
     margin-bottom: 30px;
   }
 
@@ -1403,7 +1410,11 @@
   }
 
   .starting-screen--mini {
-    height: 450px;
+    height: 600px;
+  }
+
+  .questiontab {
+    font-size: 20px;
   }
 }
 

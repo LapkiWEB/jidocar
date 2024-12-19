@@ -1725,7 +1725,7 @@ body.menu-opened {
 .starting-screen-bg--mobil {
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
   position: absolute;
   top: 0;
   left: 0;
@@ -2383,6 +2383,25 @@ select {
 
 .feedback__items--select {
   padding: 10px 20px !important;
+}
+
+.questiontabs-content {
+  display: none;
+}
+
+.questiontabs-content.questiontabs-content--active {
+  display: block;
+}
+
+.questiontab {
+  margin-right: 50px;
+  color: #7A848D;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.questiontab--active {
+  color: #ffffff;
 }
 
 @media (max-width: 1700px) {
@@ -3261,6 +3280,10 @@ select {
     top: auto;
     bottom: 30%;
   }
+  .questiontab {
+    margin-right: 20px;
+    margin-bottom: 15px;
+  }
 }
 @media (max-width: 700px) {
   .global-portfolio__descr {
@@ -3550,7 +3573,10 @@ select {
     height: 140px;
   }
   .starting-screen--mini {
-    height: 450px;
+    height: 600px;
+  }
+  .questiontab {
+    font-size: 20px;
   }
 }
 @media (max-width: 400px) {

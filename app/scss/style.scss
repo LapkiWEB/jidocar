@@ -1172,7 +1172,7 @@
 .starting-screen-bg--mobil {
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
   position: absolute;
   top: 0;
   left: 0;
@@ -1397,13 +1397,6 @@ label {
 }
 
 // end section interest
-
-
-
-
-
-
-
 
 
 
@@ -1849,15 +1842,26 @@ select {
 // end section feedback-truck
 
 
+// .tab--active {
+//   color: #473332;
+// }
 
+.questiontabs-content {
+  display: none;
+}
 
-
-
-
-
-
-
-
+.questiontabs-content.questiontabs-content--active {
+  display: block;
+}
+.questiontab{
+  margin-right: 50px;
+  color: $grey-blue;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+.questiontab--active{
+  color: $white;
+}
 
 
 
