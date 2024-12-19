@@ -715,8 +715,11 @@
   position: relative;
   padding: 0 100px;
   // margin: 0 auto;
-}
 
+}
+.reviews__inners{
+  width: 100%;
+}
 .global-reviews__item-wrapper {
   box-shadow: inset 4px 4px 4px 0 rgba(78, 87, 94, 0.25), inset -4px -4px 4px 0 #fff;
   background: #f5f5f5;
@@ -1974,9 +1977,37 @@ select {
 
 // end section reviews
 
+// start section linkvideo
+.linkvideo {
+  background-color: $light-grey;
+  color: $dark-blue;
+}
 
+// end section linkvideo
 
+// start section linkvideo
+.linkvideo__inner {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(3, 1fr);
+}
 
+.linkvideo__item {
+  border-radius: 10px;
+  border: 1px solid $light-grey;
+  transition: all .3s;
+  width: fit-content;
+  &:hover {
+    box-shadow: 0 0 10px 0 #81ddff;
+    border-color: #78D4FF;
+  }
+}
+
+.linkvideo__item-img {
+  border-radius: 10px;
+}
+
+// end section linkvideo
 
 
 

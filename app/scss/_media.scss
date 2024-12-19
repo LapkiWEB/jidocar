@@ -167,6 +167,9 @@
     }
   }
 
+  .linkvideo__inner {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media(max-width: 1300px) {
@@ -1166,6 +1169,12 @@
 
   .contract__inner {
     height: 600px;
+  }
+
+  .linkvideo__inner {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0 auto;
+    width: fit-content;
   }
 }
 
