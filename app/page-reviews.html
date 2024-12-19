@@ -1,0 +1,1187 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>new website</title>
+  <!-- <meta name="description" content=""> -->
+  <!-- <meta name="keywords" content=""> -->
+  <!-- <link rel="icon" href="images/icons/favicon.ico" type="image/x-icon"> -->
+
+  <!-- <meta property="og:type" content="website"> -->
+  <!-- <meta property="og:title" content=""> -->
+  <!-- <meta property="og:description" content=""> -->
+  <!-- <meta property="og:url" content=""> -->
+  <!-- <meta property="og:image" content=""> -->
+  <!-- <meta property="og:site_name" content=""> -->
+  <!-- <meta property="og:locale" content="ru_RU"> -->
+
+
+
+  <link rel="stylesheet" href="css/style.min.css">
+
+
+
+
+
+
+  <!-- <script>
+    function CBR_XML_Daily_Ru(rates) {
+
+      var USDrate = rates.Valute.JPY.Value.toFixed(0).replace('.', ',');
+      var USD = document.getElementById('USD');
+      USD.innerHTML = USD.innerHTML.replace('00,0', USDrate);
+      USD.innerHTML += trend(rates.Valute.USD.Value, rates.Valute.USD.Previous);
+    }
+  </script> -->
+
+  <script src="//www.cbr-xml-daily.ru/daily_jsonp.js" async></script>
+
+
+
+
+
+
+
+
+</head>
+
+<body>
+  <header class="header">
+    <div class="header-top">
+      <div class="container">
+        <div class="header-top__wrapper">
+
+
+          <div class="header-top__yuan">
+            <img src="images/icons/yuan.png" alt="" class="header-top__yuan-images">
+
+            <div id="USD"> 0,00,0 руб.</div>
+
+
+
+          </div>
+          <a class="header-top__logo" href="#">
+            <img src="images/logo/logo-white.png" alt="">
+          </a>
+          <div class="header-top__contacts">
+            <ul class="header-top__social">
+              <li class="header-top__social-list">
+                <a href="#" class="header-top__social-list--link">
+                  <img src="images/icons/telegram.png" alt="" class="social-images social-images--tg">
+                </a>
+              </li>
+              <li class="header-top__social-list">
+                <a href="#" class="header-top__social-list--link">
+                  <img src="images/icons/vk.png" alt="" class="social-images social-images--vk">
+                </a>
+              </li>
+              <li class="header-top__social-list">
+                <a href="#" class="header-top__social-list--link">
+                  <img src="images/icons/whatsapp.png" alt="" class="social-images social-images--wh">
+                </a>
+              </li>
+              <li class="header-top__social-list">
+                <a href="#" class="header-top__social-list--link">
+                  <img src="images/icons/youtube.png" alt="" class="social-images social-images--you">
+                </a>
+              </li>
+            </ul>
+            <div class="header-top__phone">
+              <a class="header-top__phone-link" href="#"> +7-983-24-12-345</a>
+              <a class="header-top__phone-link" href="#"> +7(3952)95-25-05</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header-down">
+      <div class="container">
+        <div class="header-down__wrapper">
+
+          <div class="header-top__yuan header-down__yuan">
+            <img src="images/icons/yuan.png" alt="" class="header-top__yuan-images">
+
+            <div id="USD"> 0,00,0 руб.</div>
+
+          </div>
+
+          <a class="header-top__logo header-down__logo" href="#">
+            <img src="images/logo/logo-white.png" alt="">
+          </a>
+
+          <nav class="nav">
+            <ul class="menu-wrapper">
+              <li class="menu-list">
+                <a href="#" class="menu-list__link">
+                  Главная
+                </a>
+              </li>
+              <li class="menu-list menu-drop menu-drop-one ">
+                Услуги
+                <div class="menu-drop__arrow menu-drop__arrow-one">
+                  <svg width="12" height="10" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M5.57538 8.37014C5.77102 8.6848 6.22898 8.6848 6.42462 8.37014L10.6875 1.51401C10.8946 1.18095 10.6551 0.75 10.2629 0.75H1.73712C1.34492 0.75 1.10542 1.18095 1.3125 1.51401L5.57538 8.37014Z"
+                      stroke="white" />
+                  </svg>
+                </div>
+                <ul class="menu-drop__wrapper">
+                  <li class="menu-drop__list">
+                    <a href="#" class="menu-list__link">
+                      Авто под заказ из Японии
+                    </a>
+                  </li>
+                  <li class="menu-drop__list">
+                    <a href="#" class="menu-list__link">
+                      Авто под заказ из Кореи
+                    </a>
+                  </li>
+                  <li class="menu-drop__list">
+                    <a href="#" class="menu-list__link">
+                      Авто под заказ из Китая
+                    </a>
+                  </li>
+                  <li class="menu-drop__list">
+                    <a href="#" class="menu-list__link">
+                      Санкционные авто
+                    </a>
+                  </li>
+                  <li class="menu-drop__list">
+                    <a href="#" class="menu-list__link">
+                      Авто на стоянке в Японии
+                    </a>
+                  </li>
+                  <li class="menu-drop__list">
+                    <a href="#" class="menu-list__link">
+                      Распил и конструктор
+                    </a>
+                  </li>
+                  <li class="menu-drop__list">
+                    <a href="#" class="menu-list__link">
+                      Грузовики и спецтехника
+                    </a>
+                  </li>
+                  <li class="menu-drop__list">
+                    <a href="#" class="menu-list__link">
+                      Мототехника
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu-list menu-drop menu-drop-two">
+                Информация для клиентов
+                <div class="menu-drop__arrow menu-drop__arrow-two">
+                  <svg width="12" height="10" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M5.57538 8.37014C5.77102 8.6848 6.22898 8.6848 6.42462 8.37014L10.6875 1.51401C10.8946 1.18095 10.6551 0.75 10.2629 0.75H1.73712C1.34492 0.75 1.10542 1.18095 1.3125 1.51401L5.57538 8.37014Z"
+                      stroke="white" />
+                  </svg>
+                </div>
+
+
+                <ul class="menu-drop__wrapper">
+                  <li class="menu-drop__list">
+                    <a href="#" class="menu-list__link">
+                      Этапы работы
+                    </a>
+                  </li>
+                  <li class="menu-drop__list">
+                    <a href="#" class="menu-list__link">
+                      Гарантии и договор
+                    </a>
+                  </li>
+                  <li class="menu-drop__list">
+                    <a href="#" class="menu-list__link">
+                      Доставка авто
+                    </a>
+                  </li>
+                  <li class="menu-drop__list">
+                    <a href="#" class="menu-list__link">
+                      Таможенное оформление
+                    </a>
+                  </li>
+                  <li class="menu-drop__list">
+                    <a href="#" class="menu-list__link">
+                      Отзывы
+                    </a>
+                  </li>
+                  <li class="menu-drop__list">
+                    <a href="#" class="menu-list__link">
+                      Вопрос-ответ
+                    </a>
+                  </li>
+                  <li class="menu-drop__list">
+                    <a href="#" class="menu-list__link">
+                      Новости компании
+                    </a>
+                  </li>
+
+                </ul>
+              </li>
+              <li class="menu-list">
+                <a href="#" class="menu-list__link">
+                  Контакты
+                </a>
+              </li>
+              <li class="menu-list">
+                <a href="#" class="menu-list__link">
+                  Аукцион
+                </a>
+              </li>
+              <li class="menu-list">
+                <a href="#" class="menu-list__link">
+                  Расчёт стоимости авто
+                </a>
+              </li>
+            </ul>
+
+
+            <div class="nav-contacts">
+              <a class="header-top__phone-link nav-phone__link" href="#"> +7-983-24-12-345</a>
+              <a class="header-top__phone-link nav-phone__link" href="#"> +7(3952)95-25-05</a>
+              <a class="header-top__email-link nav-email__link" href="#"> proauto138@gmail.com</a>
+
+              <ul class="nav-social">
+                <li class="header-top__social-list">
+                  <a href="#" class="header-top__social-list--link">
+                    <img src="images/icons/telegram.png" alt="" class="social-images social-images--tg">
+                  </a>
+                </li>
+                <li class="header-top__social-list">
+                  <a href="#" class="header-top__social-list--link">
+                    <img src="images/icons/vk.png" alt="" class="social-images social-images--vk">
+                  </a>
+                </li>
+                <li class="header-top__social-list">
+                  <a href="#" class="header-top__social-list--link">
+                    <img src="images/icons/whatsapp.png" alt="" class="social-images social-images--wh">
+                  </a>
+                </li>
+                <li class="header-top__social-list">
+                  <a href="#" class="header-top__social-list--link">
+                    <img src="images/icons/youtube.png" alt="" class="social-images social-images--you">
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+          </nav>
+
+          <div class="header-down-contacts">
+
+
+            <div class="header-top__phone header-down__phone">
+              <a class="header-top__phone-link" href="#"> +7-983-24-12-345</a>
+              <a class="header-top__phone-link" href="#"> +7(3952)95-25-05</a>
+            </div>
+
+
+            <ul class="menu__btn">
+              <li class="row row1"></li>
+              <li class="row row2"></li>
+              <li class="row row3"></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="wrapper">
+    <main class="main">
+      <section class="starting-screen starting-screen--mini">
+        <div class="starting-screen-bg--full" style="background-image: url('images/content/reviews-start-bg.jpg');">
+        </div>
+        <div class="starting-screen-bg--mobil"
+          style="background-image: url('images/content/reviews-start-bg-mobil.jpg');">
+        </div>
+        <div class="starting-screen__shadow-bg" style="background-image: url('images/content/start-shadow-bg.jpg');">
+          <div class="container">
+            <div class="starting-screen__wrapper">
+
+              <div class="breadcrumbs">
+                <ul class="breadcrumbs__list">
+                  <li class="breadcrumbs__list-item">
+                    <a class="breadcrumbs__item-link" href="index.html">
+                      Главная
+                    </a>
+                  </li>
+
+                  <li class="breadcrumbs__list-item">
+                    <div class="breadcrumbs__item-link">
+                      Отзывы
+                    </div>
+                  </li>
+                </ul>
+              </div>
+
+
+              <h1 class="starting-screen__title">
+                Отзывы
+                <br>
+                о нашей работе
+              </h1>
+
+              <div data-modal class="main-screen-btn global-btn--wrapper">
+                <div class="global-btn--interior">
+                  Задать вопрос
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <section class="reviews section">
+        <div class="container">
+          <h2 class="reviews__title title">
+            Дорожим своей репутацией!
+          </h2>
+          <div class="reviews__inner">
+            <div class="reviews__item global-stages__item global-stages__item-wrapper">
+              <div class="global-stages__item-interior">
+                <div class="global-stages__item-box reviews__box">
+
+                  <div class="reviews__wrapper">
+                    <div class="reviews__inners">
+                      <div class="global-reviews__content-wrappers">
+                        <div class="global-reviews__content-box">
+                          <div class="global-reviews__content-box--name">
+                            Макс Максимов
+                          </div>
+                          <div class="global-reviews__content-box--car">
+                            Toyota Wish
+                          </div>
+                        </div>
+                        <ul class="global-reviews__content-rating">
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                        </ul>
+                      </div>
+
+                      <p class="reviews__text">
+                        Всем советую данную компанию! Все чисто и понятно, как и обещали машину привезли в срок и в мой
+                        бюджет уложились.
+                      </p>
+                    </div>
+                    <div class="reviews__images">
+                      <img src="images/content/reviews-1.jpg" alt="" class="reviews__images-img">
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+
+            <div class="reviews__item global-stages__item global-stages__item-wrapper">
+              <div class="global-stages__item-interior">
+                <div class="global-stages__item-box reviews__box">
+
+                  <div class="reviews__wrapper">
+                    <div class="reviews__inners">
+                      <div class="global-reviews__content-wrappers">
+                        <div class="global-reviews__content-box">
+                          <div class="global-reviews__content-box--name">
+                            Сергей Матвеев
+                          </div>
+                          <div class="global-reviews__content-box--car">
+                            Suzuki Solio
+                          </div>
+                        </div>
+                        <ul class="global-reviews__content-rating">
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                        </ul>
+                      </div>
+
+                      <p class="reviews__text">
+                        Ребята молодцы, привезли авто выше ожиданий
+                      </p>
+                    </div>
+                    <div class="reviews__images">
+                      <img src="images/content/reviews-2.jpg" alt="" class="reviews__images-img">
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+            <div class="reviews__item global-stages__item global-stages__item-wrapper">
+              <div class="global-stages__item-interior">
+                <div class="global-stages__item-box reviews__box">
+
+                  <div class="reviews__wrapper">
+                    <div class="reviews__inners">
+                      <div class="global-reviews__content-wrappers">
+                        <div class="global-reviews__content-box">
+                          <div class="global-reviews__content-box--name">
+                            Сергей Макаревич
+                          </div>
+                          <div class="global-reviews__content-box--car">
+                            Nissan Note
+                          </div>
+                        </div>
+                        <ul class="global-reviews__content-rating">
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                        </ul>
+                      </div>
+
+                      <p class="reviews__text">
+                        Привезли автомобиль, все понравилось, бюджет был ограничений но специалист очень тщательно
+                        подобрал автомобиль по нашим
+                        критериям, и даже получилось купить рестайлинг с минимальным пробегом. По срокам тоже всё
+                        вовремя.
+                      </p>
+                    </div>
+                    <div class="reviews__images">
+                      <img src="images/content/reviews-3.jpg" alt="" class="reviews__images-img">
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+            <div class="reviews__item global-stages__item global-stages__item-wrapper">
+              <div class="global-stages__item-interior">
+                <div class="global-stages__item-box reviews__box">
+
+                  <div class="reviews__wrapper">
+                    <div class="reviews__inners">
+                      <div class="global-reviews__content-wrappers">
+                        <div class="global-reviews__content-box">
+                          <div class="global-reviews__content-box--name">
+                            Кирилл
+                          </div>
+                          <div class="global-reviews__content-box--car">
+                            Mazda Axela
+                          </div>
+                        </div>
+                        <ul class="global-reviews__content-rating">
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                        </ul>
+                      </div>
+
+                      <p class="reviews__text">
+                        Хочу написать отзыв о том как я первый раз решился заказать автомобиль из Японии.Хотел именно
+                        Мазду Акселу на механике.
+                        Обратился в JIDOCAR(выбрал по многочисленным положительным отзывам) , работал с Александром,
+                        купили быстро , привезли до
+                        Владивостока еще быстрее😎забирал автомобиль сам, первый опыт поездки на авто через пол страны….
+                        Владивосток -Ангарск.
+                        Машиной доволен на 💯 процентов За следующие машиной только JIDOCAR👍
+                      </p>
+                    </div>
+                    <div class="reviews__images">
+                      <img src="images/content/reviews-4.jpg" alt="" class="reviews__images-img">
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+            <div class="reviews__item global-stages__item global-stages__item-wrapper">
+              <div class="global-stages__item-interior">
+                <div class="global-stages__item-box reviews__box">
+
+                  <div class="reviews__wrapper">
+                    <div class="reviews__inners">
+                      <div class="global-reviews__content-wrappers">
+                        <div class="global-reviews__content-box">
+                          <div class="global-reviews__content-box--name">
+                            Вероника Большедворская
+                          </div>
+                          <div class="global-reviews__content-box--car">
+                            Honda Freed
+                          </div>
+                        </div>
+                        <ul class="global-reviews__content-rating">
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                        </ul>
+                      </div>
+
+                      <p class="reviews__text">
+                        От всей души хочу поблагодарить компанию JIDOCAR за подбор автомобиля хонда Фрид 20 год. Машиной
+                        очень довольна! Ребята
+                        работают честно, всё подробно объясняют на каждом этапе, всегда на связи. Машину забирали сами
+                        из Владивостока. Большое
+                        спасибо Александру! Я понятия не имела, как эту машину забирать и во Владике не разу не была! Но
+                        очень хотелось самим
+                        туда съездить! Саша всё подробно объяснил! Сам звонил и спрашивал, всё ли у нас нормально в
+                        дороге. Я считаю, что подбор
+                        и покупка авто через фирму JIDOCAR- это на много лучше, чем разными другими способами. Я очень
+                        довольна,большое спасибо!
+                      </p>
+                    </div>
+                    <div class="reviews__images">
+                      <img src="images/content/reviews-5.jpg" alt="" class="reviews__images-img">
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+            <div class="reviews__item global-stages__item global-stages__item-wrapper">
+              <div class="global-stages__item-interior">
+                <div class="global-stages__item-box reviews__box">
+
+                  <div class="reviews__wrapper">
+                    <div class="reviews__inners">
+                      <div class="global-reviews__content-wrappers">
+                        <div class="global-reviews__content-box">
+                          <div class="global-reviews__content-box--name">
+                            Виталий Арбатский
+                          </div>
+                          <div class="global-reviews__content-box--car">
+                            Toyota Corolla Touring
+                          </div>
+                        </div>
+                        <ul class="global-reviews__content-rating">
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                        </ul>
+                      </div>
+
+                      <p class="reviews__text">
+                        Рекомендую ! Подобрали автомобиль, нарадоваться не могу все отчеты делают быстро и качественно !
+                        Обратился второй раз.
+                        Снова все супер. Четко и по делу
+                      </p>
+                    </div>
+                    <div class="reviews__images">
+                      <img src="images/content/reviews-6.jpg" alt="" class="reviews__images-img">
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+            <div class="reviews__item global-stages__item global-stages__item-wrapper">
+              <div class="global-stages__item-interior">
+                <div class="global-stages__item-box reviews__box">
+
+                  <div class="reviews__wrapper">
+                    <div class="reviews__inners">
+                      <div class="global-reviews__content-wrappers">
+                        <div class="global-reviews__content-box">
+                          <div class="global-reviews__content-box--name">
+                            Макс Максимов
+                          </div>
+                          <div class="global-reviews__content-box--car">
+                            Volkswagen Golf
+                          </div>
+                        </div>
+                        <ul class="global-reviews__content-rating">
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                        </ul>
+                      </div>
+
+                      <p class="reviews__text">
+                        Всем советую данную компанию! Все чисто и понятно, как и обещали машину привезли в срок и в мой
+                        бюджет уложились.
+                      </p>
+                    </div>
+                    <div class="reviews__images">
+                      <img src="images/content/reviews-7.jpg" alt="" class="reviews__images-img">
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+
+            <div class="reviews__item global-stages__item global-stages__item-wrapper">
+              <div class="global-stages__item-interior">
+                <div class="global-stages__item-box reviews__box">
+
+                  <div class="reviews__wrapper">
+                    <div class="reviews__inners">
+                      <div class="global-reviews__content-wrappers">
+                        <div class="global-reviews__content-box">
+                          <div class="global-reviews__content-box--name">
+                            Иван Побережный
+                          </div>
+                          <div class="global-reviews__content-box--car">
+                            BMW X1
+                          </div>
+                        </div>
+                        <ul class="global-reviews__content-rating">
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                        </ul>
+                      </div>
+
+                      <p class="reviews__text">
+                        Ребята молодцы, привезли такого красавца за 1600, очень благодарен
+                      </p>
+                    </div>
+                    <div class="reviews__images">
+                      <img src="images/content/reviews-8.jpg" alt="" class="reviews__images-img">
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+            <div class="reviews__item global-stages__item global-stages__item-wrapper">
+              <div class="global-stages__item-interior">
+                <div class="global-stages__item-box reviews__box">
+
+                  <div class="reviews__wrapper">
+                    <div class="reviews__inners">
+                      <div class="global-reviews__content-wrappers">
+                        <div class="global-reviews__content-box">
+                          <div class="global-reviews__content-box--name">
+                            Виталий
+                          </div>
+                          <div class="global-reviews__content-box--car">
+                            Honda Fit
+                          </div>
+                        </div>
+                        <ul class="global-reviews__content-rating">
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                        </ul>
+                      </div>
+
+                      <p class="reviews__text">
+                        Отличная организация, индивидуальный подход к каждому клиенту. Рассказывают, подсказывают. На
+                        все вопросы отвечают.
+                        Приобрёл с их помощью Honda Fit 4 поколения. Отличный аппарат 😊 Рекомендую к ним обратиться.
+                        Особая благодарность
+                        Александру 👍
+                      </p>
+                    </div>
+                    <div class="reviews__images">
+                      <img src="images/content/reviews-9.jpg" alt="" class="reviews__images-img">
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+            <div class="reviews__item global-stages__item global-stages__item-wrapper">
+              <div class="global-stages__item-interior">
+                <div class="global-stages__item-box reviews__box">
+
+                  <div class="reviews__wrapper">
+                    <div class="reviews__inners">
+                      <div class="global-reviews__content-wrappers">
+                        <div class="global-reviews__content-box">
+                          <div class="global-reviews__content-box--name">
+                            Максим Полянский
+                          </div>
+                          <div class="global-reviews__content-box--car">
+                            Honda Jade
+                          </div>
+                        </div>
+                        <ul class="global-reviews__content-rating">
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                          <li class="global-reviews__content-rating--list">
+                            <img src="images/icons/rating-1.png" alt="" class="global-reviews__content-rating--img">
+                          </li>
+                        </ul>
+                      </div>
+
+                      <p class="reviews__text">
+                        Здравствуйте. Если Вы желаете приобрести достойное транспортное средство по приемлемой цене, то
+                        Вам сюда. Команда
+                        Jidocar подберет то, что Вам нужно, и осуществит сопровождение до постановки на учет в ГИБДД. Я
+                        своим авто очень
+                        доволен. Машину из Владивостока забирал в месте с Александром и Максимом (была большая очередь
+                        на автовозы). Путешествие
+                        получились увлекательным. Спасибо ребятам!!!
+                      </p>
+                    </div>
+                    <div class="reviews__images">
+                      <img src="images/content/reviews-10.jpg" alt="" class="reviews__images-img">
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+
+
+
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+
+
+      <section class="video-reviews">
+        <div class="video-reviews__inner">
+          <div class="video-reviews__item">
+            <div class="video-reviews__item-wrapper">
+              <h3 class="video-reviews__item-title">
+                Честные видео-отзывы
+                о компании
+              </h3>
+              <div class="video-reviews__logo">
+                <img src="images/content/video-reviews__logo.png" alt="" class="video-reviews__logo-img">
+              </div>
+              <h3 class="video-reviews__item-title">
+                на любой удобной для Вас
+                платформе!
+              </h3>
+            </div>
+            <div class="video-reviews__wrapper">
+              <a class="video-reviews__items" href="#">
+                <img src="images/icons/reviews-youtube.png" alt="" class="video-reviews__items-img">
+                <div class="video-reviews__items-name">
+                  YouTube
+                </div>
+              </a>
+              <a class="video-reviews__items" href="#">
+                <img src="images/icons/reviews-rutube.png" alt="" class="video-reviews__items-img">
+                <div class="video-reviews__items-name">
+                  Rutube
+                </div>
+              </a>
+              <a class="video-reviews__items" href="#">
+                <img src="images/icons/reviews-dzen.png" alt="" class="video-reviews__items-img">
+                <div class="video-reviews__items-name">
+                  Дзен
+                </div>
+              </a>
+              <a class="video-reviews__items" href="#">
+                <img src="images/icons/reviews-vk.png" alt="" class="video-reviews__items-img">
+                <div class="video-reviews__items-name">
+                  VK Video
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="video-reviews__images">
+            <img src="images/content/video-reviews__images-img.jpg" alt="" class="video-reviews__images-img">
+          </div>
+        </div>
+      </section>
+
+
+      <section class="interest section">
+        <div class="container">
+          <h2 class="interest__title title">
+            Вас может заинтересовать:
+          </h2>
+          <div class="interest__inner">
+            <a href="#" class="interest__item">
+              Распил и конструктор
+            </a>
+            <a href="#" class="interest__item">
+              Санкционные авто
+            </a>
+            <a href="#" class="interest__item">
+              Мотоциклы
+            </a>
+            <a href="#" class="interest__item">
+              Авто под заказ
+            </a>
+            <a href="#" class="interest__item">
+              Грузовики и спецтехника
+            </a>
+            <a href="#" class="interest__item">
+              Авто на стоянке
+            </a>
+            <a href="#" class="interest__item">
+              Доставка авто
+            </a>
+          </div>
+        </div>
+      </section>
+
+
+
+      <section class="feedback section">
+        <div class="feedback__bg-left">
+          <img src="images/content/feedback-left-bg-1.png" alt="" class="feedback-bg-img">
+        </div>
+        <div class="feedback__bg-right">
+          <img src="images/content/feedback-right-bg-2.png" alt="" class="feedback-bg-img">
+        </div>
+        <div class="container">
+          <h2 class="feedback__title title">
+            Закажите авто сейчас!
+          </h2>
+
+          <div class="feedback__inner">
+            <form class="feedback-form">
+              <div class="feedback__wrapper">
+                <div class="feedback__item">
+                  <div class="feedback__items">
+                    <input type="text" name="name" class="feedback__items-input" placeholder="Ваше имя..." required>
+                  </div>
+                  <div class="feedback__items">
+                    <input type="text" name="name" class="feedback__items-input" placeholder="Ваш телефон или почта..."
+                      required>
+                  </div>
+                </div>
+                <div class="feedback__item">
+                  <div class="feedback__items">
+                    <textarea class="feedback__items-input feedback__items-textarea" name="text"
+                      placeholder="Ваше сообщение..."></textarea>
+                  </div>
+                </div>
+              </div>
+
+              <button class="feedback__btn global-stages__btn global-btn--wrapper">
+                <div class="global-btn--interior">
+                  Отправить
+                </div>
+              </button>
+
+            </form>
+          </div>
+
+        </div>
+
+      </section>
+
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer class="footer section">
+      <div class="container">
+        <a href="#" class="footer__logo">
+          <img src="images/logo/logo-white.png" alt="">
+        </a>
+        <div class="footer__inner">
+          <ul class="footer__item footer__item-1">
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">Главная</a>
+            </li>
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">Авто под заказ из Японии</a>
+            </li>
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">Авто под заказ из Кореи</a>
+            </li>
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">Авто под заказ из Китая</a>
+            </li>
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">Санкционные авто</a>
+            </li>
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">Авто в наличии</a>
+            </li>
+          </ul>
+          <ul class="footer__item footer__item-2">
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">Распил и конструктор</a>
+            </li>
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">Грузовики и спецтехника</a>
+            </li>
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">Мотоциклы под заказ</a>
+            </li>
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">Таможенное оформление</a>
+            </li>
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">Доставка Вашего авто</a>
+            </li>
+          </ul>
+          <ul class="footer__item footer__item-3">
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">Этапы работы</a>
+            </li>
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">Гарантии и договор</a>
+            </li>
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">Отзывы</a>
+            </li>
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">Вопрос-ответ</a>
+            </li>
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">Новости компании</a>
+            </li>
+          </ul>
+          <ul class="footer__item footer__item-4">
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">О компании</a>
+            </li>
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">Вакансиир</a>
+            </li>
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">Аукцион</a>
+            </li>
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">Расчёт стоимости</a>
+            </li>
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">Политика конфиденциальности</a>
+            </li>
+          </ul>
+          <div class="footer__item footer__item-5">
+            <a class="footer__phone" href="#">
+              +7-983-24-12-345
+            </a>
+            <a class="footer__phone" href="#">
+              +7(3952)95-25-05
+            </a>
+            <a class="footer__email" href="#">
+              proauto138@gmail.com
+            </a>
+            <ul class="nav-social">
+              <li class="header-top__social-list">
+                <a href="#" class="header-top__social-list--link">
+                  <img src="images/icons/telegram.png" alt="" class="social-images social-images--tg">
+                </a>
+              </li>
+              <li class="header-top__social-list">
+                <a href="#" class="header-top__social-list--link">
+                  <img src="images/icons/vk.png" alt="" class="social-images social-images--vk">
+                </a>
+              </li>
+              <li class="header-top__social-list">
+                <a href="#" class="header-top__social-list--link">
+                  <img src="images/icons/whatsapp.png" alt="" class="social-images social-images--wh">
+                </a>
+              </li>
+              <li class="header-top__social-list">
+                <a href="#" class="header-top__social-list--link">
+                  <img src="images/icons/youtube.png" alt="" class="social-images social-images--you">
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <p class="footer__details">
+          ИП Бочаров Максим Олегович ИНН 382103138780 ОГРНИП 324385000029881 Р/с: 40802 810 5 1835 0003144 БИК 042520607
+        </p>
+        <p class="footer__details">
+          г. Иркутск, ​​ул. Фридриха Энгельса, 17, ДЦ Сотня, 7 этаж, офис 705
+        </p>
+        <div class="lapki">
+          <a href="lapki-web.ru" class="lapki-web">
+            Разработка сайта lapki-web.ru
+          </a>
+        </div>
+      </div>
+    </footer>
+
+
+
+    <div class="modal">
+      <div class="modal__inner">
+        <div class="container">
+          <div class="modal__wrapper">
+
+            <ul data-close class="close__btn">
+              <li class="close__line close__line1"></li>
+              <li class="close__line close__line2"></li>
+            </ul>
+
+            <h2 class="feedback__title title">
+              Оставить заявку
+            </h2>
+
+            <form class="feedback-form">
+              <div class="feedback__wrapper">
+                <div class="feedback__item">
+                  <div class="feedback__items">
+                    <input type="text" name="name" class="feedback__items-input" placeholder="Ваше имя..." required>
+                  </div>
+                  <div class="feedback__items">
+                    <input type="text" name="name" class="feedback__items-input" placeholder="Ваш телефон или почта..."
+                      required>
+                  </div>
+                </div>
+                <div class="feedback__item">
+                  <div class="feedback__items">
+                    <textarea class="feedback__items-input feedback__items-textarea" name="text"
+                      placeholder="Ваше сообщение..."></textarea>
+                  </div>
+                </div>
+              </div>
+
+              <button class="modal__btn global-btn--wrapper">
+                <div class="global-btn--interior">
+                  Отправить
+                </div>
+              </button>
+
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+  </div>
+
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
