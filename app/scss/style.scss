@@ -2010,6 +2010,30 @@ select {
 // end section linkvideo
 
 
+// start section moto
+.moto__text{
+  margin-bottom: 30px;
+}
+.moto__inner{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.moto__item{
+  padding: 30px;
+  border-radius: 5px;
+  border: 1px solid $grey;
+  max-width: 650px;
+  width: 100%;
+  // margin: 0 30px;
+  margin-bottom: 30px;
+}
+.moto__item-title{
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+}
 
+// end section moto
 
 @import 'media';

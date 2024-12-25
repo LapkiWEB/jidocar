@@ -2548,6 +2548,35 @@ select {
   border-radius: 10px;
 }
 
+.moto__text {
+  margin-bottom: 30px;
+}
+
+.moto__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 30px;
+}
+
+.moto__item {
+  padding: 30px;
+  border-radius: 5px;
+  border: 1px solid #d9d9d9;
+  max-width: 650px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.moto__item-title {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
 @media (max-width: 1700px) {
   .video-reviews__wrapper {
     margin-top: 30px;
@@ -3320,6 +3349,11 @@ select {
     width: 400px;
     height: 256px;
   }
+  .moto__inner {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 0;
+  }
 }
 @media (max-width: 800px) {
   .container {
@@ -3723,6 +3757,9 @@ select {
   }
   .feedback__wrapper:nth-child(2) {
     margin-bottom: 30px;
+  }
+  .moto__item-title {
+    font-size: 24px;
   }
 }
 @media (max-width: 500px) {
