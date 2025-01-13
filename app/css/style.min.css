@@ -2659,6 +2659,61 @@ select {
   transition: all 0.3s;
 }
 
+.starting-screen-img {
+  position: absolute;
+  right: 0;
+  bottom: 30px;
+  height: 500px;
+}
+
+.mini-titleh1 {
+  max-width: 900px;
+  width: 100%;
+}
+
+.diplom {
+  background-color: #F5F5F5;
+  color: rgb(29, 32, 47);
+}
+
+.diplom__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 70px;
+  margin-bottom: 50px;
+}
+
+.diplom__logo-img {
+  margin-bottom: 20px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 50px;
+}
+
+.diplom__inner {
+  gap: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.diplom__item {
+  height: 500px;
+}
+
 @media (max-width: 1700px) {
   .video-reviews__wrapper {
     margin-top: 30px;
@@ -2722,6 +2777,12 @@ select {
   .reviews__item {
     max-width: 500px;
     width: 100%;
+  }
+  .starting-screen-img {
+    height: 400px;
+  }
+  .mini-screen--img {
+    height: 700px;
   }
 }
 @media (max-width: 1400px) {
@@ -2978,6 +3039,12 @@ select {
   }
   .guarantees__item-title {
     font-size: 30px;
+  }
+  .diplom__inner {
+    max-width: 700px;
+  }
+  .diplom__item {
+    height: 300px;
   }
 }
 @media (max-width: 1200px) {
@@ -3611,6 +3678,17 @@ select {
   .news__item {
     padding: 20px;
   }
+  .mini-screen--img {
+    height: 600px;
+  }
+  .starting-screen-img {
+    height: 300px;
+  }
+  .diplom__inner {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 @media (max-width: 750px) {
   .global-parking__item-images {
@@ -4000,6 +4078,9 @@ select {
   .map__item iframe {
     width: 300px;
     height: 250px;
+  }
+  .starting-screen-img {
+    display: none;
   }
 }
 @media (max-width: 400px) {

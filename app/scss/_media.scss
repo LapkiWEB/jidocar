@@ -73,6 +73,14 @@
     width: 100%;
 
   }
+
+  .starting-screen-img {
+    height: 400px;
+  }
+
+  .mini-screen--img {
+    height: 700px;
+  }
 }
 
 @media(max-width: 1400px) {
@@ -381,6 +389,14 @@
 
   .guarantees__item-title {
     font-size: 30px;
+  }
+
+  .diplom__inner {
+    max-width: 700px;
+  }
+
+  .diplom__item {
+    height: 300px;
   }
 }
 
@@ -1139,6 +1155,18 @@
   .news__item {
     padding: 20px;
   }
+
+  .mini-screen--img {
+    height: 600px;
+  }
+
+  .starting-screen-img {
+    height: 300px;
+  }
+
+  .diplom__inner {
+    justify-content: center;
+  }
 }
 
 @media(max-width: 750px) {
@@ -1624,6 +1652,10 @@
       width: 300px;
       height: 250px;
     }
+  }
+
+  .starting-screen-img {
+    display: none;
   }
 }
 
