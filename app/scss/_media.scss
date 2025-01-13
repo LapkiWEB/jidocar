@@ -987,7 +987,8 @@
   .job__inner {
     grid-template-columns: repeat(1, 1fr);
   }
-  .job__item{
+
+  .job__item {
     margin: 0 auto;
   }
 }
@@ -1573,15 +1574,22 @@
   .container__text {
     padding: 0 30px;
   }
-  .job__item{
+
+  .job__item {
     padding: 20px;
   }
-  .job-img{
+
+  .job-img {
     width: 60px;
     height: 60px;
   }
-  .job__text{
+
+  .job__text {
     font-size: 18px;
+  }
+
+  .work__title {
+    font-size: 24px;
   }
 }
 
@@ -1677,6 +1685,13 @@
 
   .starting-screen-img {
     display: none;
+  }
+
+  .mini-h-section {
+    height: fit-content;
+  }
+  .mini-h-section-policy{
+    height: fit-content;
   }
 }
 

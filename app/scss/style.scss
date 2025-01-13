@@ -2221,9 +2221,6 @@ select {
   }
 }
 
-.job__item-wrapper {
-  // padding-left: 20px;
-}
 
 .job__text {
   margin-bottom: 15px;
@@ -2237,4 +2234,42 @@ select {
 }
 
 // end job
+// start section work
+.work{
+  background-color: $light-grey;
+  color: $dark-blue;
+}
+.work__title{
+  font-size: 30px;
+  @extend %BelB;
+  margin-bottom: 20px;
+}
+.work__descr{
+  margin-bottom: 30px;
+}
+// end section work
+
+.center-title{
+text-align: center;
+}
+.center-btn{
+  margin: 0 auto;
+  // text-align: center;
+  display: block;
+}
+
+.politics__title-h4{
+  font-size: 24px;
+  @extend %BelB;
+  margin-bottom: 20px;
+}
+.mini-h-section{
+  height: 550px;
+  // height: fit-content;
+  // padding-bottom: 50px;
+}
+.text-descr{
+  margin-bottom: 20px;
+}
+
 @import 'media';

@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>new website</title>
+  <!-- <meta name="description" content=""> -->
+  <!-- <meta name="keywords" content=""> -->
+  <!-- <link rel="icon" href="images/icons/favicon.ico" type="image/x-icon"> -->
+
+  <!-- <meta property="og:type" content="website"> -->
+  <!-- <meta property="og:title" content=""> -->
+  <!-- <meta property="og:description" content=""> -->
+  <!-- <meta property="og:url" content=""> -->
+  <!-- <meta property="og:image" content=""> -->
+  <!-- <meta property="og:site_name" content=""> -->
+  <!-- <meta property="og:locale" content="ru_RU"> -->
+
+
+
+  <link rel="stylesheet" href="css/style.min.css">
+
+
+
+
+
+
+  <!-- <script>
+    function CBR_XML_Daily_Ru(rates) {
+
+      var USDrate = rates.Valute.JPY.Value.toFixed(0).replace('.', ',');
+      var USD = document.getElementById('USD');
+      USD.innerHTML = USD.innerHTML.replace('00,0', USDrate);
+      USD.innerHTML += trend(rates.Valute.USD.Value, rates.Valute.USD.Previous);
+    }
+  </script> -->
+
+  <script src="//www.cbr-xml-daily.ru/daily_jsonp.js" async></script>
+
+
+
+
+
+
+
+
+</head>
+
+<body>
+  <header class="header">
+    <div class="header-top">
+      <div class="container">
+        <div class="header-top__wrapper">
+
+
+          <div class="header-top__yuan">
+            <img src="images/icons/yuan.png" alt="" class="header-top__yuan-images">
+
+            <div id="USD"> 0,00,0 руб.</div>
+
+
+
+          </div>
+          <a class="header-top__logo" href="#">
+            <img src="images/logo/logo-white.png" alt="">
+          </a>
+          <div class="header-top__contacts">
+            <ul class="header-top__social">
+              <li class="header-top__social-list">
+                <a href="#" class="header-top__social-list--link">
+                  <img src="images/icons/telegram.png" alt="" class="social-images social-images--tg">
+                </a>
+              </li>
+              <li class="header-top__social-list">
+                <a href="#" class="header-top__social-list--link">
+                  <img src="images/icons/vk.png" alt="" class="social-images social-images--vk">
+                </a>
+              </li>
+              <li class="header-top__social-list">
+                <a href="#" class="header-top__social-list--link">
+                  <img src="images/icons/whatsapp.png" alt="" class="social-images social-images--wh">
+                </a>
+              </li>
+              <li class="header-top__social-list">
+                <a href="#" class="header-top__social-list--link">
+                  <img src="images/icons/youtube.png" alt="" class="social-images social-images--you">
+                </a>
+              </li>
+            </ul>
+            <div class="header-top__phone">
+              <a class="header-top__phone-link" href="#"> +7-983-24-12-345</a>
+              <a class="header-top__phone-link" href="#"> +7(3952)95-25-05</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header-down">
+      <div class="container">
+        <div class="header-down__wrapper">
+
+          <div class="header-top__yuan header-down__yuan">
+            <img src="images/icons/yuan.png" alt="" class="header-top__yuan-images">
+
+            <div id="USD"> 0,00,0 руб.</div>
+
+          </div>
+
+          <a class="header-top__logo header-down__logo" href="#">
+            <img src="images/logo/logo-white.png" alt="">
+          </a>
+
+          <nav class="nav">
+            <ul class="menu-wrapper">
+              <li class="menu-list">
+                <a href="#" class="menu-list__link">
+                  Главная
+                </a>
+              </li>
+              <li class="menu-list menu-drop menu-drop-one ">
+                Услуги
+                <div class="menu-drop__arrow menu-drop__arrow-one">
+                  <svg width="12" height="10" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M5.57538 8.37014C5.77102 8.6848 6.22898 8.6848 6.42462 8.37014L10.6875 1.51401C10.8946 1.18095 10.6551 0.75 10.2629 0.75H1.73712C1.34492 0.75 1.10542 1.18095 1.3125 1.51401L5.57538 8.37014Z"
+                      stroke="white" />
+                  </svg>
+                </div>
+                <ul class="menu-drop__wrapper">
+                  <li class="menu-drop__list">
+                    <a href="#" class="menu-list__link">
+                      Авто под заказ из Японии
+                    </a>
+                  </li>
+                  <li class="menu-drop__list">
+                    <a href="#" class="menu-list__link">
+                      Авто под заказ из Кореи
+                    </a>
+                  </li>
+                  <li class="menu-drop__list">
+                    <a href="#" class="menu-list__link">
+                      Авто под заказ из Китая
+                    </a>
+                  </li>
+                  <li class="menu-drop__list">
+                    <a href="#" class="menu-list__link">
+                      Санкционные авто
+                    </a>
+                  </li>
+                  <li class="menu-drop__list">
+                    <a href="#" class="menu-list__link">
+                      Авто на стоянке в Японии
+                    </a>
+                  </li>
+                  <li class="menu-drop__list">
+                    <a href="#" class="menu-list__link">
+                      Распил и конструктор
+                    </a>
+                  </li>
+                  <li class="menu-drop__list">
+                    <a href="#" class="menu-list__link">
+                      Грузовики и спецтехника
+                    </a>
+                  </li>
+                  <li class="menu-drop__list">
+                    <a href="#" class="menu-list__link">
+                      Мототехника
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu-list menu-drop menu-drop-two">
+                Информация для клиентов
+                <div class="menu-drop__arrow menu-drop__arrow-two">
+                  <svg width="12" height="10" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M5.57538 8.37014C5.77102 8.6848 6.22898 8.6848 6.42462 8.37014L10.6875 1.51401C10.8946 1.18095 10.6551 0.75 10.2629 0.75H1.73712C1.34492 0.75 1.10542 1.18095 1.3125 1.51401L5.57538 8.37014Z"
+                      stroke="white" />
+                  </svg>
+                </div>
+
+
+                <ul class="menu-drop__wrapper">
+                  <li class="menu-drop__list">
+                    <a href="#" class="menu-list__link">
+                      Этапы работы
+                    </a>
+                  </li>
+                  <li class="menu-drop__list">
+                    <a href="#" class="menu-list__link">
+                      Гарантии и договор
+                    </a>
+                  </li>
+                  <li class="menu-drop__list">
+                    <a href="#" class="menu-list__link">
+                      Доставка авто
+                    </a>
+                  </li>
+                  <li class="menu-drop__list">
+                    <a href="#" class="menu-list__link">
+                      Таможенное оформление
+                    </a>
+                  </li>
+                  <li class="menu-drop__list">
+                    <a href="#" class="menu-list__link">
+                      Отзывы
+                    </a>
+                  </li>
+                  <li class="menu-drop__list">
+                    <a href="#" class="menu-list__link">
+                      Вопрос-ответ
+                    </a>
+                  </li>
+                  <li class="menu-drop__list">
+                    <a href="#" class="menu-list__link">
+                      Новости компании
+                    </a>
+                  </li>
+
+                </ul>
+              </li>
+              <li class="menu-list">
+                <a href="#" class="menu-list__link">
+                  Контакты
+                </a>
+              </li>
+              <li class="menu-list">
+                <a href="#" class="menu-list__link">
+                  Аукцион
+                </a>
+              </li>
+              <li class="menu-list">
+                <a href="#" class="menu-list__link">
+                  Расчёт стоимости авто
+                </a>
+              </li>
+            </ul>
+
+
+            <div class="nav-contacts">
+              <a class="header-top__phone-link nav-phone__link" href="#"> +7-983-24-12-345</a>
+              <a class="header-top__phone-link nav-phone__link" href="#"> +7(3952)95-25-05</a>
+              <a class="header-top__email-link nav-email__link" href="#"> proauto138@gmail.com</a>
+
+              <ul class="nav-social">
+                <li class="header-top__social-list">
+                  <a href="#" class="header-top__social-list--link">
+                    <img src="images/icons/telegram.png" alt="" class="social-images social-images--tg">
+                  </a>
+                </li>
+                <li class="header-top__social-list">
+                  <a href="#" class="header-top__social-list--link">
+                    <img src="images/icons/vk.png" alt="" class="social-images social-images--vk">
+                  </a>
+                </li>
+                <li class="header-top__social-list">
+                  <a href="#" class="header-top__social-list--link">
+                    <img src="images/icons/whatsapp.png" alt="" class="social-images social-images--wh">
+                  </a>
+                </li>
+                <li class="header-top__social-list">
+                  <a href="#" class="header-top__social-list--link">
+                    <img src="images/icons/youtube.png" alt="" class="social-images social-images--you">
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+          </nav>
+
+          <div class="header-down-contacts">
+
+
+            <div class="header-top__phone header-down__phone">
+              <a class="header-top__phone-link" href="#"> +7-983-24-12-345</a>
+              <a class="header-top__phone-link" href="#"> +7(3952)95-25-05</a>
+            </div>
+
+
+            <ul class="menu__btn">
+              <li class="row row1"></li>
+              <li class="row row2"></li>
+              <li class="row row3"></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="wrapper">
+    <main class="main">
+      <section class="starting-screen mini-screen mini-h-section">
+
+        <div class="starting-screen__shadow-bg" style="background-image: url('images/content/start-shadow-bg.jpg');">
+          <div class="container">
+            <div class="starting-screen__wrapper">
+
+              <div class="breadcrumbs">
+                <ul class="breadcrumbs__list">
+                  <li class="breadcrumbs__list-item">
+                    <a class="breadcrumbs__item-link" href="index.html">
+                      Главная
+                    </a>
+                  </li>
+
+                  <li class="breadcrumbs__list-item">
+                    <div class="breadcrumbs__item-link">
+                      Страница благодарности
+                    </div>
+                  </li>
+                  </ul>
+                  </div>
+                  
+                  
+                  <h1 class="starting-screen__title center-title">
+                    Спасибо за заявку!
+                    <br>
+                    В ближайшее время мы с Вами свяжемся!
+                  </h1>
+           
+
+              <a class="main-screen-btn global-btn--wrapper center-btn" href="#">
+                <div class="global-btn--interior">
+                  На главную
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+
+
+
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer class="footer section">
+      <div class="container">
+        <a href="#" class="footer__logo">
+          <img src="images/logo/logo-white.png" alt="">
+        </a>
+        <div class="footer__inner">
+          <ul class="footer__item footer__item-1">
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">Главная</a>
+            </li>
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">Авто под заказ из Японии</a>
+            </li>
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">Авто под заказ из Кореи</a>
+            </li>
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">Авто под заказ из Китая</a>
+            </li>
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">Санкционные авто</a>
+            </li>
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">Авто в наличии</a>
+            </li>
+          </ul>
+          <ul class="footer__item footer__item-2">
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">Распил и конструктор</a>
+            </li>
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">Грузовики и спецтехника</a>
+            </li>
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">Мотоциклы под заказ</a>
+            </li>
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">Таможенное оформление</a>
+            </li>
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">Доставка Вашего авто</a>
+            </li>
+          </ul>
+          <ul class="footer__item footer__item-3">
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">Этапы работы</a>
+            </li>
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">Гарантии и договор</a>
+            </li>
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">Отзывы</a>
+            </li>
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">Вопрос-ответ</a>
+            </li>
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">Новости компании</a>
+            </li>
+          </ul>
+          <ul class="footer__item footer__item-4">
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">О компании</a>
+            </li>
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">Вакансиир</a>
+            </li>
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">Аукцион</a>
+            </li>
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">Расчёт стоимости</a>
+            </li>
+            <li class="footer__item-list">
+              <a class="footer__item-link" href="#">Политика конфиденциальности</a>
+            </li>
+          </ul>
+          <div class="footer__item footer__item-5">
+            <a class="footer__phone" href="#">
+              +7-983-24-12-345
+            </a>
+            <a class="footer__phone" href="#">
+              +7(3952)95-25-05
+            </a>
+            <a class="footer__email" href="#">
+              proauto138@gmail.com
+            </a>
+            <ul class="nav-social">
+              <li class="header-top__social-list">
+                <a href="#" class="header-top__social-list--link">
+                  <img src="images/icons/telegram.png" alt="" class="social-images social-images--tg">
+                </a>
+              </li>
+              <li class="header-top__social-list">
+                <a href="#" class="header-top__social-list--link">
+                  <img src="images/icons/vk.png" alt="" class="social-images social-images--vk">
+                </a>
+              </li>
+              <li class="header-top__social-list">
+                <a href="#" class="header-top__social-list--link">
+                  <img src="images/icons/whatsapp.png" alt="" class="social-images social-images--wh">
+                </a>
+              </li>
+              <li class="header-top__social-list">
+                <a href="#" class="header-top__social-list--link">
+                  <img src="images/icons/youtube.png" alt="" class="social-images social-images--you">
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <p class="footer__details">
+          ИП Бочаров Максим Олегович ИНН 382103138780 ОГРНИП 324385000029881 Р/с: 40802 810 5 1835 0003144 БИК 042520607
+        </p>
+        <p class="footer__details">
+          г. Иркутск, ​​ул. Фридриха Энгельса, 17, ДЦ Сотня, 7 этаж, офис 705
+        </p>
+        <div class="lapki">
+          <a href="lapki-web.ru" class="lapki-web">
+            Разработка сайта lapki-web.ru
+          </a>
+        </div>
+      </div>
+    </footer>
+
+
+
+    <div class="modal">
+      <div class="modal__inner">
+        <div class="container">
+          <div class="modal__wrapper">
+
+            <ul data-close class="close__btn">
+              <li class="close__line close__line1"></li>
+              <li class="close__line close__line2"></li>
+            </ul>
+
+            <h2 class="feedback__title title">
+              Оставить заявку
+            </h2>
+
+            <form class="feedback-form">
+              <div class="feedback__wrapper">
+                <div class="feedback__item">
+                  <div class="feedback__items">
+                    <input type="text" name="name" class="feedback__items-input" placeholder="Ваше имя..." required>
+                  </div>
+                  <div class="feedback__items">
+                    <input type="text" name="name" class="feedback__items-input" placeholder="Ваш телефон или почта..."
+                      required>
+                  </div>
+                </div>
+                <div class="feedback__item">
+                  <div class="feedback__items">
+                    <textarea class="feedback__items-input feedback__items-textarea" name="text"
+                      placeholder="Ваше сообщение..."></textarea>
+                  </div>
+                </div>
+              </div>
+
+              <button class="modal__btn global-btn--wrapper">
+                <div class="global-btn--interior">
+                  Отправить
+                </div>
+              </button>
+
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+  </div>
+
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>

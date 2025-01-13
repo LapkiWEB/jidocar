@@ -109,7 +109,7 @@ body {
   font-weight: normal;
 }
 
-.job__text, .global-reviews__content-box--name, .guarantees__item-title, .footer__email, .footer__phone, .global-news__item-title, .video-reviews__items-name, .global-questions__item-title, .global-stages__item-content--title, .adv__title, .main-services__item-title, .header-top__phone-link, .title {
+.politics__title-h4, .work__title, .job__text, .global-reviews__content-box--name, .guarantees__item-title, .footer__email, .footer__phone, .global-news__item-title, .video-reviews__items-name, .global-questions__item-title, .global-stages__item-content--title, .adv__title, .main-services__item-title, .header-top__phone-link, .title {
   font-family: "BellotaText-Bold", sans-serif;
   font-weight: normal;
 }
@@ -2787,6 +2787,42 @@ select {
   transition: all 0.3s;
 }
 
+.work {
+  background-color: #F5F5F5;
+  color: rgb(29, 32, 47);
+}
+
+.work__title {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.work__descr {
+  margin-bottom: 30px;
+}
+
+.center-title {
+  text-align: center;
+}
+
+.center-btn {
+  margin: 0 auto;
+  display: block;
+}
+
+.politics__title-h4 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.mini-h-section {
+  height: 550px;
+}
+
+.text-descr {
+  margin-bottom: 20px;
+}
+
 @media (max-width: 1700px) {
   .video-reviews__wrapper {
     margin-top: 30px;
@@ -4102,6 +4138,9 @@ select {
   .job__text {
     font-size: 18px;
   }
+  .work__title {
+    font-size: 24px;
+  }
 }
 @media (max-width: 500px) {
   .title {
@@ -4174,6 +4213,16 @@ select {
   }
   .starting-screen-img {
     display: none;
+  }
+  .mini-h-section {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .mini-h-section-policy {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
   }
 }
 @media (max-width: 400px) {
