@@ -2158,4 +2158,27 @@ select {
 }
 
 // end section diplom
+
+// start article
+.text{
+  background-color: $light-grey;
+  color: $dark-blue;
+}
+.container__text{
+  max-width: 900px;
+  padding: 0 50px;
+  width: 100%;
+  margin: 0 auto;
+}
+.article-descr{
+  margin-bottom: 30px;
+}
+.article-img{
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+.article-btn{
+  margin-bottom: 30px;
+}
+// end article
 @import 'media';

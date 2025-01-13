@@ -2714,6 +2714,31 @@ select {
   height: 500px;
 }
 
+.text {
+  background-color: #F5F5F5;
+  color: rgb(29, 32, 47);
+}
+
+.container__text {
+  max-width: 900px;
+  padding: 0 50px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.article-descr {
+  margin-bottom: 30px;
+}
+
+.article-img {
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.article-btn {
+  margin-bottom: 30px;
+}
+
 @media (max-width: 1700px) {
   .video-reviews__wrapper {
     margin-top: 30px;
@@ -4008,6 +4033,9 @@ select {
     -ms-grid-columns: (1fr)[1];
     grid-template-columns: repeat(1, 1fr);
     gap: 20px;
+  }
+  .container__text {
+    padding: 0 30px;
   }
 }
 @media (max-width: 500px) {

@@ -1562,6 +1562,9 @@
     grid-template-columns: repeat(1, 1fr);
     gap: 20px;
   }
+  .container__text{
+    padding: 0 30px;
+  }
 }
 
 @media(max-width: 500px) {
